@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>INSTROOMMOMENTEN</pattern>
+		<template>
+Je kunt op vaste momenten in jaar beginnen met een bachelor of
+masteropleiding.
+
+Meer informatie over deze instroommomenten vind je op de
+onderstaande pagina's op onze website:
+<ul class="rug-list--bullets rug-mv-xs">
+<li class="rug-list--bullets__item">
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor: instroommomenten</a>
+</li>
+<li class="rug-list--bullets__item">
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">Master: instroommomenten</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+</aiml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HOE KAN IK DE UFC BEREIKEN</pattern>
+		<template>
+Je kunt het UFC bereiken via e-mail:
+		</template>
+	</category>
+
+</aiml>

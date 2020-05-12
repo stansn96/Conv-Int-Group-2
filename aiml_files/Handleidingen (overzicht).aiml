@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HANDLEIDING VERKLARING VAN INSCHRIJVING DOWNLOADEN</pattern>
+		<template>
+In de handleiding <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/verklaring-inschrijving">Foto uploaden en bewijs van inschrijving
+downloaden</a> staat hoe je een verkaring van inschrijving kunt
+downloaden.
+		</template>
+	</category>
+
+</aiml>

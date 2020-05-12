@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>KAN IK MIJ VOOR EEN MAAND HERINSCHRIJVEN ALS IK NOG MAAR ÉÉN ONDERDEEL VAN MIJN OPLEIDING MOET AFRONDEN</pattern>
+		<template>
+In principe schrijf je je voor een jaar in.  Maar na het
+afronden van je opleiding, kun je altijd een verzoek tot
+uitschrijven indienen.
+
+Afhankelijk van je opleiding kun je je op verschillende
+momenten in het jaar inschrijven.
+<ul class="rug-list--bullets rug-mv-xs">
+<li class="rug-list--bullets__item">
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Instroommomenten
+bacheloropleidingen</a>
+</li>
+<li class="rug-list--bullets__item">
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">Instroommomenten
+masteropleidingen</a>
+</li>
+</ul>
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/nederlandse-studenten/uitschrijven/">Uitschrijven</a>
+en <a href="https://www.rug.nl/education/nederlandse-studenten/uitschrijven/afstuderen">Afstuderen</a>
+op onze website.
+		</template>
+	</category>
+
+</aiml>

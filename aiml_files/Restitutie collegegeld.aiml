@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WANNEER KRIJG IK COLLEGEGELD TERUG</pattern>
+		<template>
+Je hebt recht op een teruggave (restitutie) van 1/12 van het
+collegegeld voor elke maand van het studiejaar dat je niet meer
+staat ingeschreven.
+
+Let op: Over de maanden juli en augustus vind <strong>geen</strong>
+restitutie plaats.
+
+Meer informatie vind je op de onderstaande pagina's op onze
+website:
+<ul class="rug-list--bullets rug-mv-xs">
+<li class="rug-list--bullets__item">
+<span>Bachelor: </span><a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/restitutie">Restitutie collegegeld</a><span> </span>
+</li>
+<li class="rug-list--bullets__item">
+<span>Master: </span><a href="/education/master/nederlandse-studenten/financien/collegegeld/restitutie">Restitutie collegegeld</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK STUDEER BINNENKORT AF. KAN IK COLLEGEGELD TERUG KRIJGEN</pattern>
+		<template>
+Als je tijdens het studiejaar afstudeert en je uitschrijft aan de
+Rijksuniversiteit Groningen heb je recht op een teruggave
+(restitutie) van 1/12 van het betaalde collegegeld voor elke
+maand van het studiejaar dat je niet meer staat ingeschreven.
+Behalve als je je per 1 juli of 1 augustus uitschrijft. Over de
+maanden juli en augustus vindt namelijk <strong>geen</strong>
+restitutie plaats.
+
+Je moet wel rekening houden met het feit dat:
+<ul class="rug-list--bullets rug-mv-xs">
+<li class="rug-list--bullets__item">de Rijksuniversiteit Groningen je pas definitief kan
+uitschrijven als zij de uitslag van het examen en het judicium
+(geslaagd) van je faculteit heeft ontvangen. <strong>Dit kan soms
+enige tijd duren</strong>.</li>
+<li class="rug-list--bullets__item">er, in geval van een machtiging, nog collegegeld van je giro-
+(bank)rekening kan worden afgeschreven. Dit bedrag wordt later
+verrekend met het restitutiebedrag.</li>
+<li class="rug-list--bullets__item">de inschrijving wordt beëindigd met ingang van de maand
+volgend op de maand waarin het examen (datering van de bul) is
+behaald. Dit kan gevolgen hebben voor je recht op
+studiefinanciering en studenten ov-chipkaart.
+
+<em>Bijvoorbeeld:
+Als je in februari een verzoek tot uitschrijven op grond van
+afstuderen indient, wordt je per 1 januari uitgeschreven als je
+afstudeerdatum in december valt. Je hebt dan vanaf 1 januari geen
+recht meer op studiefinanciering en de studenten
+ov-chipkaart.</em>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK BEN AFGESTUDEERD EN HEB EEN VERZOEK TOT UITSCHRIJVING/RESTITUTIE COLLEGEGELD GEDAAN. TOCH WORDT ER NOG STEEDS COLLEGEGELD VAN MIJN REKENING AFGESCHREVEN. KLOPT DIT WEL</pattern>
+		<template>
+Het duurt soms even voordat je verzoek tot uitschrijving, die je
+via Studielink hebt ingediend, is verwerkt. De Rijksuniversiteit
+Groningen kan je namelijk pas definitief uitschrijven als zij de
+uitslag van het examen van je opleiding van de faculteit heeft
+ontvangen. Dat kan soms wel twee maanden duren. Neem contact op met
+de <a href="/sia">Studenten
+Informatie en Administratie</a> als je langer dan twee maanden moet
+wachten.
+		</template>
+	</category>
+
+	<category>
+		<pattern>WANNEER KRIJG IK GEEN COLLEGEGELD TERUG</pattern>
+		<template>
+Je krijgt geen collegegeld of vergoeding terug 
+<ul class="rug-list--bullets rug-mv-xs">
+<li class="rug-list--bullets__item">als je je per 1 juli of 1 augustus uitschrijft.</li>
+<li class="rug-list--bullets__item">als je je drie maanden na de inschrijving, uitschrijft
+voor een pre-masterprogramma.</li>
+</ul>
+		</template>
+	</category>
+
+</aiml>
