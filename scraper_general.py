@@ -6,14 +6,14 @@ import requests
 import sys
 
 
-def extract_questions_and_answers(file, q_tag, questions_class, answers_class):
+def extract_questions_and_answers(file, question_class):
     """Get all questions from html file and put it in a list"""
     soup = file
     question_list = []
     answers_list = []
 
-    questions_html = soup.select(questions_class)
-    answers_html = soup.select(answers_class)
+    questions_html = soup.select(question_class)
+    answers_html = soup.select('.rug-theme--content')
 
     for i in questions_html:
         pattern = html_to_aiml_pattern(str(i))
@@ -79,10 +79,11 @@ def to_aiml_category(pattern, template):
 
 
 def main():
-    """Call with two arguments: question-class and answer-class. For example: .rug-h5 .rug-theme--content for url:
-    "https://www.rug.nl/education/faq/?tcid=verint_3_7394_7529"
-    """
-    # todo: make a loop for all links
+    """Call with only filename and it retrieves all questions and their answers from all the links form the RUG  faq
+    and it outputs it as aiml categories in aiml files. For every topic a new aiml file is created and put into the
+    folders aiml_files"""
+
+
     # here the url content is fetched and the soup is the result
     url = "https://www.rug.nl/education/faq/"
     response = requests.get(url)
@@ -101,59 +102,72 @@ def main():
 
     #second loop for links
     for i in first_loop_links:
+        print("first loop link")
         print(i)
         url_loop = i
         response_loop = requests.get(url_loop)
         soup_loop = BeautifulSoup(response_loop.content, "html.parser")
 
         correct_li = soup_loop.find_all('li', class_='rug-list--accordion__item')
+
         for tag in correct_li:
             a_tags = tag.find_all('a', href=re.compile('\?tcid=verint.{11,12}\d*'))
             for link in a_tags:
+                print('anddd again')
                 href_1 = re.findall('\?tcid=verint.{11,12}\d*', str(link))
                 new_url_end = '{0}{1}'.format(url, href_1[0])
-                print(new_url_end)
+                print('new url', new_url_end)
                 response_end = requests.get(new_url_end)
                 soup_end = BeautifulSoup(response_end.content, "html.parser")
 
-
-                # hier moet ik een if-statement maken zodat de question en answer class klopt voor beide opties.
                 option_choice = soup_end.select('.rug-h5')
-                print(option_choice)
                 if len(option_choice) > 0:
-                    questions_and_answers = extract_questions_and_answers(soup_end, 'h2', '.rug-h5',
-                                                                          '.rug-theme--content')
+                    questionclass = 'h2.rug-h5'
+                    print('option1')
+                    # extract topic which in this case is in <h1> .rug-mb-0
+                    topic = soup_end.select('h1.rug-mb-0')
+                    topic_clean = (topic[0].string).replace('/', '-')
+                    filename = 'aiml_files/{0}.aiml'.format(topic_clean)
                 else:
-                    questions_and_answers = extract_questions_and_answers(soup_end, 'h1', '.rug-mb-0',
-                                                                          'rug-theme--content')
+                    questionclass = 'h1.rug-mb-0'
+                    print('option2')
 
-            qlist = questions_and_answers[0]
-            alist = questions_and_answers[1]
-            print(len(qlist))
-            print(len(alist))
+                    breadcrumbs = soup_end.select('a.rug-breadcrumbs__link')
+                    topic_last = breadcrumbs[-1:]
 
-            category_example = to_aiml_category(qlist[0], alist[0])
-            print(category_example)
+                    topic = topic_last[0].string
+                    topic_clean = topic.replace('/', '-')
+                    filename = '../aiml_files/{0}.aiml'.format(topic_clean)
 
-            aiml_list = []
-            n = 0
-            for i in qlist:
-                category = to_aiml_category(qlist[n], alist[n])
-                aiml_list.append(category)
-                n = n + 1
+                print('i am out the if-else')
 
-            for i in aiml_list:
-                print(i, '\n')
+                questions_and_answers = extract_questions_and_answers(soup_end, questionclass)
+                qlist = questions_and_answers[0]
+                alist = questions_and_answers[1]
+                print(len(qlist))
+                print(len(alist))
 
-            # hier kan ik beter naar een .txt file schrijven denk ik
-            # df = pd.DataFrame(aiml_list)
-            # df.to_csv()
+                aiml_list = []
+                n = 0
+                for i in qlist:
+                    category = to_aiml_category(qlist[n], alist[n])
+                    aiml_list.append(category)
+                    n = n + 1
 
+                # open a new aiml file for every topic
+                with open(filename, 'w+') as f:
+                    print(f)
+                    f.write('<?xml version="1.0" encoding="UTF-8"?> \n <aiml version="2.0"> \n')
 
+                    for i in aiml_list:
+                        f.write(i)
+                        f.write('\n')
 
+                    f.write("</aiml>")
+                    f.close()
 
-    # res = dict(zip(qlist, alist))
-    # print("Resultant dict is:" + str(res))
+                print('On to the next link!')
+
 
 if __name__ == "__main__":
     main()
