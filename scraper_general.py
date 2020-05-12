@@ -63,8 +63,14 @@ def html_to_aiml_template(text):
 
     clean_sjv = re.compile('<.*?form\=true.*?./a>')
     cleaned_sjv = re.sub(clean_sjv, '', cleaned_brc)
+    
+    clean_ul = re.compile('<ul class="rug-list--bullets rug-mv-xs">')
+    cleaned_ul = re.sub(clean_ul, '<ul>', cleaned_sjv)
+    
+    clean_li = re.compile('<li class="rug-list--bullets__item">')
+    cleaned_li = re.sub(clean_li, '<li>', cleaned_ul)
 
-    stripped = cleaned_sjv.strip()
+    stripped = cleaned_li.strip()
 
     template = '<template>\n{0}\n\t\t</template>'.format(stripped)
     return template
@@ -102,8 +108,8 @@ def main():
 
     #second loop for links
     for i in first_loop_links:
-        print("first loop link")
-        print(i)
+        #print("first loop link")
+        #print(i)
         url_loop = i
         response_loop = requests.get(url_loop)
         soup_loop = BeautifulSoup(response_loop.content, "html.parser")
@@ -113,24 +119,25 @@ def main():
         for tag in correct_li:
             a_tags = tag.find_all('a', href=re.compile('\?tcid=verint.{11,12}\d*'))
             for link in a_tags:
-                print('anddd again')
+                #print('anddd again')
                 href_1 = re.findall('\?tcid=verint.{11,12}\d*', str(link))
                 new_url_end = '{0}{1}'.format(url, href_1[0])
-                print('new url', new_url_end)
+                #print('new url', new_url_end)
                 response_end = requests.get(new_url_end)
                 soup_end = BeautifulSoup(response_end.content, "html.parser")
 
                 option_choice = soup_end.select('.rug-h5')
+                #print(option_choice)
                 if len(option_choice) > 0:
                     questionclass = 'h2.rug-h5'
-                    print('option1')
+                    #print('option1')
                     # extract topic which in this case is in <h1> .rug-mb-0
                     topic = soup_end.select('h1.rug-mb-0')
                     topic_clean = (topic[0].string).replace('/', '-')
                     filename = 'aiml_files/{0}.aiml'.format(topic_clean)
                 else:
                     questionclass = 'h1.rug-mb-0'
-                    print('option2')
+                    #print('option2')
 
                     breadcrumbs = soup_end.select('a.rug-breadcrumbs__link')
                     topic_last = breadcrumbs[-1:]
@@ -140,13 +147,13 @@ def main():
                     filename = 'aiml_files/{0}.aiml'.format(topic_clean)
                     print(filename)
 
-                print('i am out the if-else')
+                #print('i am out the if-else')
 
                 questions_and_answers = extract_questions_and_answers(soup_end, questionclass)
                 qlist = questions_and_answers[0]
                 alist = questions_and_answers[1]
-                print(len(qlist))
-                print(len(alist))
+                #print(len(qlist))
+                #print(len(alist))
 
                 aiml_list = []
                 n = 0
@@ -154,6 +161,8 @@ def main():
                     category = to_aiml_category(qlist[n], alist[n])
                     aiml_list.append(category)
                     n = n + 1
+                    
+                """
 
                 # open a new aiml file for every topic
                 with open(filename, 'w+') as f:
@@ -168,7 +177,8 @@ def main():
                     f.close()
 
                 print('On to the next link!')
-
+                
+                """
 
 if __name__ == "__main__":
     main()
