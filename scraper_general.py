@@ -90,7 +90,7 @@ def html_to_aiml_template(text):
     
     stripped = cleaned_emc.strip()
 
-    template = '<template>{0}</template>'.format(stripped)
+    template = '<template>\n{0}\n\t\t</template>'.format(stripped)
     return template
 
 
@@ -98,7 +98,7 @@ def to_aiml_category(pattern, template):
     """Input is the pattern and the template, the output is a full category. A possible extension here is to add topic/
     that based on the url."""
 
-    category = '<category> \n {0} \n {1} \n</category>'.format(pattern, template)
+    category = '\t<category>\n\t\t{0}\n\t\t{1}\n\t</category>\n'.format(pattern, template)
     return category
 
 
@@ -162,7 +162,12 @@ def main():
 
                     topic = topic_last[0].string
                     topic_clean = topic.replace('/', '-')
+
                     filename = 'aiml_files2/{0}.aiml'.format(topic_clean)
+
+                    filename = 'aiml_files/{0}.aiml'.format(topic_clean)
+                    print(filename)
+
 
                 #print('i am out the if-else')
 
@@ -182,7 +187,7 @@ def main():
                 # open a new aiml file for every topic
                 with open(filename, 'w+') as f:
                     print(f)
-                    f.write('<?xml version="1.0" encoding="UTF-8"?> \n <aiml version="2.0"> \n')
+                    f.write('<?xml version="1.0" encoding="UTF-8"?> \n<aiml version="2.0"> \n')
 
                     for i in aiml_list:
                         f.write(i)
