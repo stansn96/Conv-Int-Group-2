@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>FACULTAIRE KENNISBANKEN</pattern> 
+ <template>In de facultaire kennisbank vind je informatie over o.a. vakken,
+roosters, boeken, tentamens en afstuderen.
+<ul>
+<li>
+<a href="/feb/education/support/">Economie en Bedrijfskunde</a>
+</li>
+<li>
+<a href="https://www.rug.nl/ggw/organization/questions-and-answers/">Godgeleerdheid en Godsdienstwetenschap</a>
+</li>
+<li>
+<a href="/rechten/kennisbank/">Rechtsgeleerdheid</a>
+</li>
+<li>
+<a href="/frw/education/prospective-student">Ruimtelijke wetenschappen</a>
+</li>
+</ul></template> 
+</category>
+</aiml>

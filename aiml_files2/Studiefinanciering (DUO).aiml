@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>BIJ WIE KAN IK TERECHT MET EEN PERSOONLIJKE VRAAG</pattern> 
+ <template>Neem contact op met één van de studentendecanen via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5ubCI+c3NjLWluZm9AcnVnLm5sPC9hPg==">ssc-info rug.nl
+als je specifieke vragen over jouw persoonlijke situatie hebt.</template> 
+</category>
+</aiml>

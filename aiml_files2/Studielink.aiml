@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>STUDIELINK STAPPENPLANNEN</pattern> 
+ <template>Er zijn verschillende handleidingen die uitleggen hoe je Studielink
+gebruikt. 
+
+Een overzicht van deze handleidingen vind je op de pagina <a href="http://info.studielink.nl/nl/studenten/stappenplanstudielink/Pages/Default.aspx" target="_blank">Stappenplan Studielink</a> op de website van
+Studielink.</template> 
+</category>
+</aiml>

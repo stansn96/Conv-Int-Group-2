@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>RESTITUTIE COLLEGEGELD</pattern> 
+ <template>Je hebt recht op een teruggave (restitutie) van 1/12 van het
+collegegeld voor elke maand van het studiejaar dat je niet meer
+staat ingeschreven.
+
+Let op: Over de maanden juli en augustus vind geen
+restitutie plaats.
+
+Meer informatie vind je op de onderstaande pagina's op onze
+website:
+<ul>
+<li>
+Bachelor: <a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/restitutie">Restitutie collegegeld</a> 
+</li>
+<li>
+Master: <a href="/education/master/nederlandse-studenten/financien/collegegeld/restitutie">Restitutie collegegeld</a>
+</li>
+</ul></template> 
+</category>
+</aiml>

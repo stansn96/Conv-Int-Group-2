@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>MIJN STUDIE LOOPT NIET GOED EN IK WEET NIET WAAR DAT AAN LIGT. HOE KOM IK HIER ACHTER</pattern> 
+ <template>In eerste instantie bespreek je dit met je studieadviseur. Als je
+daarna nog geen duidelijkheid hebt gekregen, kun je terecht
+bij het <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/">Studenten Service Centrum</a>. Daar kun je
+een afspraak maken voor een individueel studeeradvies. Zo’n
+individueel studeeradvies bestaat uit een gesprek waarin je meer
+inzicht in en greep op je studeerprobleem krijgt. Je kunt naar
+aanleiding van dit advies besluiten om een training te volgen of om
+op andere wijze iets te doen aan je studieverloop.
+
+Vragen?</template> 
+</category>
+</aiml>

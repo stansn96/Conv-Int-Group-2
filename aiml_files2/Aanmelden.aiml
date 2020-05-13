@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>WAT IS HET VERSCHIL TUSSEN AANMELDEN EN INSCHRIJVEN</pattern> 
+ <template>Aanmelden en inschrijven zijn twee verschillende acties. Je meldt
+je via Studielink aan voor een opleiding. Je wordt pas ingeschreven
+als je alle stappen van de inschrijfprocedure hebt doorlopen.
+
+Informatie over de inschrijfprocedures voor Nederlandse studenten
+vind je op de onderstaande pagina's op onze website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master aanmelding en inschrijving</a>
+</li>
+</ul></template> 
+</category>
+<category> 
+ <pattern>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</pattern> 
+ <template>Informatie over de inschrijfprocedure voor Nederlandse studenten
+vind je op de pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-bacheloropleiding">Inschrijfprocedure bacheloropleiding</a> op onze
+website.
+
+Informatie over de inschrijfprocedure voor internationale
+studenten en Nederlandse studenten met een buitenlandse
+vooropleiding vind je op de pagina <a href="/education/bachelor/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.</template> 
+</category>
+<category> 
+ <pattern>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</pattern> 
+ <template>Informatie over de inschrijfprocedure voor Nederlandse studenten
+vind je op de pagina <a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-masteropleiding">Inschrijfprocedure masteropleiding</a> op onze
+website.
+
+Informatie over de inschrijfprocedure voor internationale
+studenten en Nederlandse studenten met een buitenlandse
+vooropleiding vind je op de pagina <a href="/education/master/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.</template> 
+</category>
+<category> 
+ <pattern>IK HEB ME AANGEMELD VIA STUDIELINK. WAT MOET IK NU DOEN</pattern> 
+ <template>In de verschillende inschrijfprocedures staat uitgelegd welke
+handelingen je nog moet verrichten nadat je je hebt aangemeld via
+Studielink.
+
+De inschrijfprocedures voor Nederlandse studenten vind je op de
+onderstaande pagina 's op onze website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor
+aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master
+aanmelding en inschrijving</a>
+</li>
+</ul></template> 
+</category>
+<category> 
+ <pattern>WAT MOET IK DOEN ALS MIJN PERSOONSGEGEVENS VOLGENS STUDIELINK NIET GECONTROLEERD KUNNEN WORDEN</pattern> 
+ <template>Je persoonsgegevens kunnen niet gecontroleerd
+worden als je geen Nederlandse adres hebt of niet bent
+ingeschreven in de Basisregistratie Personen (BRP) op het
+door jou aangegeven adres. 
+ 
+Afhankelijk van je nationaliteit moet je het volgende doen:
+ 
+<ul>
+<li>
+Nederlandse nationaliteit:
+Stuur een kopie van je geldige paspoort of ID-kaart
+naar:
+ 
+Rijksuniversiteit Groningen
+t.a.v. afdeling Studenten Informatie en Administratie
+Postbus 72
+9700 AB Groningen
+  </li>
+<li>
+Internationale studenten
+Stuur een gewaarmerkte kopie van je geldige paspoort of
+ID-kaart naar de <a href="/education/bachelor/international-students/admission-and-application/application-admission-procedure/contact-the-admissions-office">Bachelor Admissions Office</a> of de <a href="/education/master/international-students/admission-and-application/application-admission-procedure/support/contact-admissions-office">Master Admissions Office</a>.</li>
+</ul></template> 
+</category>
+<category> 
+ <pattern>WAT MOET IK DOEN ALS ER IETS MIS GAAT MET MIJN AANMELDING VIA STUDIELINK</pattern> 
+ <template>Neem contact op met de <a href="/csa">Centrale Studenten Administratie</a>.</template> 
+</category>
+</aiml>

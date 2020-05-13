@@ -69,8 +69,26 @@ def html_to_aiml_template(text):
     
     clean_li = re.compile('<li class="rug-list--bullets__item">')
     cleaned_li = re.sub(clean_li, '<li>', cleaned_ul)
+    
+    clean_str = re.compile('<strong>')
+    cleaned_str = re.sub(clean_str, '', cleaned_li)
 
-    stripped = cleaned_li.strip()
+    clean_strc = re.compile('</strong>')
+    cleaned_strc = re.sub(clean_strc, '', cleaned_str)
+    
+    clean_span = re.compile('<span>')
+    cleaned_span = re.sub(clean_span, '', cleaned_strc)
+    
+    clean_spanc = re.compile('</span>')
+    cleaned_spanc = re.sub(clean_spanc, '', cleaned_span)
+    
+    clean_em = re.compile('<em>')
+    cleaned_em = re.sub(clean_em, '', cleaned_spanc)
+    
+    clean_emc = re.compile('</span>')
+    cleaned_emc = re.sub(clean_emc, '', cleaned_em)
+    
+    stripped = cleaned_emc.strip()
 
     template = '<template>{0}</template>'.format(stripped)
     return template
@@ -134,7 +152,7 @@ def main():
                     # extract topic which in this case is in <h1> .rug-mb-0
                     topic = soup_end.select('h1.rug-mb-0')
                     topic_clean = (topic[0].string).replace('/', '-')
-                    filename = 'aiml_files/{0}.aiml'.format(topic_clean)
+                    filename = 'aiml_files2/{0}.aiml'.format(topic_clean)
                 else:
                     questionclass = 'h1.rug-mb-0'
                     #print('option2')
@@ -144,7 +162,7 @@ def main():
 
                     topic = topic_last[0].string
                     topic_clean = topic.replace('/', '-')
-                    filename = '../aiml_files/{0}.aiml'.format(topic_clean)
+                    filename = 'aiml_files2/{0}.aiml'.format(topic_clean)
 
                 #print('i am out the if-else')
 
@@ -160,8 +178,6 @@ def main():
                     category = to_aiml_category(qlist[n], alist[n])
                     aiml_list.append(category)
                     n = n + 1
-                    
-                """
 
                 # open a new aiml file for every topic
                 with open(filename, 'w+') as f:
@@ -176,8 +192,6 @@ def main():
                     f.close()
 
                 print('On to the next link!')
-                
-                """
 
 if __name__ == "__main__":
     main()
