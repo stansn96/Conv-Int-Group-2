@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT GEBEURT ER ALS IK ONVOLDOENDE SALDO HEB VOOR DE AFSCHRIJVING VAN HET COLLEGEGELD</pattern>
+		<template>
+De procedure vind je op de onderstaande pagina's op onze website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/betalen/digitale-machtiging/gevolgen-onvoldoende-saldo-op-rekening">Bachelor:
+Gevolgen onvoldoende saldo op rekening</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/financien/collegegeld/betalen/digitale-machtiging/gevolgen-onvoldoende-saldo-op-rekening">Master:
+Gevolgen onvoldoende saldo op rekening</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+</aiml>

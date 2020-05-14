@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT IS MATCHING EN WAAROM MOET IK MEEDOEN</pattern>
+		<template>
+In de wet staat dat aankomend studenten die zich voor het eerst
+aanmelden voor een studie zonder selectie het recht hebben om deel
+te nemen aan een studiekeuzeactiviteit. Teveel studenten stoppen
+met hun studie in het eerste jaar, vaak doordat ze geen goed beeld
+hadden van de studie. Door deel te nemen aan
+matchingsactiviteiten krijg je een reëel beeld van de studie
+en heb je de mogelijkheid om je verwachtingen te checken. Past de
+studie die ik heb gekozen bij mij? En pas ik bij de studie? Sluit
+de opleiding aan bij mijn interesses en capaciteiten? 
+
+Voor alle opleidingen zonder numerus fixus van de faculteiten
+Gedrags- en Maatschappijwetenschappen, Medische Wetenschappen,
+Rechtsgeleerdheid, Science and Engineering en Wijsbegeerte is
+deelname aan matching verplicht om ingeschreven te
+worden. Wil je meer weten over de matchingsprocedure van jouw
+faculteit? Bekijk dan de facultaire <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/matching">matchingpagina</a>.
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE ZIET MATCHING ER UIT</pattern>
+		<template>
+De matchingsprocedure verschilt per faculteit. Je ontvangt
+meer informatie over de procedure als je je voor 1 juli
+via Studielink hebt aangemeld voor het eerste jaar van een
+bacheloropleiding. 
+
+Na deelname aan de matchingsprocedure ontvang je van de opleiding
+een studiekeuzeadvies. Indien je een positief advies ontvangt
+van de opleiding, betekent dit dat de opleiding op basis van de
+matching geen reden ziet waarom je niet bij de opleiding zou
+passen. Indien je een heroverwegingsadvies ontvangt na
+voltooiing van de matchingprocedure, houdt dit in dat de opleiding
+je op basis van de matching adviseert om je studiekeuze te
+heroverwegen. Dit advies is echter niet bindend, wat inhoudt dat
+het je alsnog vrij staat om met deze opleiding te beginnen.
+Deelname aan de matchingsprocedure is echter wel bindend. Als je de
+machtingsprocedure niet voltooit, kun je niet worden
+ingeschreven.
+
+Meer informatie vind je op de pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/matching">Matching aan de RUG</a> op onze website.
+		</template>
+	</category>
+
+	<category>
+		<pattern>IS MATCHING HETZELFDE ALS SELECTIE</pattern>
+		<template>
+Matching is niet hetzelfde als selectie. De bedoeling van matching
+is dat aankomende studenten ertoe aangezet worden om er goed over
+na te denken of de gekozen studie goed bij hem/haar past. De
+uitslag van de matchingsprocedure is niet bindend, waar dit bij
+selectie wel het geval is.
+
+Meer informatie over machtingsprocedure vind je op de pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/matching">Matching aan de RUG</a> op onze pagina.
+
+Meer informatie over de selectieprocedure voor numerus
+fixusopleiding vind je op de pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/selectie-en-plaatsing/">Selectie en Plaatsing</a> op onze website.
+		</template>
+	</category>
+
+	<category>
+		<pattern>IS ER MATCHING BIJ ALLE OPLEIDINGEN</pattern>
+		<template>
+Elke opleiding biedt de mogelijkheid tot matching aan, maar het is
+niet bij elke faculteit verplicht. Bij de volgende
+opleidingen/faculteiten is het verplicht:
+<ul>
+<li>Faculteit Rechtsgeleerdheid</li>
+<li>Faculteit Gedrags- en Maatschappijwetenschappen</li>
+<li>Faculty of Science and Engineering</li>
+<li>Faculteit Wijsbegeerte</li>
+<li>Bewegingswetenschappen (Faculteit Medische Wetenschappen)</li>
+</ul>
+De numerus fixusopleidingen hebben geen matching. Voor deze
+opleidingen geldt een andere procedure.
+
+Meer informatie over de procedure voor numerus fixus-opleidingen
+vind je op pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/selectie-en-plaatsing/">Selectie en plaatsing</a>
+op onze website. Ben je niet geselecteerd bij een numerus
+fixus-opleiding en wil je een andere opleiding aan de RUG gaan
+doen? Meld je dan op uiterlijk 31 juli aan in Studielink.
+		</template>
+	</category>
+
+	<category>
+		<pattern>WANNEER ZIJN DE MATCHINGSDAGEN</pattern>
+		<template>
+Veel studies hebben hun matchingsdag in juni, sommige (deels)
+eerder. Kijk voor een overzicht van de data op de pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/matching">Matching
+aan de RUG
+		</template>
+	</category>
+
+	<category>
+		<pattern>WAT ALS IK NIET KAN KOMEN OP DE MATCHINGSDAG</pattern>
+		<template>
+Deelname aan matching is niet verplicht, met uitzondering van de
+faculteiten Gedrags- en Maatschappijwetenschappen, Medische
+Wetenschappen, Rechtsgeleerdheid, Science and Engineering en
+Wijsbegeerte. De numerus fixus-opleidingen bij deze faculteiten
+hebben geen matching, voor deze opleidingen geldt een andere
+procedure. In het geval dat je niet kunt meedoen aan de
+matchingsdag, geef dit dan aan bij de opleiding. De opleiding
+bepaalt vervolgens wat er verder gebeurt.
+		</template>
+	</category>
+
+	<category>
+		<pattern>ALS IK GEÏNTERESSEERD BEN IN TWEE STUDIES KAN IK DAN NAAR TWEE MATCHINGSDAGEN</pattern>
+		<template>
+Dit is mogelijk, indien dit uitkomt.
+		</template>
+	</category>
+
+	<category>
+		<pattern>WAT ALS DE OPLEIDING NIET BIJ ME PAST</pattern>
+		<template>
+Kom je er na deelname aan matching achter dat de opleiding toch
+niet bij je past, dan zal je opnieuw een keuze moeten maken.
+Indien je hier hulp bij nodig hebt, dan kun je je wenden
+tot het <a href="/ssc">Studenten Service
+Centrum</a> (SSC). Daarnaast heeft iedere opleiding een <a href="/education/contact/study-advisors/">studieadviseur</a>, bij wie je terecht kan voor
+vragen. Houd er rekening mee dat je je op uiterlijk 31 juli moet
+aanmelden voor een andere opleiding als je er na matching achter
+komt dat een opleiding niet bij je past.
+		</template>
+	</category>
+
+	<category>
+		<pattern>WAT KAN IK DOEN ALS IK VOOR OF NA MATCHING STUDIEKEUZEVRAGEN HEB</pattern>
+		<template>
+Mocht je nog verdere vragen hebben omtrent je studiekeuze, neem dan
+contact op met het Studenten Service Centrum. Zij kunnen je helpen
+met het beantwoorden van je vragen.
+
+De contactgegevens vind je op de pagina
+		</template>
+	</category>
+
+	<category>
+		<pattern>WANNEER HEB IK AAN DE STUDIEKEUZECHECK VOLDAAN</pattern>
+		<template>
+Je hebt voldaan aan de studiekeuzecheck op het moment dat je aan
+alle matchingactiviteiten van de opleiding hebt deelgenomen en je
+een studiekeuzeadvies hebt ontvangen. Het maakt voor het voltooien
+van de studiekeuzecheck geen verschil of je een oranje of een groen
+advies hebt ontvangen.
+		</template>
+	</category>
+
+</aiml>
