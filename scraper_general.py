@@ -4,7 +4,7 @@ import re
 import pandas as pd
 import requests
 import sys
-
+import os
 
 def extract_questions_and_answers(file, question_class):
     """Get all questions from html file and put it in a list"""
@@ -152,7 +152,8 @@ def main():
                     # extract topic which in this case is in <h1> .rug-mb-0
                     topic = soup_end.select('h1.rug-mb-0')
                     topic_clean = (topic[0].string).replace('/', '-')
-                    filename = 'aiml_files2/{0}.aiml'.format(topic_clean)
+                    topic_cleaner = topic_clean.replace(' ', '_')
+                    filename = 'aiml_files3/{0}.aiml'.format(topic_cleaner)
                 else:
                     questionclass = 'h1.rug-mb-0'
                     #print('option2')
@@ -162,10 +163,8 @@ def main():
 
                     topic = topic_last[0].string
                     topic_clean = topic.replace('/', '-')
-
-                    filename = 'aiml_files2/{0}.aiml'.format(topic_clean)
-
-                    filename = 'aiml_files/{0}.aiml'.format(topic_clean)
+                    topic_cleaner = topic_clean.replace(' ', '_')
+                    filename = 'aiml_files3/|{0}.aiml'.format(topic_cleaner)
                     print(filename)
 
 
@@ -184,17 +183,46 @@ def main():
                     aiml_list.append(category)
                     n = n + 1
 
-                # open a new aiml file for every topic
-                with open(filename, 'w+') as f:
-                    print(f)
-                    f.write('<?xml version="1.0" encoding="UTF-8"?> \n<aiml version="2.0"> \n')
+                if os.path.exists(filename):
+                    print(filename)
+                    if '|' in filename:
+                        print("appending to file {0}".format(filename))
+                        with open(filename, 'r') as file:
+                            print(file)
+                            lst = []
+                            for line in file:
+                                if "</aiml>" in line:
+                                    print("here it is")
+                                    print(line)
+                                    line = line.strip().replace("</aiml>", "\n")
+                                lst.append(line)
+                            file.close()
+                            f = open(filename, 'w')
+                            for line in lst:
+                                f.write(line)
 
-                    for i in aiml_list:
-                        f.write(i)
-                        f.write('\n')
+                            for i in aiml_list:
+                                f.write(i)
+                                f.write('\n')
 
-                    f.write("</aiml>")
-                    f.close()
+                            f.write("</aiml>")
+                            f.close()
+                    else:
+                        print('File already exists and should not do anything.')
+
+
+                else:
+                    with open(filename, 'w+') as f:
+                        print(f)
+                        f.write('<?xml version="1.0" encoding="UTF-8"?> \n<aiml version="2.0"> \n')
+
+                        for i in aiml_list:
+                            f.write(i)
+                            f.write('\n')
+
+                        f.write("</aiml>")
+                        f.close()
+
 
                 print('On to the next link!')
 
