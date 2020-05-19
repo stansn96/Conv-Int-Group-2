@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>* LEENSTELSEL * SEPTEMBER *</pattern>
+		<template>
+Op dinsdag 20 januari heeft de Eerste Kamer gedebatteerd over het
+sociaal leenstelsel. Het wetsvoorstel om de studiebeurs te
+vervangen door het studievoorschot, zoals het leenstelsel officieel
+wordt genoemd, is aangenomen. 
+
+Meer informatie of vragen? 
+
+<ul>
+<li>Kijk op de website van <a href="https://duo.nl/particulieren/studievoorschot/default.asp" target="_blank">DUO</a> voor meer informatie over de Wet
+Studievoorschot Hoger Onderwijs.</li>
+<li>Neem contact op met één van de studentendecanen via
+<span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5uIj5zc2MtaW5mb0BydWcubjwvYT4=">ssc-info rug.n als je
+specifieke vragen over jouw persoonlijke situatie hebt.</li>
+</ul>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WANNEER HEB * RECHT * STUDIEFINANCIERING</pattern>
+		<template>
+Je hebt recht op
+studiefinanciering als je aan de volgende voorwaarden voldoet:
+<ul>
+<li>je bent ingeschreven als voltijd of duaal student; als deeltijd
+student heb je geen recht op studiefinanciering.</li>
+<li>je bent jonger dan 30 jaar als je voor de eerste keer
+studiefinanciering aanvraagt;</li>
+<li>je hebt de Nederlandse nationaliteit of bent daaraan
+gelijkgesteld;</li>
+<li>oude stelsel: je mag niet meer dan een maximum bedrag per jaar
+bijverdienen;</li>
+<li>nieuwe stelsel Studievoorschot: er geldt geen
+bijverdiengrens</li>
+<li>er mag geen tien jaar zijn verstreken sinds de eerste maand dat
+je studiefinanciering ontving voor een opleiding in het hoger
+onderwijs.</li>
+</ul>
+ 
+Studenten uit de meeste Europese landen kunnen ook in aanmerking
+komen voor Nederlandse studiefinanciering. Daarvoor gelden de
+volgende aanvullende voorwaarden:
+<ul>
+<li>je werkt minimaal 56 uur per maand met een arbeidscontract
+(alleen als je nog geen vijf jaar in Nederland verblijft);</li>
+<li>je beschikt over een eigen bank- of girorekening in
+Nederland.</li>
+</ul>
+Kijk voor meer informatie over studiefinanciering voor
+buitenlandse studenten op de <a href="https://duo.nl/particulieren/international-student/default.asp" target="_blank">Engelstalige website</a> van DUO.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE VRAAG * STUDIEFINANCIERING *</pattern>
+		<template>
+Je vraagt studiefinanciering aan via de website van <a href="http://www.ib-groep.nl/" target="_blank">DUO</a>. In de
+meeste gevallen heb je een DigiD nodig om via de website
+studiefinanciering aan te kunnen vragen. Je kunt bij DUO ook
+formulieren aanvragen waarmee je je schriftelijk kunt aanmelden.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT IS * PRESTATIEBEURS</pattern>
+		<template>
+Als je een prestatiebeurs hebt, ontvang je de studiefinanciering en
+Studenten reisproduct eerst als rentedragende lening. Bij het
+behalen van je bachelor en/of masterdiploma wordt deze omgezet in
+een gift. Behaal je de bachelor of masterdiploma niet, dan moet je
+de lening, met de opgebouwde rente, terugbetalen.
+
+Meer informatie over de prestatiebeurs vind je op de website van
+<a href="https://duo.nl/" target="_blank">DUO</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT IS * LEENSTELSEL (STUDIEVOORSCHOT)</pattern>
+		<template>
+Per 1 september 2015 bestaat studiefinanciering uit vier
+onderdelen:
+<ul>
+<li>Aanvullende beurs</li>
+<li>Studentenreisproduct</li>
+<li>Rentedragende lening</li>
+<li>Collegegeldkrediet  </li>
+</ul>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT IS * OVERGANGSREGELING * BACHELORSTUDENTEN, DIE * SEPTEMBER 2015 * PRESTATIEBEURS KRIJGEN</pattern>
+		<template>
+Heb jij vóór 1-9-2015 al een basisbeurs ontvangen voor
+een opleiding in het HBO of WO? Bij het behalen van je
+bachelordiploma binnen diplomatermijn worden de maanden
+prestatiebeurs behorende bij je bacheloropleiding
+omgezet in een gift. Jij mag je studie onderbroken hebben of
+van studie gewisseld zijn. 
+
+Als je op 1-9-2015 al meer dan 36 maanden
+basisbeurs hebt gehad, krijg je vanaf 1-9-2015 geen basisbeurs
+meer. Wel worden alle ontvangen maanden basisbeurs van
+vóór 1-9-2015 een gift als je binnen 10 jaar een
+masterdiploma haalt. Als je alleen een bachelordiploma haalt
+worden 36 maanden basisbeurs (en ook de aanvullende beurs) een
+gift.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT ZIJN * GEVOLGEN * SEPTEMBER 2015 * MASTEROPLEIDING BEGIN</pattern>
+		<template>
+Als je op 1-9-2015 al meer dan 36 maanden basisbeurs
+hebt gehad, krijg je vanaf 1-9-2015 geen basisbeurs meer. Wel
+worden alle ontvangen maanden basisbeurs behorende van de nominale
+studieduur van vóór 1-9-2015 een gift.
+
+
+voorbeeld 
+Floor zit in haar vierde jaar van de bachelor psychologie.
+Zij heeft vanaf 1 september 2011 een
+basisbeurs. Floor zal tot 1-09-2015 in totaal 48 maanden
+basisbeurs ontvangen. Vanaf 1-09-2015 krijgt
+zij geen basisbeurs.
+
+Als Floor vóór 2021 haar diploma voor de
+tweejarige researchmaster haalt worden de 48 maanden
+basisbeurs een definitieve gift.
+
+Als Floor vóór 2021 alléén een
+bachelordiploma haalt worden 36 maanden basisbeurs een definitieve
+gift.</em>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT IS HET COLLEGEGELDKREDIET</pattern>
+		<template>
+Collegegeldkrediet is een lening voor het betalen van het
+collegegeld, en maakt onderdeel uit van studiefinanciering. Als je
+recht hebt op studiefinanciering, kun je het krediet aanvragen
+via DUO. Op de website van DUO vind je meer informatie
+over het <a href="http://www.duo.nl/particulieren/student-hbo-of-universiteit/studeren/collegegeld-betalen.asp" target="_blank">collegegeldkrediet</a>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT HOUDT * 1-FEBRUARI REGELING *</pattern>
+		<template>
+Als je je studiefinanciering stop zet voor 1 februari dan blijven
+de aanvullende beurs en studentenreisproduct een gift. Deze
+regeling is alleen van kracht als je voor de
+eerste keer voor een propedeuse staat ingeschreven.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* BEN HELEMAAL * STUDIEFINANCIERING HEEN, * MOET NOG * JAAR STUDEREN. WAT NU</pattern>
+		<template>
+Het kan voorkomen dat studiefinanciering en bijbaan niets (meer)
+opleveren. Er zijn organisaties (bijvoorbeeld particuliere fondsen
+en stichtingen) die – onder bepaalde voorwaarden –
+studenten een helpende hand reiken. In uitzonderlijke gevallen kun
+je gebruik maken van die particuliere fondsen. Denk bijvoorbeeld
+aan studenten die vanwege een functiebeperking hoge uitgaven hebben
+of vluchtelingstudenten die hun studie niet helemaal gefinancierd
+krijgen. Maak een afspraak met een studentendecaan van het
+Studenten Service Centrum via de <a href="/usd">University Student Desk</a> of mail de University
+Student Desk via de button 'Stel je vraag'.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MAG * STUDIEFINANCIERING BIJVERDIENEN</pattern>
+		<template>
+Dit is afhankelijk van het stelsel waar je onder valt:
+
+<ul>
+<li>Oude stelsel: je mag tot een bepaald bedrag per jaar
+bijverdienen.</li>
+<li>Nieuwe stelsel (studievoorschot): er geldt geen
+bijverdiengrens.</li>
+</ul>
+
+Meer informatie?
+Kijk op de <a href="https://duo.nl/particulieren/student-hbo-of-universiteit/privesituatie/bijverdienen.asp" target="_blank">website</a> van DUO.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* LANDEN BEHOREN * EU/EER</pattern>
+		<template>
+De volgende landen maken deel uit van de EU/EER: België,
+Bulgarije, Cyprus, Denemarken, Duitsland, Estland, Finland,
+Frankrijk, Griekenland, Groot-Brittannië, Hongarije, Ierland,
+Italië, Letland, Liechtenstein, Litouwen, Luxemburg, Malta,
+Noorwegen, Oostenrijk, Polen, Portugal, Roemenië,
+Slovenië, Slowakije, Spanje, Tsjechië, IJsland en Zweden.
+Studenten met de Zwitserse nationaliteit kunnen een beroep doen op
+collegegeldkrediet en/of studiefinanciering, ondanks het feit dat
+Zwitserland niet is toegetreden tot de EU/EER.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* WIE KAN * TERECHT * VRAAG</pattern>
+		<template>
+Neem contact op met één van de studentendecanen via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5ubCI+c3NjLWluZm9AcnVnLm5sPC9hPg==">ssc-info rug.nl
+als je specifieke vragen over jouw persoonlijke situatie hebt.
+		</template>
+	</category>
+
+</aiml>

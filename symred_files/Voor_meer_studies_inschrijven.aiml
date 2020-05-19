@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>* STA INGESCHREVEN * RUG * WIL ME OOK INSCHRIJVEN * INSTELLING. WAT MOET * DOEN</pattern>
+		<template>
+Je regelt de inschrijving volgens de procedure van de andere
+instelling. Daarnaast laat je het ook weten aan <a href="http://www.duo.nl/" target="_blank">DUO</a>. 
+
+Betaling collegegeld
+
+Als je bij twee erkende instellingen in het Hoger Onderwijs staat
+ingeschreven hoef je in principe slechts een keer collegegeld te
+betalen. Je rechten op studentenvoorzieningen zijn verbonden aan de
+instelling waar je als eerste stond ingeschreven en waar je je
+collegegeld aan hebt betaald. Vraag bij <a href="https://www.rug.nl/education/information-services/">Information Services</a> een Bewijs Betaald
+Collegegeld (BBC) aan. Dit overhandig je aan de andere instelling
+zodat je daar geen collegegeld hoeft te betalen.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* WIL * DOEN * RUG. KAN * HOE REGEL * DAT</pattern>
+		<template>
+Ja, je mag voor meerdere opleidingen ingeschreven staan aan de
+Rijksuniversiteit Groningen.
+ 
+Bespreek met de studieadviseurs van beide opleidingen of
+je toelaatbaar bent, of je plannen in praktijk haalbaar zijn
+en hoe je je studies zo handig mogelijk inricht. Je schrijft je via
+<a href="https://www.studielink.nl" target="_blank">Studielink</a> in voor de tweede opleiding. Op
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/tarieven/collegegeld-voor-een-tweede-opleiding-van-dezelfde-graad">deze pagina</a> staat precies beschreven hoe
+je dat moet doen. Vergeet niet om aan <a href="http://www.duo.nl/" target="_blank">DUO</a> door te geven dat je er een tweede
+opleiding bij gaat doen.
+		</template>
+	</category>
+
+</aiml>

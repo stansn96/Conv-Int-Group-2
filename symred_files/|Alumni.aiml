@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>* BEN ALUMNUS * WIL * ADRESWIJZIGING DOORGEVEN</pattern>
+		<template>
+Informatie over het doorgeven van een adreswijziging vind je op
+de pagina <a href="https://www.rug.nl/alumni/contact/edit-personal-details">(Adres)wijzigingen doorgeven, registratie en
+abonnementen</a> op onze website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT MOET * DOEN * BUL * BEN</pattern>
+		<template>
+Je kunt geen nieuwe bul krijgen,
+omdat een bul maar één keer wordt uitgereikt. Je kunt wel
+een digitaal uittreksel van je diploma downloaden via het <a href="http://www.duo.nl/particulieren/diplomas/over-mijn-diploma/uittreksel-diplomagegevens-downloaden.asp" target="_blank">diplomaregister van DUO</a>. Log in met je
+DigiD.
+ 
+Een digitaal uittreksel van diplomagegevens uit het diplomaregister
+heeft dezelfde waarde als een papieren gewaarmerkte kopie.
+
+Meer informatie?
+Kijk op de website <a href="http://www.mijndiplomas.nl/" target="_blank">www.mijndiplomas.nl</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE KOM * KOPIE * DIPLOMA/CIJFERLIJST</pattern>
+		<template>
+Je kunt een gewaarmerkte kopie van je RUG-diploma op drie
+manieren aanvragen:
+<ul>
+<li>Download een uittreksel van je diploma via het <a href="http://www.duo.nl/particulieren/diplomas/over-mijn-diploma/uittreksel-diplomagegevens-downloaden.asp" target="_blank">diplomaregister van DUO</a>.
+Een digitaal uittreksel uit het diplomaregister heeft dezelfde
+waarde als een papieren gewaarmerkte kopie.</li>
+<li>Vul het <a href="/education/contact/information-services/application-form-statements">Aanvraagformulier
+verklaring</a> in en ontvang het gewaarmerkte kopie per post of
+e-mail.</li>
+<li>Haal de gewaarmerkte kopie persoonlijk op bij de <a href="/csa">Centrale Studenten
+Administratie</a>.</li>
+</ul>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE KOM * (ENGELSTALIGE) EXAMENVERKLARING</pattern>
+		<template>
+Je kunt een examenverklaring op twee manieren aanvragen:
+<ul>
+<li>Vul het <a href="/education/contact/information-services/application-form-statements">Aanvraagformulier
+verklaring</a> in en ontvang de verklaring per post of e-mail.</li>
+<li>Haal de verklaring persoonlijk op bij de <a href="/csa">Centrale Studenten
+Administratie</a>.</li>
+</ul>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>JE STEUN * ERIC BLEUMINK *</pattern>
+		<template>
+Informatie over het doneren van een bijdrage aan het Eric Bleumink
+Fonds vind je op de pagina
+		</template>
+	</category>
+
+</aiml>
