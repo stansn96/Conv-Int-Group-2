@@ -11,10 +11,11 @@ Informatie over de inschrijfprocedures voor Nederlandse studenten
 vind je op de onderstaande pagina's op onze website:
 <ul>
 <li>
-<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor aanmelding en inschrijving</a>
+    <a href='https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving'>Bachelor aanmelding en inschrijving</a>
 </li>
+
 <li>
-<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master aanmelding en inschrijving</a>
+<a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master aanmelding en inschrijving</a>
 </li>
 </ul>
 		</template>
@@ -31,12 +32,12 @@ vind je op de onderstaande pagina's op onze website:
 		<pattern>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</pattern>
 		<template>
 Informatie over de inschrijfprocedure voor Nederlandse studenten
-vind je op de pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-bacheloropleiding">Inschrijfprocedure bacheloropleiding</a> op onze
+vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-bacheloropleiding">Inschrijfprocedure bacheloropleiding</a> op onze
 website.
 
 Informatie over de inschrijfprocedure voor internationale
 studenten en Nederlandse studenten met een buitenlandse
-vooropleiding vind je op de pagina <a href="/education/bachelor/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.
+vooropleiding vind je op de pagina <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.
 		</template>
 	</category>
 	<category>
@@ -51,9 +52,28 @@ vooropleiding vind je op de pagina <a href="/education/bachelor/international-st
 <srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
 		</template>
 	</category>
-		
+<category>
+		<pattern> ^ MELD ^ AAN ^ BACHELOROPLEIDING</pattern>
+		<template>
+<srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
+		</template>
+	</category>
+<category>
+		<pattern> ^ MELD ^ AAN ^ BACHELOR</pattern>
+		<template>
+<srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
+		</template>
+	</category>
+	
 <category>
 		<pattern> ^ AANMELDEN ^ OPLEIDING</pattern>
+		<template>
+Wil je meer informatie over het aanmelden voor een bachelor of master?
+		</template>
+	</category>
+
+<category>
+		<pattern> ^ MELD ^ AAN ^ OPLEIDING</pattern>
 		<template>
 Wil je meer informatie over het aanmelden voor een bachelor of master?
 		</template>
@@ -81,12 +101,12 @@ Wil je meer informatie over het aanmelden voor een bachelor of master?
 		<pattern>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</pattern>
 		<template>
 Informatie over de inschrijfprocedure voor Nederlandse studenten
-vind je op de pagina <a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-masteropleiding">Inschrijfprocedure masteropleiding</a> op onze
+vind je op de pagina <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-masteropleiding">Inschrijfprocedure masteropleiding</a> op onze
 website.
 
 Informatie over de inschrijfprocedure voor internationale
 studenten en Nederlandse studenten met een buitenlandse
-vooropleiding vind je op de pagina <a href="/education/master/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.
+vooropleiding vind je op de pagina <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.
 		</template>
 	</category>
 		<category>
@@ -101,7 +121,20 @@ vooropleiding vind je op de pagina <a href="/education/master/international-stud
 <srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
 		</template>
 	</category>
-
+	
+<category>
+		<pattern> ^ MELD ^ AAN ^ MASTEROPLEIDING</pattern>
+		<template>
+<srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
+		</template>
+	</category>
+<category>
+		<pattern> ^ MELD ^ AAN ^ MASTER</pattern>
+		<template>
+<srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
+		</template>
+	</category>
+	
 	<category>
 		<pattern>IK HEB ME AANGEMELD VIA STUDIELINK. WAT MOET IK NU DOEN</pattern>
 		<template>
@@ -113,11 +146,11 @@ De inschrijfprocedures voor Nederlandse studenten vind je op de
 onderstaande pagina 's op onze website:
 <ul>
 <li>
-<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor
+<a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor
 aanmelding en inschrijving</a>
 </li>
 <li>
-<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master
+<a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master
 aanmelding en inschrijving</a>
 </li>
 </ul>
@@ -161,7 +194,7 @@ Postbus 72
 <li>
 Internationale studenten
 Stuur een gewaarmerkte kopie van je geldige paspoort of
-ID-kaart naar de <a href="/education/bachelor/international-students/admission-and-application/application-admission-procedure/contact-the-admissions-office">Bachelor Admissions Office</a> of de <a href="/education/master/international-students/admission-and-application/application-admission-procedure/support/contact-admissions-office">Master Admissions Office</a>.</li>
+ID-kaart naar de <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/contact-the-admissions-office">Bachelor Admissions Office</a> of de <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/support/contact-admissions-office">Master Admissions Office</a>.</li>
 </ul>
 		</template>
 	</category>
@@ -176,7 +209,7 @@ ID-kaart naar de <a href="/education/bachelor/international-students/admission-a
 	<category>
 		<pattern>WAT MOET IK DOEN ALS ER IETS MIS GAAT MET MIJN AANMELDING VIA STUDIELINK</pattern>
 		<template>
-Neem contact op met de <a href="/csa">Centrale Studenten Administratie.</a>
+Neem contact op met de <a href="https://www.rug.nl/education/contact/information-services/">Centrale Studenten Administratie.</a>
 		</template>
 	</category>
 	
