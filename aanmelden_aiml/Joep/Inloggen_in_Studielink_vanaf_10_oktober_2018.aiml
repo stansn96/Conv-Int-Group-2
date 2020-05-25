@@ -24,5 +24,43 @@
 </ul>
 		</template>
 	</category>
+	
+	<category>
+		<pattern> JA ^ HEB ^ ^ ACCOUNT</pattern>
+		<template>
+<srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ ^ HEB EEN ACCOUNT ^ </pattern>
+		<template>
+<srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+
+</aiml>
+
+	<category>
+		<pattern> ^ HEB TOEGANG ^ ACCOUNT ^ </pattern>
+		<template>
+<srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ JA DAT HEB IK ^ </pattern>
+		<template>
+<srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ IK HEB EEN STUDIELINKACCOUNT ^ </pattern>
+		<template>
+<srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+
 
 </aiml>
