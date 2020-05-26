@@ -26,21 +26,21 @@
 	</category>
 	
 	<category>
-		<pattern> ^ ^ GEEN ACCOUNT ^ </pattern>
+		<pattern> ^ GEEN ACCOUNT ^ </pattern>
 		<template>
 <srai>IK HEB NOG GEEN STUDIELINKACCOUNT</srai>
 		</template>
 	</category>
 	
 	<category>
-		<pattern> ^ ^ GEEN STUDIELINKACCOUNT ^ </pattern>
+		<pattern> ^ GEEN STUDIELINKACCOUNT ^ </pattern>
 		<template>
 <srai>IK HEB NOG GEEN STUDIELINKACCOUNT</srai>
 		</template>
 	</category>
 	
 	<category>
-		<pattern> ^ IK HEB ^ GEEN TOEGANG TOT STUDIELINK ^ </pattern>
+		<pattern> ^ IK HEB ^ GEEN TOEGANG ^ STUDIELINK ^ </pattern>
 		<template>
 <srai>IK HEB NOG GEEN STUDIELINKACCOUNT</srai>
 		</template>
@@ -54,14 +54,14 @@
 	</category>
 	
 	<category>
-		<pattern> JA ^ HEB ^ ^ ACCOUNT</pattern>
+		<pattern> JA ^ HEB ^ ACCOUNT</pattern>
 		<template>
 <srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
 		</template>
 	</category>
 	
 	<category>
-		<pattern> ^ ^ HEB EEN ACCOUNT ^ </pattern>
+		<pattern> ^ HEB EEN ACCOUNT ^ </pattern>
 		<template>
 <srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
 		</template>
