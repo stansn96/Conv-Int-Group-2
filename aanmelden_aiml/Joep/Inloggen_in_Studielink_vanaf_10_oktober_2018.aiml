@@ -26,6 +26,34 @@
 	</category>
 	
 	<category>
+		<pattern> ^ ^ GEEN ACCOUNT ^ </pattern>
+		<template>
+<srai>IK HEB NOG GEEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ ^ GEEN STUDIELINKACCOUNT ^ </pattern>
+		<template>
+<srai>IK HEB NOG GEEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ IK HEB ^ GEEN TOEGANG TOT STUDIELINK ^ </pattern>
+		<template>
+<srai>IK HEB NOG GEEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ NEE HEB IK ^ NIET ^ </pattern>
+		<template>
+<srai>IK HEB NOG GEEN STUDIELINKACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
 		<pattern> JA ^ HEB ^ ^ ACCOUNT</pattern>
 		<template>
 <srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
@@ -38,8 +66,6 @@
 <srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
 		</template>
 	</category>
-
-</aiml>
 
 	<category>
 		<pattern> ^ HEB TOEGANG ^ ACCOUNT ^ </pattern>
@@ -61,6 +87,5 @@
 <srai>IK HEB AL EEN STUDIELINKACCOUNT</srai>
 		</template>
 	</category>
-
 
 </aiml>
