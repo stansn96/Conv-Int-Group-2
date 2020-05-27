@@ -41,46 +41,61 @@ vooropleiding vind je op de pagina <a href="https://www.rug.nl/education/bachelo
 		</template>
 	</category>
 	<category>
-		<pattern> ^ AANMELDEN ^ BACHELOR</pattern>
+		<pattern> ^ AANMELDEN ^ BACHELOR ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
 		</template>
 	</category>
 <category>
-		<pattern> ^ AANMELDEN ^ BACHELOROPLEIDING</pattern>
+		<pattern> ^ AANMELDEN ^ BACHELOROPLEIDING ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
 		</template>
 	</category>
 <category>
-		<pattern> ^ MELD ^ AAN ^ BACHELOROPLEIDING</pattern>
+		<pattern> ^ MELD ^ AAN ^ BACHELOROPLEIDING ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
 		</template>
 	</category>
 <category>
-		<pattern> ^ MELD ^ AAN ^ BACHELOR</pattern>
+		<pattern> ^ MELD ^ AAN ^ BACHELOR ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
 		</template>
 	</category>
 	
 <category>
-		<pattern> ^ AANMELDEN ^ OPLEIDING</pattern>
+		<pattern> ^ AANMELDEN ^ OPLEIDING ^</pattern>
 		<template>
 Wil je meer informatie over het aanmelden voor een bachelor of master?
 		</template>
 	</category>
 
 <category>
-		<pattern> ^ MELD ^ AAN ^ OPLEIDING</pattern>
+		<pattern> ^ MELD ^ AAN ^ OPLEIDING ^</pattern>
 		<template>
 Wil je meer informatie over het aanmelden voor een bachelor of master?
 		</template>
 	</category>
+	
+<category>
+		<pattern> ^ AANMELDEN ^ STUDIE ^</pattern>
+		<template>
+Wil je meer informatie over het aanmelden voor een bachelor of master?
+		</template>
+	</category>
+	
+<category>
+		<pattern> ^ MELD ^ AAN ^ STUDIE ^</pattern>
+		<template>
+Wil je meer informatie over het aanmelden voor een bachelor of master?
+		</template>
+	</category>
+
 		
 <category>
-		<pattern>BACHELOR</pattern>
+		<pattern>^ BACHELOR ^</pattern>
 		<that>Wil je meer informatie over het aanmelden voor een bachelor of master</that>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</srai>
@@ -89,7 +104,7 @@ Wil je meer informatie over het aanmelden voor een bachelor of master?
 	
 	
 <category>
-		<pattern>MASTER</pattern>
+		<pattern>^ MASTER ^</pattern>
 		<that>Wil je meer informatie over het aanmelden voor een bachelor of master</that>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
@@ -110,26 +125,26 @@ vooropleiding vind je op de pagina <a href="https://www.rug.nl/education/master/
 		</template>
 	</category>
 		<category>
-		<pattern> ^ AANMELDEN ^ MASTER</pattern>
+		<pattern> ^ AANMELDEN ^ MASTER ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
 		</template>
 	</category>
 <category>
-		<pattern> ^ AANMELDEN ^ MASTEROPLEIDING</pattern>
+		<pattern> ^ AANMELDEN ^ MASTEROPLEIDING ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
 		</template>
 	</category>
 	
 <category>
-		<pattern> ^ MELD ^ AAN ^ MASTEROPLEIDING</pattern>
+		<pattern> ^ MELD ^ AAN ^ MASTEROPLEIDING ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
 		</template>
 	</category>
 <category>
-		<pattern> ^ MELD ^ AAN ^ MASTER</pattern>
+		<pattern> ^ MELD ^ AAN ^ MASTER ^</pattern>
 		<template>
 <srai>HOE MELD IK ME AAN VOOR EEN MASTEROPLEIDING</srai>
 		</template>
@@ -214,14 +229,14 @@ Neem contact op met de <a href="https://www.rug.nl/education/contact/information
 	</category>
 	
 	<category>
-		<pattern> ^ FOUT ^ AANMELDING ^ STUDIELINK</pattern>
+		<pattern> ^ FOUT ^ AANMELDING ^ STUDIELINK ^</pattern>
 		<template>
 <srai>WAT MOET IK DOEN ALS ER IETS MIS GAAT MET MIJN AANMELDING VIA STUDIELINK</srai>
 		</template>
 	</category>
 	
 		<category>
-		<pattern> ^ MIS ^ AANMELDING ^ STUDIELINK</pattern>
+		<pattern> ^ MIS ^ AANMELDING ^ STUDIELINK ^</pattern>
 		<template>
 <srai>WAT MOET IK DOEN ALS ER IETS MIS GAAT MET MIJN AANMELDING VIA STUDIELINK</srai>
 		</template>
