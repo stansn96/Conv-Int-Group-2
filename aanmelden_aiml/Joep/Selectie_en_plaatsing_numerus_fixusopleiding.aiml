@@ -14,6 +14,20 @@ een numerus fixusopleiding als je mee wilt doen met de
 seelctieprocedure.
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ WAT ^ NUMERUS FIXUS ^ </pattern>
+		<template>
+<srai>WAT IS EEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ WAT ^ FIXUS ^ </pattern>
+		<template>
+<srai>WAT IS EEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</pattern>
@@ -61,6 +75,7 @@ Nederlandse vooropleiding  doen mee aan de <a href="https://www.rug.nl/educatio
 </ul>
 		</template>
 	</category>
+	
 
 	<category>
 		<pattern>SELECTIEPOGINGEN</pattern>
@@ -113,6 +128,20 @@ Intelligentie</a>
 </ul>
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ DATUM AANMELDEN ^ STUDIELINK ^ </pattern>
+		<template>
+<srai>VOOR WELKE DATUM MOET IK MIJ AANMELDEN IN STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ WANNEER AANMELDEN STUDIELINK ^ </pattern>
+		<template>
+<srai>VOOR WELKE DATUM MOET IK MIJ AANMELDEN IN STUDIELINK</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>UITSLAG EN BEWIJS VAN TOELATING</pattern>
@@ -128,6 +157,21 @@ Intelligentie</a>
 <a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10588">Wat gebeurt er als ik wel ben geselecteerd, maar mijn diploma niet haal?</a>
 </li>
 </ul>
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern> ^ BEWIJS TOELATING ^ </pattern>
+		<template>
+<srai>UITSLAG EN BEWIJS VAN TOELATING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ BEN TOEGELATEN ^ </pattern>
+		<template>
+<srai>UITSLAG EN BEWIJS VAN TOELATING</srai>
 		</template>
 	</category>
 
@@ -163,6 +207,27 @@ Intelligentie</a>
 </ul>
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ MEER INFORMATIE ^ </pattern>
+		<template>
+<srai>WAAR VIND IK MEER INFORMATIE OVER DE SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ INFORMATIE ^ SELECTIE ^ </pattern>
+		<template>
+<srai>WAAR VIND IK MEER INFORMATIE OVER DE SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ AANKLAGEN ^ </pattern>
+		<template>
+<srai>HOE KAN IK BEZWAAR AANTEKENEN</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>HOE KAN IK BEZWAAR AANTEKENEN</pattern>
@@ -172,6 +237,14 @@ Je kunt via het <a href="/clrs">Centraal Loket Rechtsbescherming Studenten</a>
 selectie.
 
 De bezwaartermijn bedraagt zes weken.
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern> ^ AANKLAGEN ^ </pattern>
+		<template>
+<srai>HOE KAN IK BEZWAAR AANTEKENEN</srai>
 		</template>
 	</category>
 
