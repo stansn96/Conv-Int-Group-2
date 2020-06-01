@@ -26,6 +26,27 @@ Je RUG-account bestaat uit je studentnummer en een
 wachtwoord.
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ RUG-ACCOUNT? ^ </pattern>
+		<template>
+<srai>WAT IS EEN RUG-ACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ RUG ACCOUNT? ^ </pattern>
+		<template>
+<srai>WAT IS EEN RUG-ACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ WAT VOOR ACCOUNT ^ </pattern>
+		<template>
+<srai>WAT IS EEN RUG-ACCOUNT</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</pattern>
@@ -35,6 +56,27 @@ heeft aangemeld krijgt een RUG-account.
 
 Ga je uiteindelijk niet studeren aan de RUG, dan wordt je
 RUG-account verwijderd.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ HEB IK RECHT ^ RUG-ACCOUNT ^ </pattern>
+		<template>
+<srai>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ HEB IK RECHT ^ RUGACCOUNT ^ </pattern>
+		<template>
+<srai>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ HEB IK RECHT ^ RUG ACCOUNT ^ </pattern>
+		<template>
+<srai>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</srai>
 		</template>
 	</category>
 
@@ -61,6 +103,13 @@ de <a href="https://www.rug.nl/education/faq//society-business/centre-for-infor
 		<template>
 Zolang je ingeschreven staat voor een opleiding aan de RUG blijft
 je RUG-account actief.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ HOELANG ^ ACTIEF ^ </pattern>
+		<template>
+<srai>HOE LANG BLIJFT MIJN RUG-ACCOUNT ACTIEF</srai>
 		</template>
 	</category>
 
@@ -130,6 +179,20 @@ Mocht je tijdens dit jaar gebruik moeten maken van bepaalde
 RUG-voorzieningen, dan kun je een verzoek tot verlenging indienen.
 Dit doe je via <a href="https://www.rug.nl/education/faq//education/contact/information-services/formulier-verlenging-toegang-rug-account">Aanvraagformulier verlenging toegang RUG-account
 (studenten)</a>.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ TOEGANG KRIJGEN NA UITSCHRIJVEN ^ </pattern>
+		<template>
+<srai>KAN IK NA UITSCHRIJVEN LANGER TOEGANG KRIJGEN TOT MIJN RUG-ACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ NA UITSCHRIJVEN ^ MIJN ACCOUNT ^ </pattern>
+		<template>
+<srai>KAN IK NA UITSCHRIJVEN LANGER TOEGANG KRIJGEN TOT MIJN RUG-ACCOUNT</srai>
 		</template>
 	</category>
 
