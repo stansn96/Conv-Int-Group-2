@@ -409,43 +409,439 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bache
 </category>
 
 	<category>
-		<pattern>ANDERE VOOROPLEIDING</pattern>
+		<pattern>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</pattern>
 		<template>
-<ul>
-<li>
-<a href="?tcid=verint_3_7394_10565">Ik heb niet de juiste vooropleiding. Kan ik dan toch naar de universiteit?</a>
-</li>
-<li>
-<a href="?tcid=verint_3_7394_10566">Ik heb een havo-diploma. Wat zijn de mogelijkheden?</a>
-</li>
-<li>
-<a href="?tcid=verint_3_7394_10567">Toelating via het voorbereidend jaar voor anderstaligen</a>
-</li>
-<li>
-<a href="?tcid=verint_3_7394_10568">Colloquium doctum</a>
-</li>
-</ul>
+        Als je geen diploma hebt dat rechtstreeks toelating biedt tot een universitaire opleiding, kun je je niet als student inschrijven aan de Rijksuniversiteit Groningen. Er zijn wel andere mogelijkheden:
+        <ul>
+            <li>Je kunt je bij sommige opleidingen inschrijven voor <a href="https://www.rug.nl/corporate/onderwijs/opleidingen/open">open colleges</a>.</li>
+            <li>Als je ouder bent dan 21 jaar kun je mee doen aan het colloquium doctum (toelatingsexamen).</li>
+            <li>Als je jonger bent dan 21 jaar is het wellicht mogelijk om een propedeuse van een hbo-opleiding of het vwo-diploma te halen.</li>
+            <li>Bij de <a href="http://www.ou.nl/">Open Universiteit</a> is het wel mogelijk om modules te volgen zonder dat je een diploma hoeft te overleggen.</li>
+        </ul>
 		</template>
 	</category>
+	
+	<category>
+	    <pattern>^ NIET ^ JUISTE ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+
+    <category>
+	    <pattern>^ GEEN ^ JUISTE ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VERKEERDE ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ GEEN ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
 
 	<category>
-		<pattern>UNIVERSITAIRE BACHELOR</pattern>
-		<template>
-<ul>
-<li>
-<a href="?tcid=verint_3_7394_10569">Kan ik met een universitair bachelordiploma instromen in een masterprogramma van de RUG?</a>
-</li>
-<li>
-<a href="?tcid=verint_3_7394_10570">Ik wil beginnen aan mastervakken en heb mijn bacheloropleiding nog niet afgerond. Kan ik me alvast registreren voor de masteropleiding?</a>
-</li>
-<li>
-<a href="?tcid=verint_3_7394_10571">Hoe meld ik me aan voor een researchmaster of andere master met aanvullende toelatingseisen?</a>
-</li>
-<li>
-<a href="?tcid=verint_3_7394_10572">Wat is een verklaring toelating tot het afsluitend examen (VTAE)?</a>
-</li>
-</ul>
-		</template>
-	</category>
+	    <pattern>^ NIET ^ JUISTE ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+
+    <category>
+	    <pattern>^ GEEN ^ JUIST ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VERKEERDE ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ GEEN ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>IK HEB EEN HAVO dash DIPLOMA WAT ZIJN DE MOGELIJKHEDEN</pattern>
+        <template>
+            Na de havo kun je een jaar naar een hbo-instelling gaan om je hbo-propedeuse te halen. In principe geeft iedere hbo-propedeuse toegang tot de universiteit. Sommige bacheloropleidingen kennen daarnaast bepaalde ingangseisen. Neem contact op met de faculteit voor meer informatie over deze ingangseisen. Als je 21 jaar of ouder bent, is het wellicht ook mogelijk om een <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/colloquium-doctum-">colloquium doctum</a> te doen.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ HAVO dash DIPLOMA ^</pattern>
+        <template>
+            <srai>IK HEB EEN HAVO dash DIPLOMA WAT ZIJN DE MOGELIJKHEDEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ HAVO ^</pattern>
+        <template>
+            <srai>IK HEB EEN HAVO dash DIPLOMA WAT ZIJN DE MOGELIJKHEDEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COLLOQUIUM DOCTUM</pattern>
+        <template>
+            Informatie over het colloquium doctum en de aanmeldingsprocedure vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/colloquium-doctum-">Colloquium doctum</a> op onze website.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ COLLOQUIUM ^ DOCTUM ^</pattern>
+        <template>
+            <srai>COLLOQUIUM DOCTUM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</pattern>
+        <template>
+            Ieder masterprogramma heeft eigen toelatingsvoorwaarden. Bij de meeste masterprogramma’s is de bachelor die daar aan vooraf gaat voldoende. Soms zijn aanvullende eisen gesteld.
+            Meer informatie vind je op de <a href="https://www.rug.nl/masters/">masteropleidingspagina's</a> en de pagina <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-masteropleiding">Inschrijfprocedure masteropleiding</a> op onze website.
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSTROMEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSTROMEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSTROMEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSCHRIJVEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSCHRIJVEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSCHRIJVEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ AANMELDEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ AANMELDEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ AANMELDEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSTROMEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSTROMEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSTROMEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSCHRIJVEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSCHRIJVEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSCHRIJVEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ AANMELDEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ AANMELDEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ AANMELDEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</pattern>
+        <template>
+            Nee, je kunt nog niet met mastervakken beginnen als je je bacheloropleiding nog niet hebt afgerond. Je kunt alleen aan een masteropleiding beginnen als je in het bezit bent van een bachelordiploma.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOR ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOR ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEROND ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEROND ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOR ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOR ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEMAAKT ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEMAAKT ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</pattern>
+        <template>
+            Informatie over de inschrijfprocedure voor Nederlandse studenten vind je op de pagina <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-masteropleiding">Inschrijfprocedure masteropleiding</a> op onze website.
+            <split/>
+            Informatie over de inschrijfprocedure voor internationale studenten en Nederlandse studenten met een buitenlandse vooropleiding vind je op de pagina <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ RESEARCHMASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTER ^ AANVULLENDE ^ TOELATINGSEISEN ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTER ^ AANVULLENDE ^ TOELATINGS EISEN ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTER ^ AANVULLENDE ^ EISEN ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ AANVULLENDE ^ TOELATINGSEISEN ^ MASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ AANVULLENDE ^ TOELATINGS EISEN ^ MASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ AANVULLENDE ^ EISEN ^ MASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WAT IS EEN VERKLARING TOELATING TOT HET AFSLUITEND EXAMEN lparen VTAE rparen</pattern>
+        <template>
+            Je hebt een VTAE nodig als je niet automatisch toelaatbaar bent tot een opleiding. De VTAE kun je aanvragen bij de <a href="https://www.rug.nl//education/contact/onderwijsadministraties">onderwijsadministratie</a> van de betreffende faculteit.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ VTAE ^</pattern>
+        <template>
+            <srai>WAT IS EEN VERKLARING TOELATING TOT HET AFSLUITEND EXAMEN lparen VTAE rparen</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ VERKLARING ^ TOELATING ^ AFSLUITEND ^ EXAMEN ^</pattern>
+        <template>
+            <srai>WAT IS EEN VERKLARING TOELATING TOT HET AFSLUITEND EXAMEN lparen VTAE rparen</srai>
+        </template>
+    </category>
 
 </aiml>
