@@ -35,7 +35,7 @@ wachtwoord.
 	</category>
 	
 	<category>
-		<pattern> ^ RUG ACCOUNT? ^ </pattern>
+		<pattern> ^ IS EEN RUG ACCOUNT ^ </pattern>
 		<template>
 <srai>WAT IS EEN RUG-ACCOUNT</srai>
 		</template>
