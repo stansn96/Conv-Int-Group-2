@@ -60,7 +60,7 @@ RUG-account verwijderd.
 	</category>
 	
 	<category>
-		<pattern> ^ HEB IK RECHT ^ RUG-ACCOUNT ^ </pattern>
+		<pattern> ^ HEB IK RECHT ^ RUG dash ACCOUNT ^ </pattern>
 		<template>
 <srai>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</srai>
 		</template>
@@ -99,7 +99,7 @@ de <a href="https://www.rug.nl/education/faq//society-business/centre-for-infor
 	</category>
 
 	<category>
-		<pattern>HOE LANG BLIJFT MIJN RUG-ACCOUNT ACTIEF</pattern>
+		<pattern>HOE LANG BLIJFT MIJN RUG dash ACCOUNT ACTIEF</pattern>
 		<template>
 Zolang je ingeschreven staat voor een opleiding aan de RUG blijft
 je RUG-account actief.
@@ -114,7 +114,7 @@ je RUG-account actief.
 	</category>
 
 	<category>
-		<pattern>AANMAKEN RUG-ACCOUNT</pattern>
+		<pattern>AANMAKEN RUG dash ACCOUNT</pattern>
 		<template>
 <ul>
 <li>
