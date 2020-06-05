@@ -151,7 +151,7 @@ vooropleiding vind je op de pagina <a href="https://www.rug.nl/education/master/
 	</category>
 	
 	<category>
-		<pattern>IK HEB ME AANGEMELD VIA STUDIELINK. WAT MOET IK NU DOEN</pattern>
+		<pattern>IK HEB ME AANGEMELD VIA STUDIELINK WAT MOET IK NU DOEN</pattern>
 		<template>
 In de verschillende inschrijfprocedures staat uitgelegd welke
 handelingen je nog moet verrichten nadat je je hebt aangemeld via
@@ -174,14 +174,14 @@ aanmelding en inschrijving</a>
 	<category>
 		<pattern> ^ AANGEMELD ^ STUDIELINK ^ WAT ^ NU ^</pattern>
 		<template>
-<srai>IK HEB ME AANGEMELD VIA STUDIELINK. WAT MOET IK NU DOEN</srai>
+<srai>IK HEB ME AANGEMELD VIA STUDIELINK WAT MOET IK NU DOEN</srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern> ^ STUDIELINK ^ AANGEMELD ^ WAT ^ NU ^</pattern>
 		<template>
-<srai>IK HEB ME AANGEMELD VIA STUDIELINK. WAT MOET IK NU DOEN</srai>
+<srai>IK HEB ME AANGEMELD VIA STUDIELINK WAT MOET IK NU DOEN</srai>
 		</template>
 	</category>
 
