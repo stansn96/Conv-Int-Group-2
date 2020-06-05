@@ -9,6 +9,10 @@
     <template><srai>HOE HEET JE ^</srai></template>
 </category>
 <category>
+    <pattern>HOE HEET JIJ ^</pattern>
+    <template><srai>HOE HEET JE ^</srai></template>
+</category>
+<category>
     <pattern>WAT IS JOUW NAAM</pattern>
     <template><srai>HOE HEET JE ^</srai></template>
 </category>
@@ -177,7 +181,7 @@
     <template>Waar kan je mee helpen?</template>
 </category>
 <category>
-    <pattern><set>greetings</set></pattern>
+    <pattern><set>greetings</set> ^</pattern>
     <template>
 <random>
 <li>Hoi!</li>
@@ -205,5 +209,22 @@
 <category>
     <pattern>GOEIEMORGEN ^</pattern>
     <template>Goedemorgen!</template>
+</category>
+<category>
+    <pattern>WELKE DAG IS HET VANDAAG ^</pattern>
+    <template>
+        <button>
+            <text>Klik hier voor de datum van vandaag</text>
+            <url>https://www.datumvandaag.nl/</url>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>^ GEEN GOED ANTWOORD ^</pattern>
+    <template>Oh sorry, zou je misschien de vraag kunnen herformuleren voor me?</template>
+</category>
+<category>
+    <pattern>^ SLECHT ANTWOORD ^</pattern>
+    <template>Oh sorry, zou je misschien de vraag kunnen herformuleren voor me?</template>
 </category>
 </aiml>
