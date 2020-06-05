@@ -227,4 +227,21 @@
     <pattern>^ SLECHT ANTWOORD ^</pattern>
     <template>Oh sorry, zou je misschien de vraag kunnen herformuleren voor me?</template>
 </category>
+    
+<category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+            <li>Dat begreep ik niet helemaal, zou je dat kunnen herformuleren?</li>
+            <li>Sorry, dat snapte ik niet! Zou je het misschien anders kunnen verwoorden?</li>
+            <li>Die vraag begreep ik helaas niet. Zou je kunnen controleren of je vraag binnen het domein valt en goed verwoord is?</li>
+            <li>Soms raak ik de weg een beetje kwijt. Zou je me dat op een andere manier kunnen vragen?</li>
+            <li>Ik doe mijn best, maar daar kon ik zo geen antwoord op vinden. Misschien dat een andere verwoording helpt!</li>
+            <li>Sorry, ik ben de draad een beetje kwijt. Zou je je vraag misschien wat duidelijker kunnen verwoorden?</li>
+            <li>Oeps! Ik denk dat ik het even niet volg. Zou je mij nog een keer duidelijk kunnen vragen wat je wil weten?</li>
+            <li>Soms zie ik door de bomen het Bos niet meer. Misschien dat een duidelijkere verwoording me weer een beetje op weg zou helpen.</li>
+        </random>
+    </template>
+</category>
+    
 </aiml>
