@@ -50,7 +50,7 @@ vorm van <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aa
 </category>
 
 <category>
-    <pattern>BEN IK MET EEN VWO-DIPLOMA TOELAATBAAR TOT EEN BACHELOROPLEIDING</pattern>
+    <pattern>BEN IK MET EEN VWO dash DIPLOMA TOELAATBAAR TOT EEN BACHELOROPLEIDING</pattern>
     <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma  </a>op onze website.</template>
@@ -62,7 +62,7 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bache
 </category>
 
 <category>
-    <pattern>BEN IK MET EEN VWO-DIPLOMA OUDE STIJL TOELAATBAAR TOT EEN BACHELOROPLEIDING</pattern>
+    <pattern>BEN IK MET EEN VWO dash DIPLOMA OUDE STIJL TOELAATBAAR TOT EEN BACHELOROPLEIDING</pattern>
     <template>Ja, je bent met een vwo-diploma oude stijl in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen aanvullende ingangseisen c.q. profieleisen.
 
 Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website of je neemt contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
@@ -74,7 +74,7 @@ Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="http
 Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website of je neemt contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
 </category>
 <category>
-    <pattern>^ VWO-DIPLOMA ^ OUDE STIJL ^</pattern>
+    <pattern>^ VWO dash DIPLOMA ^ OUDE STIJL ^</pattern>
     <template>Je bent met een vwo-diploma oude stijl in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen aanvullende ingangseisen c.q. profieleisen.
 
 Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website of je neemt contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
@@ -153,7 +153,7 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bache
 	</category>
 
 <category>
-    <pattern>BEN IK MET EEN HBO-PROPEDEUSE OF -DIPLOMA TOELAATBAAR TOT EEN UNIVERSITAIRE BACHELOROPLEIDING</pattern>
+    <pattern>BEN IK MET EEN HBO dash PROPEDEUSE OF dash DIPLOMA TOELAATBAAR TOT EEN UNIVERSITAIRE BACHELOROPLEIDING</pattern>
     <template>Dat is afhankelijk van of je een hbo-propedeuse of een volledige hbo-diploma hebt behaald.
 
 Hbo-propedeuse diploma
@@ -186,7 +186,7 @@ Neem voor meer informatie over vrijstellingen contact op met de <a href="https:/
 </template>
 </category>
 <category>
-    <pattern>^ HBO-DIPLOMA ^ TOELAATBAAR ^</pattern>
+    <pattern>^ HBO dash DIPLOMA ^ TOELAATBAAR ^</pattern>
     <template>Dat is afhankelijk van of je een hbo-propedeuse of een volledige hbo-diploma hebt behaald.
 
 Hbo-propedeuse diploma
@@ -203,7 +203,7 @@ Neem voor meer informatie over vrijstellingen contact op met de <a href="https:/
 </template>
 </category>
 <category>
-    <pattern>^ HBO-PROPEDEUSE ^ TOELAATBAAR ^</pattern>
+    <pattern>^ HBO dash PROPEDEUSE ^ TOELAATBAAR ^</pattern>
     <template>Dat is afhankelijk van of je een hbo-propedeuse of een volledige hbo-diploma hebt behaald.
 
 Hbo-propedeuse diploma
@@ -220,13 +220,13 @@ Neem voor meer informatie over vrijstellingen contact op met de <a href="https:/
 </template>
 </category>
 <category>
-    <pattern>MAAKT HET UIT WELKE HBO-PROPEDEUSE IK HEB GEHAALD ALS IK NAAR DE UNIVERSITEIT WIL</pattern>
+    <pattern>MAAKT HET UIT WELKE HBO dash PROPEDEUSE IK HEB GEHAALD ALS IK NAAR DE UNIVERSITEIT WIL</pattern>
     <template>Ja, je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a>  van de betreffende opleiding.</template>
 </category>
 <category>
-    <pattern>^ MAAKT HET UIT WELKE HBO-PROPEDEUSE ^</pattern>
+    <pattern>^ MAAKT HET UIT WELKE HBO dash PROPEDEUSE ^</pattern>
     <template>Ja, je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a>  van de betreffende opleiding.</template>
@@ -252,19 +252,19 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/maste
 </category>
 
 <category>
-    <pattern>KAN IK MET EEN HBO-BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA</pattern>
+    <pattern>KAN IK MET EEN HBO dash BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA</pattern>
     <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
 </category>
 <category>
-    <pattern>^ HBO-BACHELORDIPLOMA ^ MASTERPROGRAMMA ^</pattern>
+    <pattern>^ HBO dash BACHELORDIPLOMA ^ MASTERPROGRAMMA ^</pattern>
     <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
 </category>
 <category>
-    <pattern>^ HBO-DIPLOMA ^ MASTERPROGRAMMA ^</pattern>
+    <pattern>^ HBO dash DIPLOMA ^ MASTERPROGRAMMA ^</pattern>
     <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
@@ -276,13 +276,13 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/maste
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
 </category>
 <category>
-    <pattern>^ HBO-BACHELORDIPLOMA ^ MASTER ^</pattern>
+    <pattern>^ HBO dash BACHELORDIPLOMA ^ MASTER ^</pattern>
     <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
 </category>
 <category>
-    <pattern>^ HBO-DIPLOMA ^ MASTER ^</pattern>
+    <pattern>^ HBO dash DIPLOMA ^ MASTER ^</pattern>
     <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
 
 Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
