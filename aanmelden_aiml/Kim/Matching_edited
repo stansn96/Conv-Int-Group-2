@@ -151,6 +151,14 @@ bepaalt vervolgens wat er verder gebeurt.</template>
     <template><srai>WAT ALS IK NIET KAN KOMEN OP DE MATCHINGSDAG</srai></template>
 </category>
 <category>
+    <pattern>^ KAN NIET ^ MATCHINGSDAG ^</pattern>
+    <template><srai>WAT ALS IK NIET KAN KOMEN OP DE MATCHINGSDAG</srai></template>
+</category>
+<category>
+    <pattern>^ NIET AANWEZIG ^ MATCHINGSDAG ^</pattern>
+    <template><srai>WAT ALS IK NIET KAN KOMEN OP DE MATCHINGSDAG</srai></template>
+</category>
+<category>
     <pattern>^ KAN NIET ^ MATCHING ^</pattern>
     <template><srai>WAT ALS IK NIET KAN KOMEN OP DE MATCHINGSDAG</srai></template>
 </category>
