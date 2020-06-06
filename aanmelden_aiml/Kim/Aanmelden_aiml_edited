@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <aiml version="2.0"> 
+<!-- Spelfoutcorrecties-->
+
+<category>
+<pattern>^ AAMNELDEN ^</pattern>
+<template>
+<srai><star/>^ AANMELDEN ^<start index="2"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INSHRIJVEN ^</pattern>
+<template>
+<srai><star/>^ INSCHRIJVEN ^<start index="2"/></srai>
+</template>
+</category>
+<category>
+<pattern>_ INSCRIJVEN ^</pattern>
+<template>
+<srai><star/>^ INSCHRIJVEN ^<start index="2"/></srai>
+</template>
+</category>
+<category>
+<pattern>_ MELDT ^</pattern>
+<template>
+<srai><star/>^ MELD ^<start index="2"/></srai>
+</template>
+</category>
+<category>
+<pattern>_ BACHELOR dash OPLEIDING ^</pattern>
+<template>
+<srai><star/>^ bacheloropleiding ^<start index="2"/></srai>
+</template>
+</category>
+<category>
+<pattern>_ MASTER dash OPLEIDING ^</pattern>
+<template>
+<srai><star/>^ MASTEROPLEIDING ^<start index="2"/></srai>
+</template>
+</category>
+<category>
+<pattern>_ PERSOONGEGEVENS ^</pattern>
+<template>
+<srai><star/>^ PERSOONSGEGEVENS ^<start index="2"/></srai>
+</template>
+</category>
+
+<!-- Einde Spelfoutcorrecties-->
+
 	<category>
 		<pattern>WAT IS HET VERSCHIL TUSSEN AANMELDEN EN INSCHRIJVEN</pattern>
 		<template>
@@ -27,6 +75,25 @@ vind je op de onderstaande pagina's op onze website:
             <srai>WAT IS HET VERSCHIL TUSSEN AANMELDEN EN INSCHRIJVEN</srai>
 		</template>
 	</category>
+		<category>
+		<pattern> ^ VERSCHIL TUSSEN INSCHRIJVEN EN AANMELDEN ^</pattern>
+		<template>
+            <srai>WAT IS HET VERSCHIL TUSSEN AANMELDEN EN INSCHRIJVEN</srai>
+		</template>
+	</category>
+	<category>
+		<pattern> ^ VERSCHIL ^ INSCHRIJVEN EN AANMELDEN ^</pattern>
+		<template>
+            <srai>WAT IS HET VERSCHIL TUSSEN AANMELDEN EN INSCHRIJVEN</srai>
+		</template>
+	</category>
+	<category>
+		<pattern> ^ VERSCHIL ^ AANMELDEN EN INSCHRIJVEN ^</pattern>
+		<template>
+            <srai>WAT IS HET VERSCHIL TUSSEN AANMELDEN EN INSCHRIJVEN</srai>
+		</template>
+	</category>
+	
 	
 	<category>
 		<pattern>HOE MELD IK ME AAN VOOR EEN BACHELOROPLEIDING</pattern>
@@ -209,7 +276,8 @@ Postbus 72
 <li>
 Internationale studenten
 Stuur een gewaarmerkte kopie van je geldige paspoort of
-ID-kaart naar de <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/contact-the-admissions-office">Bachelor Admissions Office</a> of de <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/support/contact-admissions-office">Master Admissions Office</a>.</li>
+ID-kaart naar de <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/contact-the-admissions-office"> Bachelor Admissions Office </a></li>
+of de <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/support/contact-admissions-office">Master Admissions Office </a>.
 </ul>
 		</template>
 	</category>
