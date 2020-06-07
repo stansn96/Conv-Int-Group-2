@@ -257,7 +257,7 @@ Intelligentie</a>
 	</category>
 	
 	<category>
-		<pattern> ^ MEER INFORMATIE ^ </pattern>
+		<pattern> ^ MEER INFORMATIE ^ SELECTIE ^ </pattern>
 		<template>
 <srai>WAAR VIND IK MEER INFORMATIE OVER DE SELECTIE</srai>
 		</template>
