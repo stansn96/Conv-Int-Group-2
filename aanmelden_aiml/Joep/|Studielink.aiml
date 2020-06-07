@@ -7,8 +7,56 @@ Studielink heeft een <a href="https://youtu.be/LP9_kYy1BHc" target="_blank">anim
 veranderingen van Studielink.
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ VIDEO STUDIELINK ^ </pattern>
+		<template>
+<srai>ANIMATIEFILMPJE OVER NIEUWE STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ FILMPJE STUDIELINK ^ </pattern>
+		<template>
+<srai>ANIMATIEFILMPJE OVER NIEUWE STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ ANIMATIE FILMPJE ^ STUDIELINK ^ </pattern>
+		<template>
+<srai>ANIMATIEFILMPJE OVER NIEUWE STUDIELINK</srai>
+		</template>
+	</category>
 
-
+	<category>
+		<pattern> ^ FILMPJE STUDIE LINK ^ </pattern>
+		<template>
+<srai>ANIMATIEFILMPJE OVER NIEUWE STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ VIDEO STUDIE LINK ^ </pattern>
+		<template>
+<srai>ANIMATIEFILMPJE OVER NIEUWE STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ FILMPJE STUDIE LINK ^ </pattern>
+		<template>
+<srai>ANIMATIEFILMPJE OVER NIEUWE STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ ANIMATIE FILMPJE ^ STUDIE LINK ^ </pattern>
+		<template>
+<srai>ANIMATIEFILMPJE OVER NIEUWE STUDIELINK</srai>
+		</template>
+	</category>
+	
 	<category>
 		<pattern>WAT IS STUDIELINK</pattern>
 		<template>
@@ -99,5 +147,33 @@ Een overzicht van deze handleidingen vind je op de pagina <a href="http://info.s
 Studielink.
 		</template>
 	</category>
-
+	
+	<category>
+		<pattern> ^ STUDIELINK STAPPENPLAN ^ </pattern>
+		<template>
+<srai>STUDIELINK STAPPENPLANNEN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ STUDIE LINK STAPPENPLAN ^ </pattern>
+		<template>
+<srai>STUDIELINK STAPPENPLANNEN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ STUDIELINK HANDLEIDING ^ </pattern>
+		<template>
+<srai>STUDIELINK STAPPENPLANNEN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ STUDIELINK GEBRUIKSAANWIJZING ^ </pattern>
+		<template>
+<srai>STUDIELINK STAPPENPLANNEN</srai>
+		</template>
+	</category>
+	
 </aiml>
