@@ -141,6 +141,27 @@ Nederlandse vooropleiding  doen mee aan de <a href="https://www.rug.nl/educatio
 </ul>
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ SELECTIEPOGING ^ </pattern>
+		<template>
+<srai>SELECTIEPOGINGEN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ SELECTIE POGING ^ </pattern>
+		<template>
+<srai>SELECTIEPOGINGEN</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> ^ SELECTIEPROEF ^ </pattern>
+		<template>
+<srai>SELECTIEPOGINGEN</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>VOOR WELKE DATUM MOET IK MIJ AANMELDEN IN STUDIELINK</pattern>
