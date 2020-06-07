@@ -38,6 +38,27 @@ Verder vind je op deze pagina meer informatie over de
 selectieprocedure.
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ WAARVOOR GELDT ^ SELECTIE ^ </pattern>
+		<template>
+<srai>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ OPLEIDINGEN IS ER SELECTIE ^ </pattern>
+		<template>
+<srai>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ OPLEIDINGEN IS ER ^ SELECTIE dash PROCEDURE ^ </pattern>
+		<template>
+<srai>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>HOE ZIT HET MET DE MATCHING</pattern>
@@ -50,6 +71,20 @@ Als op 15 januari blijkt dat de aanmeldingen voor een numerus
 fixusopleiding lager of gelijk zijn aan het aantal beschikbare
 plaatsen vindt er geen selectie plaats. Studenten met een
 Nederlandse vooropleiding  doen mee aan de <a href="https://www.rug.nl/education/faq//education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/matching">matching</a>.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ MATCHING ^ </pattern>
+		<template>
+<srai>HOE ZIT HET MET DE MATCHING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ HOE WERKT DE MATCHING ^ </pattern>
+		<template>
+<srai>HOE ZIT HET MET DE MATCHING</srai>
 		</template>
 	</category>
 
@@ -76,6 +111,19 @@ Nederlandse vooropleiding  doen mee aan de <a href="https://www.rug.nl/educatio
 		</template>
 	</category>
 	
+	<category>
+		<pattern> ^ MELD IK MIJ AAN VOOR ^ NUMERUS FIXUSOPLEIDING ^ </pattern>
+		<template>
+<srai>AANMELDEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ IK WIL ME AANMELDEN VOOR NUMERUS FIXUS ^ </pattern>
+		<template>
+<srai>AANMELDEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>SELECTIEPOGINGEN</pattern>
@@ -243,6 +291,13 @@ De bezwaartermijn bedraagt zes weken.
 	
 	<category>
 		<pattern> ^ AANKLAGEN ^ </pattern>
+		<template>
+<srai>HOE KAN IK BEZWAAR AANTEKENEN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ BEZWAAR AANTEKENEN ^ </pattern>
 		<template>
 <srai>HOE KAN IK BEZWAAR AANTEKENEN</srai>
 		</template>
