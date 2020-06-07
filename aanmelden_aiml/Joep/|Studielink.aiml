@@ -26,6 +26,13 @@ vind je op de pagina <a href="https://www.rug.nl/education/faq/education/master
 onze website.
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ WAT ^ STUDIELINK ^ </pattern>
+		<template>
+<srai>WAT IS STUDIELINK</srai>
+		</template>
+	</category>
 
 
 	<category>
@@ -36,8 +43,42 @@ Studielink vind je in de digitale <a href="http://info.studielink.nl/nl/studente
 Studielink.
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ WAT ALS IK VRAGEN HEB OVER STUDIELINK ^ </pattern>
+		<template>
+<srai>WAAR KAN IK TERECHT MET MIJN VRAGEN OVER HET GEBRUIK VAN STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ VRAGEN OVER STUDIELINK ^ </pattern>
+		<template>
+<srai>WAAR KAN IK TERECHT MET MIJN VRAGEN OVER HET GEBRUIK VAN STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ EEN VRAAG OVER STUDIELINK ^ </pattern>
+		<template>
+<srai>WAAR KAN IK TERECHT MET MIJN VRAGEN OVER HET GEBRUIK VAN STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ VRAGEN ^ BETREFT STUDIELINK ^ </pattern>
+		<template>
+<srai>WAAR KAN IK TERECHT MET MIJN VRAGEN OVER HET GEBRUIK VAN STUDIELINK</srai>
+		</template>
+	</category>
 
-
+	<category>
+		<pattern> ^ VRAAG ^ BETREFT STUDIELINK ^ </pattern>
+		<template>
+<srai>WAAR KAN IK TERECHT MET MIJN VRAGEN OVER HET GEBRUIK VAN STUDIELINK</srai>
+		</template>
+	</category>
+	
 	<category>
 		<pattern>STORINGEN EN ONDERHOUD STUDIELINK</pattern>
 		<template>
