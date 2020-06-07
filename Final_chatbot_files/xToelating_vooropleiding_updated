@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WELKE OPLEIDINGEN GEVEN RECHTSTREEKS TOELATING TOT DE UNIVERSITEIT</pattern>
+		<template>
+Diploma’s die rechtstreeks toelating geven zijn: 
+<ol>
+<li>een vwo-diploma;</li>
+<li>oude stijl hbs- of gymnasiumdiploma;</li>
+<li>een propedeuse getuigschrift van de meeste hbo-instellingen in
+Nederland;</li>
+<li>een propedeuse getuigschrift van de meeste instellingen voor
+wetenschappelijk onderwijs in Nederland en van de Open
+Universiteit;</li>
+<li>een hbo-diploma van de meeste instellingen voor Hoger Beroeps
+Onderwijs in Nederland;</li>
+<li>einddiploma’s van wetenschappelijk onderwijs en
+de Open Universiteit.</li>
+</ol>
+
+Let op!
+Sommige bachelopleidingen stellen aanvullende eisen in de
+vorm van <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma">vwo-pakketeisen.</a>
+		</template>
+	</category>
+	
+<category>
+    <pattern>^ RECHTSTREEKS TOELATING ^</pattern>
+    <template>
+        <srai>WELKE OPLEIDINGEN GEVEN RECHTSTREEKS TOELATING TOT DE UNIVERSITEIT</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ RECHTSTREEKSE TOELATING ^</pattern>
+    <template>
+        <srai>WELKE OPLEIDINGEN GEVEN RECHTSTREEKS TOELATING TOT DE UNIVERSITEIT</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ DIRECTE TOELATING ^</pattern>
+    <template>
+        <srai>WELKE OPLEIDINGEN GEVEN RECHTSTREEKS TOELATING TOT DE UNIVERSITEIT</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ DIPLOMA ^ TOELATING ^</pattern>
+    <template>
+        <srai>WELKE OPLEIDINGEN GEVEN RECHTSTREEKS TOELATING TOT DE UNIVERSITEIT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>BEN IK MET EEN VWO dash DIPLOMA TOELAATBAAR TOT EEN BACHELOROPLEIDING</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma  </a>op onze website.</template>
+</category>
+<category>
+    <pattern>^ VWO ^ TOELAATBAAR ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+
+<category>
+    <pattern>BEN IK MET EEN VWO dash DIPLOMA OUDE STIJL TOELAATBAAR TOT EEN BACHELOROPLEIDING</pattern>
+    <template>Ja, je bent met een vwo-diploma oude stijl in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen aanvullende ingangseisen c.q. profieleisen.
+
+Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website of je neemt contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
+</category>
+<category>
+    <pattern>^ VWO ^ OUDE STIJL ^</pattern>
+    <template>Je bent met een vwo-diploma oude stijl in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen aanvullende ingangseisen c.q. profieleisen.
+
+Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website of je neemt contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
+</category>
+<category>
+    <pattern>^ VWO dash DIPLOMA ^ OUDE STIJL ^</pattern>
+    <template>Je bent met een vwo-diploma oude stijl in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen aanvullende ingangseisen c.q. profieleisen.
+
+Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website of je neemt contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
+</category>
+<category>
+    <pattern>^ VWODIPLOMA ^ OUDE STIJL ^ </pattern>
+    <template>Je bent met een vwo-diploma oude stijl in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen aanvullende ingangseisen c.q. profieleisen.
+
+Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website of je neemt contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
+</category>
+
+<category>
+    <pattern>WAT KAN IK DOEN ALS MIJN PROFIEL NIET TOEREIKEND IS VOOR DE OPLEIDING VAN MIJN VOORKEUR</pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL NIET TOEREIKEND ^ OPLEIDING ^ </pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL NIET GESCHIKT ^ OPLEIDING ^</pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL NIET GESCHIKT ^ STUDIE ^</pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL NIET TOEREIKEND ^ STUDIE ^</pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+
+<category>
+    <pattern>KAN IK OOK TOEGELATEN WORDEN MET DEELCERTIFICATEN ALS IK MIJN VWO DIPLOMA NIET HAAL</pattern>
+    <template>Nee, de Rijksuniversiteit Groningen accepteert geen deelcertificaten.
+
+Als je ouder dan 21 jaar bent, kun je wel een colloquium doctum (toelatingsexamen) doen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/colloquium-doctum-">Colloquium doctum</a> op onze website.</template>
+</category>
+
+<category>
+    <pattern>^ DEELCERTIFICATEN ^</pattern>
+    <template>De Rijksuniversiteit Groningen accepteert geen deelcertificaten.
+
+Als je ouder dan 21 jaar bent, kun je wel een colloquium doctum (toelatingsexamen) doen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/colloquium-doctum-">Colloquium doctum</a> op onze website.</template>
+</category>
+
+
+	<category>
+		<pattern>HBO VOOROPLEIDING (BACHELOR EN PROPEDEUSE)</pattern>
+		<template>
+<ul>
+<li>
+<a href="?tcid=verint_3_7394_10545">Ben ik met een hbo-propedeuse of -diploma toelaatbaar tot een universitaire bacheloropleiding?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10546">Maakt het uit welke hbo-propedeuse ik heb gehaald als ik naar de universiteit wil?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10547">Kan ik instromen in een hoger studiejaar?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10548">Kan ik met een hbo-bachelordiploma instromen in een masterprogramma?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10549">Heb ik recht op extra studiefinanciering?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10550">Kan ik stoppen als het niet bevalt?</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+<category>
+    <pattern>BEN IK MET EEN HBO dash PROPEDEUSE OF dash DIPLOMA TOELAATBAAR TOT EEN UNIVERSITAIRE BACHELOROPLEIDING</pattern>
+    <template>Dat is afhankelijk van of je een hbo-propedeuse of een volledige hbo-diploma hebt behaald.
+
+Hbo-propedeuse diploma
+Je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.
+ 
+Hbo-bachelor diploma
+Je bent met een hbo-bachelor diploma toelaatbaar tot een bacheloropleiding. Sommige bacheloropleidingen hebben aanvullende toelatingseisen. Daarnaast is het soms mogelijk om vrijstellingen te krijgen voor bepaalde vakken.
+
+Meer informatie over de aanvullende toelatingseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma">VWO-diploma</a> op onze website.
+
+Neem voor meer informatie over vrijstellingen contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.</template>
+</category>
+<category>
+    <pattern>^ HBO ^ TOELAATBAAR ^</pattern>
+    <template>Dat is afhankelijk van of je een hbo-propedeuse of een volledige hbo-diploma hebt behaald.
+
+Hbo-propedeuse diploma
+Je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.
+ 
+Hbo-bachelor diploma
+Je bent met een hbo-bachelor diploma toelaatbaar tot een bacheloropleiding. Sommige bacheloropleidingen hebben aanvullende toelatingseisen. Daarnaast is het soms mogelijk om vrijstellingen te krijgen voor bepaalde vakken.
+
+Meer informatie over de aanvullende toelatingseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma">VWO-diploma</a> op onze website.
+
+Neem voor meer informatie over vrijstellingen contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.
+</template>
+</category>
+<category>
+    <pattern>^ HBO dash DIPLOMA ^ TOELAATBAAR ^</pattern>
+    <template>Dat is afhankelijk van of je een hbo-propedeuse of een volledige hbo-diploma hebt behaald.
+
+Hbo-propedeuse diploma
+Je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.
+ 
+Hbo-bachelor diploma
+Je bent met een hbo-bachelor diploma toelaatbaar tot een bacheloropleiding. Sommige bacheloropleidingen hebben aanvullende toelatingseisen. Daarnaast is het soms mogelijk om vrijstellingen te krijgen voor bepaalde vakken.
+
+Meer informatie over de aanvullende toelatingseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma">VWO-diploma</a> op onze website.
+
+Neem voor meer informatie over vrijstellingen contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.
+</template>
+</category>
+<category>
+    <pattern>^ HBO dash PROPEDEUSE ^ TOELAATBAAR ^</pattern>
+    <template>Dat is afhankelijk van of je een hbo-propedeuse of een volledige hbo-diploma hebt behaald.
+
+Hbo-propedeuse diploma
+Je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.
+ 
+Hbo-bachelor diploma
+Je bent met een hbo-bachelor diploma toelaatbaar tot een bacheloropleiding. Sommige bacheloropleidingen hebben aanvullende toelatingseisen. Daarnaast is het soms mogelijk om vrijstellingen te krijgen voor bepaalde vakken.
+
+Meer informatie over de aanvullende toelatingseisen vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma">VWO-diploma</a> op onze website.
+
+Neem voor meer informatie over vrijstellingen contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding.
+</template>
+</category>
+<category>
+    <pattern>MAAKT HET UIT WELKE HBO dash PROPEDEUSE IK HEB GEHAALD ALS IK NAAR DE UNIVERSITEIT WIL</pattern>
+    <template>Ja, je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a>  van de betreffende opleiding.</template>
+</category>
+<category>
+    <pattern>^ MAAKT HET UIT WELKE HBO dash PROPEDEUSE ^</pattern>
+    <template>Ja, je bent niet automatisch toelaatbaar tot een bacheloropleiding. De bacheloropleiding kan aanvullende eisen stellen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/hbo-propedeuse">HBO-propedeuse</a> op onze website of neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a>  van de betreffende opleiding.</template>
+</category>
+
+<category>
+    <pattern>KAN IK VANAF HET HBO INSTROMEN IN EEN HOGER STUDIEJAAR?</pattern>
+    <template>Dat is afhankelijk van je hbo-opleiding en de opleiding die je wilt gaan volgen aan de Rijksuniversiteit Groningen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ HBO ^ INSTROMEN ^</pattern>
+    <template>Dat is afhankelijk van je hbo-opleiding en de opleiding die je wilt gaan volgen aan de Rijksuniversiteit Groningen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ INSTROMEN ^ HBO ^</pattern>
+    <template>Dat is afhankelijk van je hbo-opleiding en de opleiding die je wilt gaan volgen aan de Rijksuniversiteit Groningen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+
+<category>
+    <pattern>KAN IK MET EEN HBO dash BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA</pattern>
+    <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ HBO dash BACHELORDIPLOMA ^ MASTERPROGRAMMA ^</pattern>
+    <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ HBO dash DIPLOMA ^ MASTERPROGRAMMA ^</pattern>
+    <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ HBO ^ MASTERPROGRAMMA ^</pattern>
+    <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ HBO dash BACHELORDIPLOMA ^ MASTER ^</pattern>
+    <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ HBO dash DIPLOMA ^ MASTER ^</pattern>
+    <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ HBO ^ MASTER ^</pattern>
+    <template>Nee, je kunt met een hbo-bachelordiploma niet meteen aan een masteropleiding beginnen. Soms is het mogelijk om via een pre-masterprogramma in te stromen in een masteropleiding.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/master/">Pre-masterprogramma's</a> op onze website.</template>
+</category>
+
+<category>
+    <pattern>HEB IK RECHT OP EXTRA STUDIEFINANCIERING ^ HBO ^</pattern>
+    <template>Nee, je hebt geen recht op extra studiefinanciering.
+
+Meer informatie vind je op de pagina <a href="https://duo.nl/particulier/opleiding-stoppen-of-wijzigen/een-master-gaan-doen.jsp">Een master gaan doen</a> op de website van DUO.</template>
+</category>
+<category>
+    <pattern>^ EXTRA STUDIEFINANCIERING ^ HBO ^</pattern>
+    <template>Nee, je hebt geen recht op extra studiefinanciering.
+
+Meer informatie vind je op de pagina <a href="https://duo.nl/particulier/opleiding-stoppen-of-wijzigen/een-master-gaan-doen.jsp">Een master gaan doen</a> op de website van DUO.</template>
+</category>
+<category>
+    <pattern>^ HBO ^ EXTRA STUDIEFINANCIERING ^</pattern>
+    <template>Nee, je hebt geen recht op extra studiefinanciering.
+
+Meer informatie vind je op de pagina <a href="https://duo.nl/particulier/opleiding-stoppen-of-wijzigen/een-master-gaan-doen.jsp">Een master gaan doen</a> op de website van DUO.</template>
+</category>
+
+<category>
+    <pattern>KAN IK STOPPEN ALS HET NIET BEVALT</pattern>
+    <template>Ja, je kunt via Studielink een verzoek tot uitschrijven indienen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/uitschrijven">Uitschrijven</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ STOPPEN ^ OPLEIDING ^</pattern>
+    <template>Ja, je kunt via Studielink een verzoek tot uitschrijven indienen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/uitschrijven">Uitschrijven</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ STOPPEN ^ STUDIE ^</pattern>
+    <template>Ja, je kunt via Studielink een verzoek tot uitschrijven indienen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/uitschrijven">Uitschrijven</a> op onze website.</template>
+</category>
+
+<category>
+    <pattern>BEN IK MET EEN BUITENLANDSE DIPLOMA TOELAATBAAR TOT DE UNIVERSITEIT</pattern>
+    <template>Dat is afhankelijk van de buitenlandse diploma.
+
+Meer informatie vind je in:
+<ul>
+    <li>
+        <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/">Bachelor admissions guide</a>
+    </li>
+    <li>
+        <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/">Master admissions guide</a>
+    </li>
+</ul></template>
+</category>
+<category>
+    <pattern>^ BUITENLANDSE DIPLOMA ^ TOELAATBAAR ^</pattern>
+    <template>Dat is afhankelijk van de buitenlandse diploma.
+
+Meer informatie vind je in:
+<ul>
+    <li>
+        <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/">Bachelor admissions guide</a>
+    </li>
+    <li>
+        <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/">Master admissions guide</a>
+    </li>
+</ul></template>
+</category>
+<category>
+    <pattern>^ BUITENLANDS DIPLOMA ^ TOELAATBAAR ^</pattern>
+    <template>Dat is afhankelijk van de buitenlandse diploma.
+
+Meer informatie vind je in:
+<ul>
+    <li>
+        <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/">Bachelor admissions guide</a>
+    </li>
+    <li>
+        <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/">Master admissions guide</a>
+    </li>
+</ul></template>
+</category>
+<category>
+    <pattern>^ BUITENLANDSE VOOROPLEIDING ^ TOELAATBAAR ^</pattern>
+    <template>Dat is afhankelijk van de buitenlandse diploma.
+
+Meer informatie vind je in:
+<ul>
+    <li>
+        <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/application-admission-procedure/">Bachelor admissions guide</a>
+    </li>
+    <li>
+        <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/">Master admissions guide</a>
+    </li>
+</ul></template>
+</category>
+
+<category>
+    <pattern>TOELATING VIA HET VOORBEREIDEND JAAR VOOR ANDERSTALIGEN</pattern>
+    <template>Het VBJ bereidt hoger opgeleide anderstaligen voor op een studie aan de Hanzehogeschool Groningen of de Rijksuniversiteit Groningen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/refugee-student/preparatory-year">Voorbereidend Jaar (VBJ)</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ VBJ ^</pattern>
+    <template>Het VBJ bereidt hoger opgeleide anderstaligen voor op een studie aan de Hanzehogeschool Groningen of de Rijksuniversiteit Groningen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/refugee-student/preparatory-year">Voorbereidend Jaar (VBJ)</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ VOORBEREIDEND JAAR ^</pattern>
+    <template>Het VBJ bereidt hoger opgeleide anderstaligen voor op een studie aan de Hanzehogeschool Groningen of de Rijksuniversiteit Groningen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/international-students/admission-and-application/refugee-student/preparatory-year">Voorbereidend Jaar (VBJ)</a> op onze website.</template>
+</category>
+
+	<category>
+		<pattern>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</pattern>
+		<template>
+        Als je geen diploma hebt dat rechtstreeks toelating biedt tot een universitaire opleiding, kun je je niet als student inschrijven aan de Rijksuniversiteit Groningen. Er zijn wel andere mogelijkheden:
+        <ul>
+            <li>Je kunt je bij sommige opleidingen inschrijven voor <a href="https://www.rug.nl/corporate/onderwijs/opleidingen/open">open colleges</a>.</li>
+            <li>Als je ouder bent dan 21 jaar kun je mee doen aan het colloquium doctum (toelatingsexamen).</li>
+            <li>Als je jonger bent dan 21 jaar is het wellicht mogelijk om een propedeuse van een hbo-opleiding of het vwo-diploma te halen.</li>
+            <li>Bij de <a href="http://www.ou.nl/">Open Universiteit</a> is het wel mogelijk om modules te volgen zonder dat je een diploma hoeft te overleggen.</li>
+        </ul>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ NIET ^ JUISTE ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+
+    <category>
+	    <pattern>^ GEEN ^ JUISTE ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VERKEERDE ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ GEEN ^ VOOROPLEIDING ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+
+	<category>
+	    <pattern>^ NIET ^ JUISTE ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+
+    <category>
+	    <pattern>^ GEEN ^ JUIST ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VERKEERDE ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ GEEN ^ DIPLOMA ^</pattern>
+	    <template>
+	        <srai>IK HEB NIET DE JUISTE VOOROPLEIDING KAN IK DAN TOCH NAAR DE UNIVERSITEIT</srai>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>IK HEB EEN HAVO dash DIPLOMA WAT ZIJN DE MOGELIJKHEDEN</pattern>
+        <template>
+            Na de havo kun je een jaar naar een hbo-instelling gaan om je hbo-propedeuse te halen. In principe geeft iedere hbo-propedeuse toegang tot de universiteit. Sommige bacheloropleidingen kennen daarnaast bepaalde ingangseisen. Neem contact op met de faculteit voor meer informatie over deze ingangseisen. Als je 21 jaar of ouder bent, is het wellicht ook mogelijk om een <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/colloquium-doctum-">colloquium doctum</a> te doen.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ HAVO dash DIPLOMA ^</pattern>
+        <template>
+            <srai>IK HEB EEN HAVO dash DIPLOMA WAT ZIJN DE MOGELIJKHEDEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ HAVO ^</pattern>
+        <template>
+            <srai>IK HEB EEN HAVO dash DIPLOMA WAT ZIJN DE MOGELIJKHEDEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COLLOQUIUM DOCTUM</pattern>
+        <template>
+            Informatie over het colloquium doctum en de aanmeldingsprocedure vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/colloquium-doctum-">Colloquium doctum</a> op onze website.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ COLLOQUIUM ^ DOCTUM ^</pattern>
+        <template>
+            <srai>COLLOQUIUM DOCTUM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</pattern>
+        <template>
+            Ieder masterprogramma heeft eigen toelatingsvoorwaarden. Bij de meeste masterprogramma’s is de bachelor die daar aan vooraf gaat voldoende. Soms zijn aanvullende eisen gesteld.
+            Meer informatie vind je op de <a href="https://www.rug.nl/masters/">masteropleidingspagina's</a> en de pagina <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-masteropleiding">Inschrijfprocedure masteropleiding</a> op onze website.
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSTROMEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSTROMEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSTROMEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSCHRIJVEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSCHRIJVEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSCHRIJVEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ AANMELDEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ AANMELDEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ AANMELDEN ^ MASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSTROMEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSTROMEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSTROMEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ INSCHRIJVEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ INSCHRIJVEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ INSCHRIJVEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELORDIPLOMA ^ AANMELDEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ AANMELDEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR dash DIPLOMA ^ AANMELDEN ^ MASTER ^</pattern>
+        <template>
+            <srai>KAN IK MET EEN UNIVERSITAIR BACHELORDIPLOMA INSTROMEN IN EEN MASTERPROGRAMMA VAN DE RUG</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</pattern>
+        <template>
+            Nee, je kunt nog niet met mastervakken beginnen als je je bacheloropleiding nog niet hebt afgerond. Je kunt alleen aan een masteropleiding beginnen als je in het bezit bent van een bachelordiploma.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOR ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOR ^ NIET ^ AFGEROND ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEROND ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEROND ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEROND ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTERVAKKEN ^ BACHELOR ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MASTER ^ BACHELOR ^ NIET ^ AFGEMAAKT ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOROPLEIDING ^ NIET ^ AFGEMAAKT ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEMAAKT ^ MASTERVAKKEN ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ BACHELOR ^ NIET ^ AFGEMAAKT ^ MASTER ^</pattern>
+        <template>
+            <srai>IK WIL BEGINNEN AAN MASTERVAKKEN EN HEB MIJN BACHELOROPLEIDING NOG NIET AFGEROND KAN IK ME ALVAST REGISTREREN VOOR DE MASTEROPLEIDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</pattern>
+        <template>
+            Informatie over de inschrijfprocedure voor Nederlandse studenten vind je op de pagina <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/inschrijfprocedure-masteropleiding">Inschrijfprocedure masteropleiding</a> op onze website.
+            <split/>
+            Informatie over de inschrijfprocedure voor internationale studenten en Nederlandse studenten met een buitenlandse vooropleiding vind je op de pagina <a href="https://www.rug.nl/education/master/international-students/admission-and-application/application-admission-procedure/">Admissions guide</a> op onze website.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ RESEARCHMASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTER ^ AANVULLENDE ^ TOELATINGSEISEN ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTER ^ AANVULLENDE ^ TOELATINGS EISEN ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MASTER ^ AANVULLENDE ^ EISEN ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ AANVULLENDE ^ TOELATINGSEISEN ^ MASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ AANVULLENDE ^ TOELATINGS EISEN ^ MASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ AANVULLENDE ^ EISEN ^ MASTER ^</pattern>
+        <template>
+            <srai>HOE MELD IK ME AAN VOOR EEN RESEARCHMASTER OF ANDERE MASTER MET AANVULLENDE TOELATINGSEISEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WAT IS EEN VERKLARING TOELATING TOT HET AFSLUITEND EXAMEN lparen VTAE rparen</pattern>
+        <template>
+            Je hebt een VTAE nodig als je niet automatisch toelaatbaar bent tot een opleiding. De VTAE kun je aanvragen bij de <a href="https://www.rug.nl//education/contact/onderwijsadministraties">onderwijsadministratie</a> van de betreffende faculteit.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ VTAE ^</pattern>
+        <template>
+            <srai>WAT IS EEN VERKLARING TOELATING TOT HET AFSLUITEND EXAMEN lparen VTAE rparen</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ VERKLARING ^ TOELATING ^ AFSLUITEND ^ EXAMEN ^</pattern>
+        <template>
+            <srai>WAT IS EEN VERKLARING TOELATING TOT HET AFSLUITEND EXAMEN lparen VTAE rparen</srai>
+        </template>
+    </category>
+
+</aiml>
