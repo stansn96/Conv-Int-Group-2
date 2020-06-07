@@ -28,7 +28,7 @@ wachtwoord.
 	</category>
 	
 	<category>
-		<pattern> ^ RUG-ACCOUNT? ^ </pattern>
+		<pattern> ^ RUG dash ACCOUNT ^ </pattern>
 		<template>
 <srai>WAT IS EEN RUG-ACCOUNT</srai>
 		</template>
@@ -99,7 +99,7 @@ de <a href="https://www.rug.nl/education/faq//society-business/centre-for-infor
 	</category>
 
 	<category>
-		<pattern>HOE LANG BLIJFT MIJN RUG dash ACCOUNT ACTIEF</pattern>
+		<pattern>HOE LANG BLIJFT MIJN RUG-ACCOUNT ACTIEF</pattern>
 		<template>
 Zolang je ingeschreven staat voor een opleiding aan de RUG blijft
 je RUG-account actief.
@@ -149,6 +149,20 @@ je RUG-account actief.
 </ul>
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ HOE BLOKEER IK MIJN RUG dash ACCOUNT ^ </pattern>
+		<template>
+<srai>BLOKKEREN RUG-ACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ RUG dash ACCOUNT BLOKKEREN ^ </pattern>
+		<template>
+<srai>BLOKKEREN RUG-ACCOUNT</srai>
+		</template>
+	</category>
 
 	<category>
 		<pattern>OPHEFFEN RUG-ACCOUNT</pattern>
@@ -164,6 +178,20 @@ je RUG-account actief.
 <a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10605">Wat gebeurt er met mijn RUG-account als ik binnen een jaar met een nieuwe opleiding begin?</a>
 </li>
 </ul>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ RUG dash ACCOUNT OPHEFFEN ^ </pattern>
+		<template>
+<srai>OPHEFFEN RUG-ACCOUNT</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ RUG dash ACCOUNT VERWIJDEREN ^ </pattern>
+		<template>
+<srai>OPHEFFEN RUG-ACCOUNT</srai>
 		</template>
 	</category>
 
