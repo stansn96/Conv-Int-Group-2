@@ -75,7 +75,7 @@ Nederlandse vooropleiding  doen mee aan de <a href="https://www.rug.nl/educatio
 	</category>
 	
 	<category>
-		<pattern> ^ MATCHING ^ </pattern>
+		<pattern> ^ MATCHING VOOR NUMEROS ^ </pattern>
 		<template>
 <srai>HOE ZIT HET MET DE MATCHING</srai>
 		</template>
