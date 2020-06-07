@@ -306,5 +306,28 @@ hebt nu toegang tot je lokale data op je pc, je data op de uwp en
 de applicaties via <a href="http://uwp.rug.nl/" target="_blank">uwp.rug.nl</a>.
 		</template>
 	</category>
+	
+	<category>
+		<pattern> ^ HOE KAN IK NA MIJN STUDIE ^ GEGEVENS BEVEILIGEN ^ </pattern>
+		<template>
+<srai>MIJN STUDIE EINDIGT, HOE STEL IK MIJN GEGEVENS VEILIG</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ HOE KAN IK NA MIJN STUDIE ^ GEGEVENS VEILIG STELLEN ^ </pattern>
+		<template>
+<srai>MIJN STUDIE EINDIGT, HOE STEL IK MIJN GEGEVENS VEILIG</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ NA HET EINDE VAN MIJN STUDIE GEGEVENS VEILIG ^ </pattern>
+		<template>
+<srai>MIJN STUDIE EINDIGT, HOE STEL IK MIJN GEGEVENS VEILIG</srai>
+		</template>
+	</category>
+
+
 
 </aiml>
