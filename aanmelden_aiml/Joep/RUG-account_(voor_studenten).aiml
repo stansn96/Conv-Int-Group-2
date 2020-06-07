@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <aiml version="2.0"> 
 	<category>
-		<pattern>WAT IS EEN RUG-ACCOUNT</pattern>
+		<pattern>WAT IS EEN RUG dash ACCOUNT</pattern>
 		<template>
 Met het RUG-account heb je toegang tot universitaire voorzieningen
 zoals: 
@@ -30,7 +30,7 @@ wachtwoord.
 	<category>
 		<pattern> ^ RUG dash ACCOUNT ^ </pattern>
 		<template>
-<srai>WAT IS EEN RUG-ACCOUNT</srai>
+<srai>WAT IS EEN RUG dash ACCOUNT</srai>
 		</template>
 	</category>
 	
@@ -44,12 +44,12 @@ wachtwoord.
 	<category>
 		<pattern> ^ WAT VOOR ACCOUNT ^ </pattern>
 		<template>
-<srai>WAT IS EEN RUG-ACCOUNT</srai>
+<srai>WAT IS EEN RUG dash ACCOUNT</srai>
 		</template>
 	</category>
 
 	<category>
-		<pattern>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</pattern>
+		<pattern>WANNEER HEB IK RECHT OP EEN RUG dash ACCOUNT</pattern>
 		<template>
 Iedereen die zich via Studielink voor een opleiding aan de RUG
 heeft aangemeld krijgt een RUG-account. 
@@ -62,7 +62,7 @@ RUG-account verwijderd.
 	<category>
 		<pattern> ^ HEB IK RECHT ^ RUG dash ACCOUNT ^ </pattern>
 		<template>
-<srai>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</srai>
+<srai>WANNEER HEB IK RECHT OP EEN RUG dahs ACCOUNT</srai>
 		</template>
 	</category>
 	
@@ -76,12 +76,12 @@ RUG-account verwijderd.
 	<category>
 		<pattern> ^ HEB IK RECHT ^ RUG ACCOUNT ^ </pattern>
 		<template>
-<srai>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</srai>
+<srai>WANNEER HEB IK RECHT OP EEN RUG dash ACCOUNT</srai>
 		</template>
 	</category>
 
 	<category>
-		<pattern>HOE KAN IK MIJN RUG-ACCOUNT ACTIVEREN</pattern>
+		<pattern>HOE KAN IK MIJN RUG dash ACCOUNT ACTIVEREN</pattern>
 		<template>
 Je activeert je RUG-account via de <a href="https://diy.rug.nl/pwm/" target="_blank">Password Self
 Service Portal</a>.
@@ -99,7 +99,7 @@ de <a href="https://www.rug.nl/education/faq//society-business/centre-for-infor
 	</category>
 
 	<category>
-		<pattern>HOE LANG BLIJFT MIJN RUG-ACCOUNT ACTIEF</pattern>
+		<pattern>HOE LANG BLIJFT MIJN RUG dash ACCOUNT ACTIEF</pattern>
 		<template>
 Zolang je ingeschreven staat voor een opleiding aan de RUG blijft
 je RUG-account actief.
@@ -109,7 +109,7 @@ je RUG-account actief.
 	<category>
 		<pattern> ^ HOELANG ^ ACTIEF ^ </pattern>
 		<template>
-<srai>HOE LANG BLIJFT MIJN RUG-ACCOUNT ACTIEF</srai>
+<srai>HOE LANG BLIJFT MIJN RUG dash ACCOUNT ACTIEF</srai>
 		</template>
 	</category>
 
@@ -128,7 +128,7 @@ je RUG-account actief.
 	</category>
 
 	<category>
-		<pattern>BLOKKEREN RUG-ACCOUNT</pattern>
+		<pattern>BLOKKEREN RUG dash ACCOUNT</pattern>
 		<template>
 <ul>
 <li>
@@ -153,19 +153,19 @@ je RUG-account actief.
 	<category>
 		<pattern> ^ HOE BLOKEER IK MIJN RUG dash ACCOUNT ^ </pattern>
 		<template>
-<srai>BLOKKEREN RUG-ACCOUNT</srai>
+<srai>BLOKKEREN RUG dash ACCOUNT</srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern> ^ RUG dash ACCOUNT BLOKKEREN ^ </pattern>
 		<template>
-<srai>BLOKKEREN RUG-ACCOUNT</srai>
+<srai>BLOKKEREN RUG dash ACCOUNT</srai>
 		</template>
 	</category>
 
 	<category>
-		<pattern>OPHEFFEN RUG-ACCOUNT</pattern>
+		<pattern>OPHEFFEN RUG dash ACCOUNT</pattern>
 		<template>
 <ul>
 <li>
@@ -184,14 +184,14 @@ je RUG-account actief.
 	<category>
 		<pattern> ^ RUG dash ACCOUNT OPHEFFEN ^ </pattern>
 		<template>
-<srai>OPHEFFEN RUG-ACCOUNT</srai>
+<srai>OPHEFFEN RUG dash ACCOUNT</srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern> ^ RUG dash ACCOUNT VERWIJDEREN ^ </pattern>
 		<template>
-<srai>OPHEFFEN RUG-ACCOUNT</srai>
+<srai>OPHEFFEN RUG dash ACCOUNT</srai>
 		</template>
 	</category>
 
