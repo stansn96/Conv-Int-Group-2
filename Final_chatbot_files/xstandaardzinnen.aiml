@@ -243,5 +243,98 @@
         </random>
     </template>
 </category>
+
+<!-- varianten van ja/nee -->
+
+    <category>
+        <pattern>_ JOAH ^</pattern>
+        <template>
+            <srai><star/>^ JA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ JUP ^</pattern>
+        <template>
+            <srai><star/>^ JA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ JEP ^</pattern>
+        <template>
+            <srai><star/>^ JA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ JAA ^</pattern>
+        <template>
+            <srai><star/>^ JA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ JAAA ^</pattern>
+        <template>
+            <srai><star/>^ JA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ JO ^</pattern>
+        <template>
+            <srai><star/>^ JA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ YES ^</pattern>
+        <template>
+            <srai><star/>^ JA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NEH ^</pattern>
+        <template>
+            <srai><star/>^ NEE ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NEEE ^</pattern>
+        <template>
+            <srai><star/>^ NEE ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NO ^</pattern>
+        <template>
+            <srai><star/>^ NEE ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NEIN ^</pattern>
+        <template>
+            <srai><star/>^ NEE ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NEEJ ^</pattern>
+        <template>
+            <srai><star/>^ NEE ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NEUH ^</pattern>
+        <template>
+            <srai><star/>^ NEE ^<start index="2"/></srai>
+        </template>
+    </category>
     
 </aiml>
