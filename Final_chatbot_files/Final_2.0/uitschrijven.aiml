@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+<!-- Spelfoutcorrecties -->
+    <category>
+        <pattern>_ UITSCRIJVEN ^</pattern>
+        <template>
+            <srai><star/>^ UITSCHRIJVEN ^<start index="2"/></srai>
+        </template>
+    </category>
+    
+
+<!-- EINDE Spelfoutcorrecties-->
+    <category>
+        <pattern>^ UITSCHRIJVEN ^</pattern>
+        <template>Wil je meer informatie over hoe je je moet uitschrijven?</template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>ja</set> ^</pattern>
+        <that>WIL JE MEER INFORMATIE OVER HOE JE JE MOET UITSCHRIJVEN</that>
+        <template><srai>HOE MOET IK MIJ UITSCHRIJVEN</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>nee</set> ^</pattern>
+        <that>WIL JE MEER INFORMATIE OVER HOE JE JE MOET UITSCHRIJVEN</that>
+        <template>Okee, wat zou je wel graag willen weten? Misschien een van onderstaande onderwerpen?
+            <ul>
+                <li>Word ik automatisch uitgeschreven na mijn afstuderen?</li>
+                <li>Per wanneer word ik uitgeschreven?</li>
+                <li>Ik doe nu twee studies maar ik wil me van eentje uitschrijven.</li>
+                <li>Ik heb een verkeerde uitschrijvingsdatum ingevuld.</li>
+                <li>Kan ik een uitschrijfverzoek terugdraaien?</li>
+                <li>Kan ik collegegeld terugkrijgen?</li>
+            </ul>
+            Ik help graag!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>nee</set> ^</pattern>
+        <that>^ IK HELP GRAAG</that>
+        <template>Kan ik je nog ergens anders mee helpen?</template>
+    </category>
+
+<!---->
+	<category>
+		<pattern>HOE MOET IK MIJ UITSCHRIJVEN</pattern>
+		<template>
+            Dien via Studielink een verzoek tot <a href="http://info.studielink.nl/nl/studenten/stappenplanstudielink/Pages/Default.aspx" target="_blank">uitschrijven</a> in.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ MIJ ^ UITSCHRIJVEN ^</pattern>
+	    <template><srai>HOE MOET IK MIJ UITSCHRIJVEN</srai></template>
+    </category>
+
+<!---->
+	<category>
+		<pattern>WORD IK NA MIJN AFSTUDEREN AUTOMATISCH UITGESCHREVEN</pattern>
+		<template>
+        Nee, je wordt na je afstuderen niet automatisch uitgeschreven. Je
+        moet zelf een verzoek tot uitschrijven indienen via
+        Studielink.
+        
+        Meer informatie vind je op de Student Portal pagina <a href="https://student.portal.rug.nl/infonet/studenten/inuitschrijving/uitschrijven/afstuderen">Afstuderen</a>.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ AUTOMATISCH UITGESCHREVEN ^</pattern>
+	    <template><srai>WORD IK NA MIJN AFSTUDEREN AUTOMATISCH UITGESCHREVEN</srai></template>
+    </category>
+	<!---->
+
+
+	<category>
+		<pattern>PER WANNEER WORD IK UITGESCHREVEN</pattern>
+		<template>
+        Dit is afhankelijk van de reden waarom je je wilt
+        uitschrijven.
+        
+        Ben je gestopt met je opleiding of ben je afgestudeerd of is er zake van een overlijdensgeval?
+
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ GESTOPT ^</pattern>
+	    <that>Ben je gestopt met je opleiding of ben je afgestudeerd of is er zake van een overlijdensgeval</that>
+	    <template>        
+	    Dan vindt de uitschrijving plaats de eerste van de volgende maand na het indienen van het verzoek.
+	    Meer informatie over <a href="https://student.portal.rug.nl/infonet/studenten/inuitschrijving/uitschrijven/">Uitschrijven</a> en <a href="https://student.portal.rug.nl/infonet/studenten/inuitschrijving/uitschrijven/afstuderen">Afstuderen</a> vind
+        je op de Student Portal.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ AFGESTUDEERD ^</pattern>
+        <that>Ben je gestopt met je opleiding of ben je afgestudeerd of is er zake van een overlijdensgeval</that>
+        <template>Dan vindt de uitschrijving plaats de eerste van de maand volgend op de maand waarin het examen is behaald.
+	    Meer informatie over <a href="https://student.portal.rug.nl/infonet/studenten/inuitschrijving/uitschrijven/">Uitschrijven</a> en <a href="https://student.portal.rug.nl/infonet/studenten/inuitschrijving/uitschrijven/afstuderen">Afstuderen</a> vind
+        je op de Student Portal.</template>
+    </category>
+    <category>
+        <pattern>^ OVERLIJDENSGEVAL ^</pattern>
+        <that>Ben je gestopt met je opleiding of ben je afgestudeerd of is er zake van een overlijdensgeval</that>
+        <template>Gecondoleerd. De uitschrijving vindt plaats op de datum van overlijden.</template>
+    </category>
+    
+    <!---->
+
+	<category>
+		<pattern>IK DOE TWEE STUDIES AAN DE RUG EN IK WIL MET EEN DAARVAN STOPPEN</pattern>
+		<template>
+        Dien via <a href="https://www.studielink.nl" target="_blank">Studielink</a> een verzoek tot uitschrijving
+        in voor één van de opleidingen.
+        
+        Meer informatie vind je op de pagina <a href="https://student.portal.rug.nl/infonet/studenten/inuitschrijving/uitschrijven/">Uitschrijven</a>
+        op de Student Portal.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ TWEE STUDIES ^ STOPPEN ^</pattern>
+	    <template><srai>IK DOE TWEE STUDIES AAN DE RUG EN IK WIL MET EEN DAARVAN STOPPEN</srai></template>
+    </category>
+
+	<!---->
+
+	<category>
+		<pattern>WAT MOET IK DOEN ALS IK EEN VERKEERDE UITSCHRIJVINGSDATUM IN STUDIELINK HEB INGEVULD</pattern>
+		<template>
+        Neem zo snel mogelijk contact op met <a href="https://www.rug.nl/education/information-services/">Information Services</a>.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ VERKEERDE DATUM ^ UITSCHRIJVEN ^</pattern>
+	    <template><srai>WAT MOET IK DOEN ALS IK EEN VERKEERDE UITSCHRIJVINGSDATUM IN STUDIELINK HEB INGEVULD</srai></template>
+    </category>
+
+<!---->
+
+	<category>
+		<pattern>KAN IK MIJN VERZOEK TOT UITSCHRIJVEN TERUGDRAAIEN</pattern>
+		<template>
+        Je kunt dit niet zelf wijzigen in Studielink. Neem zo snel mogelijk
+        contact op met <a href="https://www.rug.nl/education/information-services/">Information Services</a>.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ UITSCHRIJVEN ^ TERUGDRAAIEN ^</pattern>
+	    <template><srai>KAN IK MIJN VERZOEK TOT UITSCHRIJVEN TERUGDRAAIEN</srai></template>
+    </category>
+    <category>
+        <pattern>^ UITSCHRIJVEN ^ ANNULEREN ^</pattern>
+        <template><srai>KAN IK MIJN VERZOEK TOT UITSCHRIJVEN TERUGDRAAIEN</srai></template>
+    </category>
+    
+    <!---->
+
+	<category>
+		<pattern>RESTITUTIE COLLEGEGELD</pattern>
+		<template>
+        Je hebt recht op een teruggave (restitutie) van 1/12 van het
+        collegegeld voor elke maand van het studiejaar dat je niet meer
+        staat ingeschreven.
+        
+        Let op: Over de maanden juli en augustus vind geen
+        restitutie plaats.
+        
+        Meer informatie vind je op de onderstaande pagina's op onze
+        website:
+        <ul>
+            <li>
+            Bachelor:<a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/financien/collegegeld/restitutie">Restitutie collegegeld</a> 
+            </li>
+            <li>
+            Master:<a href="https://www.rug.nl/education/master/nederlandse-studenten/financien/collegegeld/restitutie">Restitutie collegegeld</a>
+            </li>
+        </ul>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ COLLEGEGELD TERUGKRIJGEN ^</pattern>
+	    <template><srai>RESTITUTIE COLLEGEGELD</srai></template>
+    </category>
+
+	
+</aiml>

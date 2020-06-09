@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HOE SCHRIJF IK ME IN BIJ DE RUG</pattern>
+		<template>
+De inschrijfprocedure die je moet volgen, is afhankelijk van de
+door jou gekozen opleiding, je vooropleiding en het feit of je al
+eens ingeschreven hebt gestaan aan de RUG.
+
+Informatie over de
+inschrijfprocedures voor Nederlandse studenten vind je op de
+onderstaande pagina's op onze website:
+
+<ul>
+<li>
+<a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor
+aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master
+aanmelding en inschrijving</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ SCHRIJF ^ RUG ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ SCHRIJF ^ OPLEIDING ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ SCHRIJF ^ STUDIE ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ MELD ^ RUG ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ MELD ^ OPLEIDING ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ MELD ^ STUDIE ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ INSCHRIJVEN ^ RUG ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+
+	<category>
+	    <pattern>^ INSCHRIJVEN ^ OPLEIDING ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ INSCHRIJVEN ^ STUDIE ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ AANMELDEN ^ RUG ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ AANMELDEN ^ OPLEIDING ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ AANMELDEN ^ STUDIE ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ RUG ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ OPLEIDING ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ STUDIE ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ RUG ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ OPLEIDING ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ STUDIE ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN BIJ DE RUG</srai>
+	    </template>
+    </category>
+
+	<category>
+		<pattern>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</pattern>
+		<template>
+Je schrijft je voor ieder studiejaar opnieuw in. Een
+studiejaar loopt van 1 september t/m 31 augustus.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ $IEDER ^ JAAR ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+	    </template>
+    </category>
+
+    <category>
+        <pattern>^ $ELK ^ JAAR ^ INSCHRIJVEN ^</pattern>
+        <template>
+            <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ $ELK ^ JAAR ^ AANMELDEN ^</pattern>
+        <template>
+            <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ $IEDER ^ JAAR ^ AANMELDEN^</pattern>
+        <template>
+            <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>^ $IEDER ^ COLLEGEJAAR ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+	    </template>
+    </category>
+
+    <category>
+        <pattern>^ $ELK ^ COLLEGEJAAR ^ INSCHRIJVEN ^</pattern>
+        <template>
+            <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ $ELK ^ COLLEGEJAAR ^ AANMELDEN ^</pattern>
+        <template>
+            <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ $IEDER ^ COLLEGEJAAR ^ AANMELDEN^</pattern>
+        <template>
+            <srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai>
+        </template>
+    </category>
+
+	<category>
+		<pattern>TOT WANNEER KAN IK ME INSCHRIJVEN</pattern>
+		<template>
+Je wordt per 1 september ingeschreven als je voor 31
+augustus via <a href="https://www.studielink.nl/" target="_blank">Studielink</a>een herinschrijvingsverzoek hebt ingediend, én de betaling van het collegegeld hebt geregeld.
+
+Te laat?
+De inschrijving wordt opgeschoven naar
+het eerstvolgende inschrijfmoment van de opleiding.
+
+<ul>
+<li>
+Bacheloropleiding: 1 september. Na 1 september
+kun je alleen ingeschreven worden met toestemming van de opleiding.
+Neem voor meer informatie contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a>.</li>
+<li>
+Masteropleiding: <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">eerstvolgende instroommoment van de betreffende
+masteropleiding</a> (studievertraging: maximaal een half
+jaar).</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ $TOT ^ $WANNEER ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>TOT WANNEER KAN IK ME INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>^ $TOT ^ $WANNEER ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>TOT WANNEER KAN IK ME INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+		<pattern>KAN IK ME LATER IN HET STUDIEJAAR INSCHRIJVEN</pattern>
+		<template>
+Of je je later in het studiejaar kunt inschrijven is afhankelijk van het instroommoment van de door
+jou gekozen opleiding. 
+
+Meer informatie vind je op de onderstaande pagina's op onze
+website:
+<ul>
+<li>
+<a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">Instroommomenten masteropleidingen</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ $LATER ^ STUDIEJAAR ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>KAN IK ME LATER IN HET STUDIEJAAR INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $LATER ^ JAAR ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>KAN IK ME LATER IN HET STUDIEJAAR INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $LATER ^ STUDIEJAAR ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>KAN IK ME LATER IN HET STUDIEJAAR INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $LATER ^ JAAR ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>KAN IK ME LATER IN HET STUDIEJAAR INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+		<pattern>STUDIELINK GEEFT AAN DAT IK MIJ BINNEN TIEN DAGEN MOET INSCHRIJVEN OMDAT ANDERS MIJN PLAATSINGSBEWIJS VERVALT</pattern>
+		<template>
+De mededeling over het plaatsingsbewijs is alleen bedoeld voor
+studenten van de Rijksuniversiteit Groningen, die zich willen
+inschrijving voor een lotingstudie. Je kunt deze mededeling negeren
+als je het volgende geregeld hebt: 
+<ul>
+<li>Je inschrijving via <a href="https://www.studielink.nl/" target="_blank">Studielink</a>.</li>
+<li>De betaling van je collegegeld.</li>
+<li>Een <a href="https://www.rug.nl/education/documenten/admission/instruction-uploaden-photo-university-card.pdf" target="_blank">pasfoto voor de RUGpas uploaden</a> via de app op
+de Student Portal.</li>
+</ul>
+
+Tip!
+
+Op je persoonlijke pagina in <a href="https://www.studielink.nl/" target="_blank">Studielink</a> kun je het hele
+(her)inschrijvingsproces volgen.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ STUDIELINK ^ $PLAATSINGSBEWIJS ^</pattern>
+	    <template>
+	        <srai>STUDIELINK GEEFT AAN DAT IK MIJ BINNEN TIEN DAGEN MOET INSCHRIJVEN OMDAT ANDERS MIJN PLAATSINGSBEWIJS VERVALT</srai>
+	    </template>
+    </category>
+
+    <category>
+        <pattern>^ STUDIELINK ^ $PLAATSING ^ $BEWIJS ^</pattern>
+        <template>
+            <srai>STUDIELINK GEEFT AAN DAT IK MIJ BINNEN TIEN DAGEN MOET INSCHRIJVEN OMDAT ANDERS MIJN PLAATSINGSBEWIJS VERVALT</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ $PLAATSINGSBEWIJS ^ STUDIELINK ^</pattern>
+        <template>
+            <srai>STUDIELINK GEEFT AAN DAT IK MIJ BINNEN TIEN DAGEN MOET INSCHRIJVEN OMDAT ANDERS MIJN PLAATSINGSBEWIJS VERVALT</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ $PLAATSING ^ $BEWIJS ^ STUDIELINK ^</pattern>
+        <template>
+            <srai>STUDIELINK GEEFT AAN DAT IK MIJ BINNEN TIEN DAGEN MOET INSCHRIJVEN OMDAT ANDERS MIJN PLAATSINGSBEWIJS VERVALT</srai>
+        </template>
+    </category>
+
+	<category>
+		<pattern>HOE WORD IK OP DE HOOGTE GEHOUDEN VAN MIJN INSCHRIJVINGSVERZOEK</pattern>
+		<template>
+Je kunt de status van je inschrijvingsverzoek volgen op je
+persoonlijke <a href="https://www.studielink.nl" target="_blank">Studielinkpagina</a> onder de optie "Mijn
+inschrijvingen". Daarnaast wordt je op de hoogte gehouden van
+elke wijziging via e-mail en via "Berichten" in Studielink.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ HOOGTE ^ GEHOUDEN ^ INSCHRIJVINGSVERZOEK ^</pattern>
+	    <template>
+	        <srai>HOE WORD IK OP DE HOOGTE GEHOUDEN VAN MIJN INSCHRIJVINGSVERZOEK</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ HOOGTE ^ GEHOUDEN ^ INSCHRIJVING ^</pattern>
+	    <template>
+	        <srai>HOE WORD IK OP DE HOOGTE GEHOUDEN VAN MIJN INSCHRIJVINGSVERZOEK</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ GEÏNFORMEERD ^ INSCHRIJVINGSVERZOEK ^</pattern>
+	    <template>
+	        <srai>HOE WORD IK OP DE HOOGTE GEHOUDEN VAN MIJN INSCHRIJVINGSVERZOEK</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ GEÏNFORMEERD ^ INSCHRIJVING ^</pattern>
+	    <template>
+	        <srai>HOE WORD IK OP DE HOOGTE GEHOUDEN VAN MIJN INSCHRIJVINGSVERZOEK</srai>
+	    </template>
+    </category>
+
+	<category>
+		<pattern>WANNEER MOET IK ME INSCHRIJVEN ALS IK VAKKEN WIL VOLGEN DIE PAS IN HET TWEEDE HALF JAAR WORDEN GEGEVEN</pattern>
+		<template>
+Het moment van inschrijven is afhankelijk van het
+instroommoment van de betreffende bachelor- of
+masteropleiding:
+<ul>
+<li>
+Bacheloropleiding: 1 september. Na 1 september
+kun je alleen ingeschreven worden met toestemming van de opleiding.
+Neem voor meer informatie contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a>.</li>
+<li>
+Masteropleiding: <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">instroommomenten van de betreffende
+masteropleiding</a>. 
+ </li>
+</ul>
+		</template>
+	</category>
+
+    <category>
+        <pattern>^ WANNEER ^ INSCHRIJVEN ^ TWEEDE ^ JAAR ^</pattern>
+        <template>
+            <srai>WANNEER MOET IK ME INSCHRIJVEN ALS IK VAKKEN WIL VOLGEN DIE PAS IN HET TWEEDE HALF JAAR WORDEN GEGEVEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ WANNEER ^ AANMELDEN ^ TWEEDE ^ JAAR ^</pattern>
+        <template>
+            <srai>WANNEER MOET IK ME INSCHRIJVEN ALS IK VAKKEN WIL VOLGEN DIE PAS IN HET TWEEDE HALF JAAR WORDEN GEGEVEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ WANNEER ^ INSCHRIJVEN ^ TWEEDE ^ COLLEGEJAAR ^</pattern>
+        <template>
+            <srai>WANNEER MOET IK ME INSCHRIJVEN ALS IK VAKKEN WIL VOLGEN DIE PAS IN HET TWEEDE HALF JAAR WORDEN GEGEVEN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ WANNEER ^ AANMELDEN ^ TWEEDE ^ COLLEGEJAAR ^</pattern>
+        <template>
+            <srai>WANNEER MOET IK ME INSCHRIJVEN ALS IK VAKKEN WIL VOLGEN DIE PAS IN HET TWEEDE HALF JAAR WORDEN GEGEVEN</srai>
+        </template>
+    </category>
+
+	<category>
+		<pattern>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</pattern>
+		<template>
+Op je persoonlijke pagina in <a href="https://www.studielink.nl" target="_blank">Studielink</a> kun je het hele
+inschrijvingsproces volgen. Wanneer je officieel bent ingeschreven
+verschijnt op deze pagina de datum van inschrijving.
+
+Nieuwe RUG-studenten
+ontvangen daarnaast een RUGpas op hun
+correspondentieadres.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ HERINSCHRIJVING ^ IN ORDE ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ HERINSCHRIJVING ^ OKE ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ HERINSCHRIJVING ^ OKÉ ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ HERINSCHRIJVING ^ GOED ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ INSCHRIJVING ^ IN ORDE ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ INSCHRIJVING ^ OKE ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ INSCHRIJVING ^ OKÉ ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ INSCHRIJVING ^ GOED ^</pattern>
+	    <template>
+	        <srai>HOE WEET IK DAT MIJN HERINSCHRIJVING IN ORDE IS</srai>
+	    </template>
+    </category>
+
+	<category>
+		<pattern>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</pattern>
+		<template>
+Dien via Studielink een inschrijvingsverzoek in voor een
+bachelor- of masteropleiding aan de Rijksuniversiteit Groningen.
+
+
+Informatie over de inschrijfprocedures voor Nederlandse studenten
+vind je op de onderstaande pagina's op onze website:
+<ul>
+<li>
+<a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor
+aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master
+aanmelding en inschrijving</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ VORIG ^ STUDIEJAAR ^ NIET ^ INGESCHREVEN ^ WEER ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VORIG ^ JAAR ^ NIET ^ INGESCHREVEN ^ WEER ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VORIG ^ COLLEGEJAAR ^ NIET ^ INGESCHREVEN ^ WEER ^ INSCHRIJVEN ^</pattern>
+	    <template>
+	        <srai>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VORIG ^ STUDIEJAAR ^ NIET ^ INGESCHREVEN ^ WEER ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VORIG ^ JAAR ^ NIET ^ INGESCHREVEN ^ WEER ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ VORIG ^ COLLEGEJAAR ^ NIET ^ INGESCHREVEN ^ WEER ^ AANMELDEN ^</pattern>
+	    <template>
+	        <srai>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>^ $WEER ^ AANMELDEN ^</pattern>
+        <template>Was je vorig collegejaar ingeschreven bij de RUG?</template>
+    </category>
+    
+    <category>
+        <pattern>^ $WEER ^ INSCHRIJVEN ^</pattern>
+        <template>Was je vorig collegejaar ingeschreven bij de RUG?</template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>ja</set>^</pattern>
+        <that>WAS JE VORIG COLLEGEJAAR INGESCHREVEN BIJ DE RUG</that>
+        <template><srai>MOET IK ME IEDER JAAR OPNIEUW INSCHRIJVEN</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>nee</set> ^</pattern>
+        <that>WAS JE VORIG COLLEGEJAAR INGESCHREVEN BIJ DE RUG</that>
+        <template><srai>IK STOND VORIG STUDIEJAAR NIET INGESCHREVEN HOE KAN IK ME WEER INSCHRIJVEN</srai></template>
+    </category>
+
+	<category>
+		<pattern>HOUD IK MIJN EIGEN STUDENTNUMMER ALS IK ME WEER OPNIEUW IN WIL SCHRIJVEN</pattern>
+		<template>
+Je houdt in principe je eigen studentnummer. Ook al heb je
+jarenlang niet ingeschreven gestaan.
+<split/>
+Uitzondering: 
+
+Je krijgt een nieuw studentnummer als je sinds 1982 niet meer
+ingeschreven hebt gestaan in het Hoger Onderwijs. Neem contact op
+met de <a href="https://www.rug.nl/education/contact/information-services/">Centrale Studenten
+Administratie.</a>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ $EIGEN ^ $STUDENTNUMMER ^</pattern>
+	    <template>
+	        <srai>HOUD IK MIJN EIGEN STUDENTNUMMER ALS IK ME WEER OPNIEUW IN WIL SCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $OUDE ^ $STUDENTNUMMER ^</pattern>
+	    <template>
+	        <srai>HOUD IK MIJN EIGEN STUDENTNUMMER ALS IK ME WEER OPNIEUW IN WIL SCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $EIGEN ^ $STUDENTENNUMMER ^</pattern>
+	    <template>
+	        <srai>HOUD IK MIJN EIGEN STUDENTNUMMER ALS IK ME WEER OPNIEUW IN WIL SCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $OUDE ^ $STUDENTENNUMMER ^</pattern>
+	    <template>
+	        <srai>HOUD IK MIJN EIGEN STUDENTNUMMER ALS IK ME WEER OPNIEUW IN WIL SCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $EIGEN ^ $STUDENTEN $NUMMER ^</pattern>
+	    <template>
+	        <srai>HOUD IK MIJN EIGEN STUDENTNUMMER ALS IK ME WEER OPNIEUW IN WIL SCHRIJVEN</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $OUDE ^ $STUDENT $NUMMER ^</pattern>
+	    <template>
+	        <srai>HOUD IK MIJN EIGEN STUDENTNUMMER ALS IK ME WEER OPNIEUW IN WIL SCHRIJVEN</srai>
+	    </template>
+    </category>
+
+</aiml>

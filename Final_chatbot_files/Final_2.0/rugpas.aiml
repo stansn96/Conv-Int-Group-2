@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Spelfouten/synoniemen-->
+    
+    <category>
+        <pattern>_ FOTO ^</pattern>
+        <template>
+            <srai><star/>^ PASFOTO ^<start index="2"/></srai>
+        </template>
+    </category>
+    
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>WAT IS EEN $STUDENTENPAS</pattern>
+	    <template>Bij de RUG wordt de studentenpas een RUGpas genoemd. Wil je meer informatie over de RUGpas?</template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>ja</set> ^</pattern>
+        <that>WIL JE MEER INFORMATIE OVER DE RUGPAS</that>
+        <template><srai>WAARVOOR ^ $RUGPAS ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>nee</set> ^</pattern>
+        <that>WIL JE MEER INFORMATIE OVER DE RUGPAS</that>
+        <template>Okee, waar kan ik je dan mee helpen?</template>
+    </category>
+	
+	<category>
+		<pattern>WAT IS EEN $RUGPAS</pattern>
+		<template>
+        Je krijgt eenmalig een RUGpas uitgereikt, die jouw hele
+        studieperiode geldig is. Vanaf het moment dat je bent
+        uitgeschreven, kun je de RUGpas niet meer gebruiken.
+        
+        Je gebruikt de RUGpas om:
+        <ul>
+            <li>koffie en thee te kopen bij de automaten,</li>
+            <li>te printen en te kopiëren,</li>
+            <li>boeken te lenen bij de Universiteitsbibliotheek,</li>
+            <li>toegang tot de Universiteitsbibliotheek,</li>
+            <li>je te identificeren bij inschrijven voor en/of maken van
+            tentamens,</li>
+            <li>te sporten (als de kaart 'geaclotiveerd' is).</li>
+        </ul>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>WAT ^ $RUGPAS ^</pattern>
+	    <template><srai>WAT IS EEN RUGPAS</srai>></template>
+    </category>
+    <category>
+        <pattern>WAARVOOR ^ $RUGPAS ^</pattern>
+        <template><srai>WAT IS EEN RUGPAS</srai></template>
+    </category>
+    <category>
+        <pattern>KAN ^ MET ^ RUGPAS ^</pattern>
+        <template><srai>WAT IS EEN RUGPAS</srai></template>
+    </category>
+	
+	<!---->
+	
+	<category>
+		<pattern>HOE KAN IK EEN PASFOTO VOOR DE RUGPAS UPLOADEN</pattern>
+		<template>
+		Dit doe je via de app <a href="https://student.portal.rug.nl/infonet/studenten/">
+		    'Inschrijving en foto' onder RUG tools op de Student Portal
+		</a> (inloggen met je RUG-account).
+
+        Raadpleeg voor meer informatie de handleiding <a href="https://www.rug.nl/education/documents/admission/instruction-uploaden-photo-university-card.pdf">
+            Foto uploaden en bewijs van inschrijving downloaden.
+        </a>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ HOE ^ PASFOTO ^ RUGPAS ^ UPLOADEN ^</pattern>
+	    <template><srai>HOE KAN IK EEN PASFOTO VOOR DE RUGPAS UPLOADEN</srai></template>
+    </category>
+
+	
+	<category>
+		<pattern>WAT MOET IK DOEN ALS IK EEN NIEUWE PASFOTO OP MIJN RUGPAS WIL</pattern>
+		<template>
+        Ga naar de <a href="https://www.rug.nl/csa">Centrale Studenten Administratie</a> en bestel
+        daar tegen betaling van € 15,- een nieuwe RUGpas.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>HOE ^ PASFOTO ^ RUGPAS ^</pattern>
+	    <template>Heb je al een RUGpas?</template>
+    </category>
+    
+    <category>
+        <pattern>^ NIEUWE FOTO ^ RUGPAS ^</pattern>
+        <template>Heb je al een RUGpas?</template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>ja</set> ^</pattern>
+        <that>HEB JE AL EEN RUGPAS</that>
+        <template><srai>WAT MOET IK DOEN ALS IK EEN NIEUWE PASFOTO OP MIJN RUGPAS WIL</srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>nee</set> ^</pattern>
+        <that>HEB JE AL EEN RUGPAS</that>
+        <template><srai>HOE KAN IK EEN PASFOTO VOOR DE RUGPAS UPLOADEN</srai></template>
+    </category>
+	
+	<!---->
+	
+	<category>
+		<pattern>IK BEN MIJN RUGPAS KWIJT CQ DEZE IS GESTOLEN HOE KOM IK AAN EEN NIEUWE</pattern>
+		<template>
+        Ben je jouw RUGpas kwijt of is deze gestolen?
+        <ul>
+            <li>
+            <a href="https://mijnrugpas.rug.nl/" target="_blank">Blokkeer
+            de RUGpas</a>.
+            </li>
+            <li>
+            <a href="https://mijnrugpas.rug.nl/" target="_blank">Vraag een
+            nieuwe RUGpas aan</a>. Deze kost € 15,-
+            </li>
+        </ul>
+        
+        Heb je je RUGpas geblokkeerd? Dan kan deze niet meer
+        gedeblokkeerd worden. Je moet een nieuwe RUGpas
+        aanvragen.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ RUGPAS ^ KWIJT ^ </pattern>
+	    <template><srai>IK BEN MIJN RUGPAS KWIJT CQ DEZE IS GESTOLEN HOE KOM IK AAN EEN NIEUWE</srai></template>
+    </category>
+    <category>
+        <pattern>^ RUGPAS ^ STUK ^</pattern>
+        <template><srai>IK BEN MIJN RUGPAS KWIJT CQ DEZE IS GESTOLEN HOE KOM IK AAN EEN NIEUWE</srai></template>
+    </category>
+    <category>
+        <pattern>^ RUGPAS ^ KAPOT ^</pattern>
+        <template><srai>IK BEN MIJN RUGPAS KWIJT CQ DEZE IS GESTOLEN HOE KOM IK AAN EEN NIEUWE</srai></template>
+    </category>
+    <category>
+        <pattern>^ RUGPAS ^ GESTOLEN ^</pattern>
+        <template><srai>IK BEN MIJN RUGPAS KWIJT CQ DEZE IS GESTOLEN HOE KOM IK AAN EEN NIEUWE</srai></template>
+    </category>
+    <category>
+        <pattern>^ RUGPAS ^ GEJAT ^</pattern>
+        <template><srai>IK BEN MIJN RUGPAS KWIJT CQ DEZE IS GESTOLEN HOE KOM IK AAN EEN NIEUWE</srai></template>
+    </category>
+    <category>
+        <pattern>^ NIEUWE RUGPAS ^</pattern>
+        <template><srai>IK BEN MIJN RUGPAS KWIJT CQ DEZE IS GESTOLEN HOE KOM IK AAN EEN NIEUWE</srai></template>
+    </category>
+	
+	<!---->
+	
+	
+	<category>
+		<pattern>HOE KAN IK GELD STORTEN OP MIJN RUGPAS</pattern>
+		<template>
+        Je kunt via <a href="http://myprint.rug.nl/" target="_blank">myPrint</a> deposit geld storten op je RUGpas. Geld
+        dat je op je pas zet kan niet worden teruggestort. Ook niet als je je weer uitschrijft.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ GELD OP ^ RUGPAS ^</pattern>
+	    <template><srai>HOE KAN IK GELD STORTEN OP MIJN RUGPAS</srai></template>
+    </category>
+    <category>
+        <pattern>^ STORTEN ^ RUGPAS ^</pattern>
+        <template><srai>HOE KAN IK GELD STORTEN OP MIJN RUGPAS</srai></template>
+    </category>
+    <category>
+        <pattern>^ OP RUGPAS ZETTEN ^</pattern>
+        <template><srai>HOE KAN IK GELD STORTEN OP MIJN RUGPAS</srai></template>
+    </category>
+    
+    <!---->
+	
+	<category>
+		<pattern>KRIJG IK ELK STUDIEJAAR EEN NIEUWE RUGPAS</pattern>
+		<template>
+        Nee. De RUGpas wordt eenmalig uitgereikt en is jouw hele
+        studieperiode geldig.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ $ELK ^ NIEUWE RUGPAS ^</pattern>
+	    <template><srai>KRIJG IK ELK STUDIEJAAR EEN NIEUWE RUGPAS</srai></template>
+    </category>
+    <category>
+        <pattern>^ $IEDER ^ NIEUWE RUGPAS ^</pattern>
+        <template><srai>KRIJG IK ELK STUDIEJAAR EEN NIEUWE RUGPAS</srai></template>
+    </category>
+
+    <!---->
+
+	
+	<category>
+		<pattern>IK HEB MIJN RUGPAS NODIG VOOR INSCHRIJVING BIJ MIJN STUDENTENVERENIGING OF SPORTVERENIGING
+		KAN IK ALVAST EEN INSCHRIJFBEWIJS KRIJGEN VAN DE UNIVERSITEIT</pattern>
+		<template>
+        Informatie over een verklaring van inschrijving vind je op de
+        onderstaande pagina's op onze website.
+        <ul>
+        <li>
+        <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/verklaring-inschrijving">Bachelor: Verklaring van inschrijving</a>
+        </li>
+        <li>
+        <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/verklaring-inschrijving">Master: Verklaring van
+        inschrijving</a>  </li>
+        </ul>
+        
+        Let op!
+        
+        Een verklaring van inschrijving kan pas afgegeven worden als je
+        officieel staat ingeschreven.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ RUGPAS ^ INSCHRIJFBEWIJS ^</pattern>
+	    <template><srai>IK HEB MIJN RUGPAS NODIG VOOR INSCHRIJVING BIJ MIJN STUDENTENVERENIGING OF SPORTVERENIGING
+		KAN IK ALVAST EEN INSCHRIJFBEWIJS KRIJGEN VAN DE UNIVERSITEIT</srai></template>
+    </category>
+	
+	<!---->
+
+	<category>
+		<pattern>WANNEER ONTVANG IK MIJN RUGPAS ALS IK ME TIJDENS HET STUDIEJAAR INSCHRIJF</pattern>
+		<template>
+        Zodra je bent ingeschreven, ontvang je binnen 10 dagen een RUGpas.
+        Deze zal richting je correspondentieadres (bij Nederlands adres) of
+        de faculteit (Buitenlands adres) worden verzonden
+        
+        <ul>
+            <li>Heb je een Nederlands correspondentieadres? Dan wordt je
+            RUGpas naar dit adres gestuurd.</li>
+            <li>Heb je een buitenlands correspondentieadres? Dan ontvang je een
+            e-mailbericht wanneer je de RUGpas kunt ophalen bij Information
+            Services.</li>
+        </ul>
+        
+        Neem zo snel mogelijk contact op met de <a href="https://www.rug.nl/csa">Centrale Studenten
+        Administratie</a> als je binnen 10 dagen geen RUGpas hebt
+        ontvangen.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>WANNEER ^ KRIJG ^ RUGPAS ^</pattern>
+	    <template><srai>WANNEER ONTVANG IK MIJN RUGPAS ALS IK ME TIJDENS HET STUDIEJAAR INSCHRIJF</srai></template>
+    </category>
+    <category>
+        <pattern>WANNEER ^ ONTVANG ^ RUGPAS ^</pattern>
+        <template><srai>WANNEER ONTVANG IK MIJN RUGPAS ALS IK ME TIJDENS HET STUDIEJAAR INSCHRIJF</srai></template>
+    </category>
+	
+</aiml>

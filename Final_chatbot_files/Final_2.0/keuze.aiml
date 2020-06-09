@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>WAT KAN JIJ ^</pattern>
+	    <template>Ik kan je informatie geven over meerdere zaken rondom aanmelden, in-en uitschrijven.
+	    Maar je mag mij best testen op mijn gespreksvaardigheden hoor. Ik weet zelfs een paar mopjes.
+	    Wil je een overzicht van de onderwerpen waarover je mij vragen kan stellen?</template>
+    </category>
+    
+    <category>
+        <pattern>WAT WEET JIJ ^</pattern>
+        <template><srai>WAT KAN JIJ ^</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>nee</set> ^</pattern>
+        <template>Kan ik je nog ergens anders mee helpen?</template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>ja</set> ^</pattern>
+        <that>WIL JE EEN OVERZICHT VAN DE ONDERWERPEN WAAROVER JE MIJ VRAGEN KAN STELLEN</that>
+        <template>
+            <ul>
+                <li>Aanmelding en toelating</li>
+                <li>Inschrijven</li>
+                <li>Herinschrijven</li>
+                <li>Uitschrijven</li>
+                <li>Studielink</li>
+                <li>RUG-account</li>
+                <li>RUGpas</li>
+                <li>Introductieperiode, vakanties</li>
+                <li>Verklaring van inschrijving</li>
+                <li>Inschrijvingsvormen</li>
+            </ul>
+        </template>
+    </category>
+	
+	
+	
+</aiml>

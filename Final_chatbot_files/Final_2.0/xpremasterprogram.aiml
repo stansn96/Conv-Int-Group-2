@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+
+<!-- Spelfoutcorrecties-->
+    <category>
+        <pattern>^ PREMASTERPROGRAMMA ^</pattern>
+        <template>
+            <srai><star/>^ PRE DASH MASTERPROGRAMMA ^<start index="2"/></srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PREMASTER PROGRAMMA ^</pattern>
+        <template>
+            <srai><star/>^ PRE DASH MASTERPROGRAMMA ^<start index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ PRE DASH MASTER PROGRAMMA ^</pattern>
+        <template>
+            <srai><star/>^ PRE DASH MASTERPROGRAMMA ^<start index="2"/></srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PREMASTER DASH PROGRAMMA ^</pattern>
+        <template>
+            <srai><star/>^ PRE DASH MASTERPROGRAMMA ^<start index="2"/></srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PRE DASH MASTERPROGRAMA ^</pattern>
+        <template>
+            <srai><star/>^ PRE DASH MASTERPROGRAMMA ^<start index="2"/></srai>
+        </template>
+    </category>
+    
+<!-- EINDE Spelfoutcorrecties-->
+
+	<category>
+		<pattern>WAT IS EEN PRE DASH MASTERPROGRAMMA</pattern>
+		<template>
+Een <a href="https://www.rug.nl/education/master/nederlandse-studenten/studiekeuze-en-voorlichting/pre-master/">pre-masterprogramma</a> is een speciaal programma
+voor HBO studenten die een verwante masteropleiding willen volgen
+aan de Rijksuniversiteit Groningen.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ PRE DASH MASTERPROGRAMMA ^</pattern>
+	    <template>
+	        <srai>WAT IS EEN PRE DASH MASTERPROGRAMMA</srai>
+	    </template>
+    </category>
+
+	<category>
+		<pattern>HOE SCHRIJF IK ME IN VOOR EEN PRE DASH MASTERPROGRAMMA</pattern>
+		<template>
+Raadpleeg de handleiding "Hoe doe je een aanmelding als Pre-Master" op de volgende pagina: <a href="/education/master/nederlandse-studenten/studiekeuze-en-voorlichting/pre-master/">Pre-masterprogramma's</a>.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ $SCHRIJF ^ $IN ^ PRE DASH MASTERPROGRAMMA ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN VOOR EEN PRE DASH MASTERPROGRAMMA</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $MELD ^ $AAN ^ PRE DASH MASTERPROGRAMMA ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN VOOR EEN PRE DASH MASTERPROGRAMMA</srai>
+	    </template>
+    </category>
+
+	<category>
+	    <pattern>^ $INSCHRIJVEN ^ PRE DASH MASTERPROGRAMMA ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN VOOR EEN PRE DASH MASTERPROGRAMMA</srai>
+	    </template>
+    </category>
+    
+	<category>
+	    <pattern>^ $AANMELDEN ^ PRE DASH MASTERPROGRAMMA ^</pattern>
+	    <template>
+	        <srai>HOE SCHRIJF IK ME IN VOOR EEN PRE DASH MASTERPROGRAMMA</srai>
+	    </template>
+    </category>
+
+</aiml>
