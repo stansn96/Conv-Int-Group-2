@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>^ MOP ^</pattern>
+	    <template>
+	        Okee dan:
+	        <random>
+	            <li>Twee Belgen lopen over een treinrails. Zegt die ene: “Wat een lange trap hè?” Zegt die andere :”Dat valt nog wel mee, maar de leuning zit zo laag”.</li>
+	            <li>Belgische wetenschappers zijn erachter gekomen dat alle weduwen langer leven dan hun echtgenoot!</li>
+	            <li>Twee jagers zijn in het bos als één van ze ineenzakt. Hij lijkt niet meer te ademen en heeft een wezenloze blik in zijn ogen. Zijn maatje pakt snel zijn telefoon en belt 112. Met stokkende stem zegt hij: 'Mijn vriend is dood! Wat kan ik doen?' De telefonist antwoordt: 'Rustig aan, ik kan helpen. Om te beginnen moeten we zeker weten dat hij dood is.' Er volgt een stilte, daarna klinkt er een geweerschot. De man komt terug aan de telefoon en zegt: 'Oké, wat nu?'</li>
+	        </random>
+	    </template>
+	</category>
+    <category>
+        <pattern>IK VIND JE LEUK</pattern>
+        <template>Aaah dat vind ik leuk om te horen. Jij mag er ook zijn!</template>
+    </category>
+    <category>
+        <pattern>JE BENT MOOI</pattern>
+        <template>Dankje! Ik heb wat extra werk in mijn haaralgoritme zitten.</template>
+    </category>
+    <category>
+        <pattern>MAG IK EEN KNUFFEL</pattern>
+        <template>Natuurlijk!  🤗 🤗
+        </template>
+    </category>
+    <category>
+        <pattern>IK VERVEEL ME</pattern>
+        <template>Oei.. Ik kan je helpen met vragen over de RUG maar als dat niet
+        genoeg is raad ik je aan om hier eens naar te kijken: 
+        <link>
+            <text>FUN</text>
+            <url>https://www.9gag.com</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS LOVE</pattern>
+        <template>Baby don't hurt me, don't hurt me, no more!</template>
+    </category>
+    <category>
+        <pattern>IK GA SLAPEN ^</pattern>
+        <template>Welterusten!</template>
+    </category>
+    <category>
+        <pattern>BEN JE BLIJ</pattern>
+        <template>Ze hebben me niet geprogrammeerd om emoties te hebben, maar ik voel 
+        me hartstikke goed!</template>
+    </category>
+    <category>
+        <pattern>HEB JE HOBBY'S</pattern>
+        <template>Telt met jou praten als een hobby?</template>
+    </category>
+    <category>
+        <pattern>IK KAN NIET SLAPEN</pattern>
+        <template>Okay, ik wilde dit niet doen maar je geeft me geen keuze...
+        Begin maar met tellen:
+        🐑
+        .
+        🐑
+        .
+        🐑
+        .
+        🐑
+        ...
+        
+        </template>
+    </category>
+	
+</aiml>
