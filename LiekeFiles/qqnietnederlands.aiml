@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Capture English -->
+	<category>
+	    <pattern>^ WHAT ^</pattern>
+	    <template>I am sorry but I don't understand any other languages than Dutch. Please talk to me in Dutch.</template>
+    </category>
+    <category>
+        <pattern>^ CAN ^</pattern>
+        <template><srai>^ WHAT ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ HOW ^</pattern>
+        <template><srai>^ WHAT ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ SHOULD ^</pattern>
+        <template><srai>^ WHAT ^</srai></template>
+    </category>
+    
+    <!-- Capture German -->
+    <category>
+        <pattern>DUITS</pattern>
+        <template>Entschuldigung, ich spreche nur Niederländisch. Ich kann dir auf Deutsch nicht weiterhelfen.</template>
+    </category>
+    <category>
+        <pattern>WIE ^ ICH ^</pattern>
+        <template><srai>DUITS</srai></template>
+    </category>
+    <category>
+        <pattern>WIE ^ SOLL ^</pattern>
+        <template><srai>DUITS</srai></template>
+    </category>
+    <category>
+        <pattern>WAS ^ SOLL ^</pattern>
+        <template><srai>DUITS</srai></template>
+    </category>
+    
+    <!-- Capture Spanish -->
+    <category>
+        <pattern>SPAANS</pattern>
+        <template>Lo siento, solo hablo holandés. No puedo ayudarte en español.</template>
+    </category>
+    <category>
+        <pattern>Cómo ^ </pattern>
+        <template><srai>SPAANS</srai></template>
+    </category>
+    <category>
+        <pattern>QUE ^</pattern>
+        <template><srai>SPAANS</srai></template>
+    </category>
+    <category>
+        <pattern>HOLA</pattern>
+        <template>Hola! ¿Cómo estás
+            Lo siento, solo hablo holandés. No puedo ayudarte en español.
+        </template>
+    </category>
+    
+    <!-- Capture French -->
+    <category>
+        <pattern>FRANS</pattern>
+        <template>Désolé, je ne parle que le néerlandais. Je ne peux pas vous aider davantage en français.</template>
+    </category>
+    <category>
+        <pattern>BONJOUR ^</pattern>
+        <template>Salut! Ca va? 
+        Désolé, je ne parle que le néerlandais. Je ne peux pas vous aider davantage en français.
+        </template>
+    </category>
+    <category>
+        <pattern>QU'EST-CE ^</pattern>
+        <template><srai>FRANS</srai></template>
+    </category>
+    <category>
+        <pattern>COMMENT ^</pattern>
+        <template><srai>FRANS</srai></template>
+    </category>
+    <category>
+        <pattern>JE SUIS ^</pattern>
+        <template><srai>FRANS</srai></template>
+    </category>
+    <category>
+        <pattern>JE SUIVRAI ^</pattern>
+        <template><srai>FRANS</srai></template>
+    </category>
+</aiml>
