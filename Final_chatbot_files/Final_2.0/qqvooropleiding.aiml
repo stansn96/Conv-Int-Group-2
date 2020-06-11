@@ -66,10 +66,16 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bache
     Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
 </category>
 <category>
-    <pattern>^ $VWO dash DIPLOMA ^ AANMELDEN ^</pattern>
+    <pattern>^ VWO dash DIPLOMA ^ AANMELDEN ^</pattern>
     <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
     Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
 </category>
+<category>
+    <pattern>^ AANMELDEN ^ VWO dash DIPLOMA ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+
 <category>
     <pattern>^ VWO dash DIPLOMA ^ BACHELOROPLEIDING ^</pattern>
     <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
@@ -81,7 +87,7 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bache
     Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
 </category>
 <category>
-    <pattern>^ VWO dash DIPLOMA ^ BACHELOR dash OPLEIDING ^</pattern>
+    <pattern>^ $VWO dash DIPLOMA ^ BACHELOR dash OPLEIDING ^</pattern>
     <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
     Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
 </category>
@@ -107,6 +113,36 @@ Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bache
 </category>
 <category>
     <pattern>^ VWO dash DIPLOMA ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ AANMELDEN ^ BACHELOR ^ $VWO dash DIPLOMA ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ AANMELDEN ^ BACHELOROPLEIDING ^ $VWO dash DIPLOMA ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ AANMELDEN ^ BACHELOROPLEIDING ^ $VWODIPLOMA ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ AANMELDEN ^ BACHELOROPLEIDING ^ $VWO ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ AANMELDEN ^ BACHELOR ^ $VWODIPLOMA ^</pattern>
+    <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
+    Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
+</category>
+<category>
+    <pattern>^ AANMELDEN ^ BACHELOR ^ $VWO ^</pattern>
     <template>Ja, je bent met een vwo-diploma in principe toelaatbaar tot een bacheloropleiding aan de universiteit. Sommige opleidingen stellen wel specifieke eisen aan je profiel en aanvullende vakken.
     Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/toelatingseisen/vwo-diploma"> VWO-diploma</a> op onze website.</template>
 </category>
@@ -154,6 +190,22 @@ Meer informatie over aanvullende ingangseisen vind je op de pagina <a href="http
 </category>
 <category>
     <pattern>^ PROFIEL ^ NIET TOEREIKEND ^ STUDIE ^</pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL ^ NIET TOEREIKEND ^ OPLEIDING, ^ </pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL ^ NIET GESCHIKT ^ OPLEIDING, ^</pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL ^ NIET GESCHIKT ^ STUDIE, ^</pattern>
+    <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
+</category>
+<category>
+    <pattern>^ PROFIEL ^ NIET TOEREIKEND ^ STUDIE, ^</pattern>
     <template>Neem contact op met de <a href="https://www.rug.nl/education/contact/study-advisors/">studieadviseur</a> van de betreffende opleiding om te bespreken wat je kunt doen.</template>
 </category>
 
