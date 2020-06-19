@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HUISARTS *</pattern>
+		<template>
+Informatie over het zorgsysteem in Nederland: 
+
+Voor nederlandse studenten: <a href="https://www.thuisarts.nl/inschrijven-bij-huisarts" target="_blank">thuisarts.nl</a>
+
+Voor internationale studenten: <a href="https://iwcn.nl/newcomers/settling-in/health-matters/" target="_blank">IWCN</a>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* MEEST * VRAGEN * ICT</pattern>
+		<template>
+Een overzicht van de veelgestelde ICT-vragen en handige
+handleidingen vind je in de ICT kennisbank.
+<ul>
+<li>De <a href="https://student.portal.rug.nl/infonet/studenten/ict/kennisbank/it-question-faq-student">ICT kennisbank voor studenten</a> vind je op de
+Student Portal (inloggen met S-nummer).</li>
+<li>De <a href="https://myuniversity.rug.nl/infonet/medewerkers/ict/kennisbank/it-question-faq-staff">ICT kennisbank voor medewerkers</a> vind je op My
+University (inloggen met P-nummer).</li>
+</ul>
+Ben je (nog) geen student of medewerker en heb je een ICT vraag?
+Neem dan contact op met de <a href="/society-business/centre-for-information-technology/contact-cit-servicedesk">CIT servicedesk</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* KENNISBANKEN</pattern>
+		<template>
+In de facultaire kennisbank vind je informatie over o.a. vakken,
+roosters, boeken, tentamens en afstuderen.
+<ul>
+<li>
+<a href="/feb/education/support/">Economie en Bedrijfskunde</a>
+</li>
+<li>
+<a href="/ggw/education/">Godgeleerdheid en Godsdienstwetenschap</a>
+</li>
+<li>
+<a href="/rechten/kennisbank/">Rechtsgeleerdheid</a>
+</li>
+<li>
+<a href="/frw/education/prospective-student">Ruimtelijke wetenschappen</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+</aiml>

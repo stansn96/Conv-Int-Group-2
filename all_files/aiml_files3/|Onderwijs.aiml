@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WE ZIJN ONZE ONDERWIJS PAGINA'S AAN HET OPKNAPPEN</pattern>
+		<template>
+Recentelijk hebben we de pagina’s onder ons Education gedeelte van de website opnieuw gestructureerd en ingedeeld. Hierdoor kan het voorkomen dat je niet direct uitkomt op de juiste pagina. Om je te helpen snel de juiste informatie te krijgen hebben we hieronder een kort overzicht gemaakt met de belangrijkste onderdelen:Informatie voor Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Informatie voor Master studenten:<ul>
+<li>
+<a href="/education/master/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/master/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/international-students/admission-and-application/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Master studenten:<ul>
+<li>
+<a href="/education/master/international-students/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+
+Alle opleidingen:
+<ul>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-bachelor-regular&amp;labels-programme-degree=programme-level-bachelor-educational&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-master-regular&amp;labels-programme-degree=programme-level-master-educational&amp;labels-programme-degree=programme-level-master-research&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Masteropleidingen</a>
+</li>
+</ul>
+
+
+Mist volgens jou belangrijke informatie, laat het ons dan weten via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOndlYkBydWcubmwiPndlYkBydWcubmw8L2E+">web rug.nl.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WE ZIJN ONZE ONDERWIJS PAGINA'S AAN HET OPKNAPPEN</pattern>
+		<template>
+Recentelijk hebben we de pagina’s onder ons Education gedeelte van de website opnieuw gestructureerd en ingedeeld. Hierdoor kan het voorkomen dat je niet direct uitkomt op de juiste pagina. Om je te helpen snel de juiste informatie te krijgen hebben we hieronder een kort overzicht gemaakt met de belangrijkste onderdelen:Informatie voor Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Informatie voor Master studenten:<ul>
+<li>
+<a href="/education/master/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/master/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/international-students/admission-and-application/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Master studenten:<ul>
+<li>
+<a href="/education/master/international-students/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+
+Alle opleidingen:
+<ul>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-bachelor-regular&amp;labels-programme-degree=programme-level-bachelor-educational&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-master-regular&amp;labels-programme-degree=programme-level-master-educational&amp;labels-programme-degree=programme-level-master-research&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Masteropleidingen</a>
+</li>
+</ul>
+
+
+Mist volgens jou belangrijke informatie, laat het ons dan weten via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOndlYkBydWcubmwiPndlYkBydWcubmw8L2E+">web rug.nl.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WE ZIJN ONZE ONDERWIJS PAGINA'S AAN HET OPKNAPPEN</pattern>
+		<template>
+Recentelijk hebben we de pagina’s onder ons Education gedeelte van de website opnieuw gestructureerd en ingedeeld. Hierdoor kan het voorkomen dat je niet direct uitkomt op de juiste pagina. Om je te helpen snel de juiste informatie te krijgen hebben we hieronder een kort overzicht gemaakt met de belangrijkste onderdelen:Informatie voor Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Informatie voor Master studenten:<ul>
+<li>
+<a href="/education/master/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/master/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/international-students/admission-and-application/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Master studenten:<ul>
+<li>
+<a href="/education/master/international-students/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+
+Alle opleidingen:
+<ul>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-bachelor-regular&amp;labels-programme-degree=programme-level-bachelor-educational&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-master-regular&amp;labels-programme-degree=programme-level-master-educational&amp;labels-programme-degree=programme-level-master-research&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Masteropleidingen</a>
+</li>
+</ul>
+
+
+Mist volgens jou belangrijke informatie, laat het ons dan weten via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOndlYkBydWcubmwiPndlYkBydWcubmw8L2E+">web rug.nl.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WE ZIJN ONZE ONDERWIJS PAGINA'S AAN HET OPKNAPPEN</pattern>
+		<template>
+Recentelijk hebben we de pagina’s onder ons Education gedeelte van de website opnieuw gestructureerd en ingedeeld. Hierdoor kan het voorkomen dat je niet direct uitkomt op de juiste pagina. Om je te helpen snel de juiste informatie te krijgen hebben we hieronder een kort overzicht gemaakt met de belangrijkste onderdelen:Informatie voor Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Informatie voor Master studenten:<ul>
+<li>
+<a href="/education/master/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/master/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/international-students/admission-and-application/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Master studenten:<ul>
+<li>
+<a href="/education/master/international-students/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+
+Alle opleidingen:
+<ul>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-bachelor-regular&amp;labels-programme-degree=programme-level-bachelor-educational&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-master-regular&amp;labels-programme-degree=programme-level-master-educational&amp;labels-programme-degree=programme-level-master-research&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Masteropleidingen</a>
+</li>
+</ul>
+
+
+Mist volgens jou belangrijke informatie, laat het ons dan weten via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOndlYkBydWcubmwiPndlYkBydWcubmw8L2E+">web rug.nl.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WE ZIJN ONZE ONDERWIJS PAGINA'S AAN HET OPKNAPPEN</pattern>
+		<template>
+Recentelijk hebben we de pagina’s onder ons Education gedeelte van de website opnieuw gestructureerd en ingedeeld. Hierdoor kan het voorkomen dat je niet direct uitkomt op de juiste pagina. Om je te helpen snel de juiste informatie te krijgen hebben we hieronder een kort overzicht gemaakt met de belangrijkste onderdelen:Informatie voor Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Informatie voor Master studenten:<ul>
+<li>
+<a href="/education/master/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/master/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/international-students/admission-and-application/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Master studenten:<ul>
+<li>
+<a href="/education/master/international-students/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+
+Alle opleidingen:
+<ul>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-bachelor-regular&amp;labels-programme-degree=programme-level-bachelor-educational&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-master-regular&amp;labels-programme-degree=programme-level-master-educational&amp;labels-programme-degree=programme-level-master-research&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Masteropleidingen</a>
+</li>
+</ul>
+
+
+Mist volgens jou belangrijke informatie, laat het ons dan weten via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOndlYkBydWcubmwiPndlYkBydWcubmw8L2E+">web rug.nl.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WE ZIJN ONZE ONDERWIJS PAGINA'S AAN HET OPKNAPPEN</pattern>
+		<template>
+Recentelijk hebben we de pagina’s onder ons Education gedeelte van de website opnieuw gestructureerd en ingedeeld. Hierdoor kan het voorkomen dat je niet direct uitkomt op de juiste pagina. Om je te helpen snel de juiste informatie te krijgen hebben we hieronder een kort overzicht gemaakt met de belangrijkste onderdelen:Informatie voor Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Informatie voor Master studenten:<ul>
+<li>
+<a href="/education/master/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/master/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/international-students/admission-and-application/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Master studenten:<ul>
+<li>
+<a href="/education/master/international-students/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+
+Alle opleidingen:
+<ul>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-bachelor-regular&amp;labels-programme-degree=programme-level-bachelor-educational&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-master-regular&amp;labels-programme-degree=programme-level-master-educational&amp;labels-programme-degree=programme-level-master-research&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Masteropleidingen</a>
+</li>
+</ul>
+
+
+Mist volgens jou belangrijke informatie, laat het ons dan weten via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOndlYkBydWcubmwiPndlYkBydWcubmw8L2E+">web rug.nl.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WE ZIJN ONZE ONDERWIJS PAGINA'S AAN HET OPKNAPPEN</pattern>
+		<template>
+Recentelijk hebben we de pagina’s onder ons Education gedeelte van de website opnieuw gestructureerd en ingedeeld. Hierdoor kan het voorkomen dat je niet direct uitkomt op de juiste pagina. Om je te helpen snel de juiste informatie te krijgen hebben we hieronder een kort overzicht gemaakt met de belangrijkste onderdelen:Informatie voor Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Informatie voor Master studenten:<ul>
+<li>
+<a href="/education/master/">Algemene informatie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Nederlandse studenten</a>
+</li>
+<li>
+<a href="/education/master/international-students/">Internationale studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Bachelor studenten:<ul>
+<li>
+<a href="/education/bachelor/international-students/admission-and-application/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/bachelor/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+Aanmeldprocedure Master studenten:<ul>
+<li>
+<a href="/education/master/international-students/">Informatie voor internationale studenten</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/">Informatie voor Nederlandse studenten</a>
+</li>
+</ul>
+
+Alle opleidingen:
+<ul>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-bachelor-regular&amp;labels-programme-degree=programme-level-bachelor-educational&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/programme-search/?labels-programme-degree=programme-level-master-regular&amp;labels-programme-degree=programme-level-master-educational&amp;labels-programme-degree=programme-level-master-research&amp;labels-programme-targetGroup=programme-targetGroup-nl&amp;currentPage=1&amp;searchtext=&amp;offset=1&amp;count=10">Masteropleidingen</a>
+</li>
+</ul>
+
+
+Mist volgens jou belangrijke informatie, laat het ons dan weten via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOndlYkBydWcubmwiPndlYkBydWcubmw8L2E+">web rug.nl.
+		</template>
+	</category>
+
+</aiml>
