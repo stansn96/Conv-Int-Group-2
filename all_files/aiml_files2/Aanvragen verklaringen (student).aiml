@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> 
- <aiml version="2.0"> 
-<category> 
- <pattern>TEKENEN EN STEMPELEN VAN VERKLARINGEN VOOR INSTANTIES</pattern> 
- <template>Je kunt verklaringen voor andere instanties laten tekenen en
-stempelen bij de</template> 
-</category>
-</aiml>
