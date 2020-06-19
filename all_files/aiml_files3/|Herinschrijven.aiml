@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HOE KAN IK MIJ HERINSCHRIJVEN</pattern>
+		<template>
+Dien in de periode 1 juni t/m 31
+augustus een herinschrijvingsverzoek in via
+Studielink. 
+
+Meer informatie vind je op de Student Portal pagina <a href="https://student.portal.rug.nl/infonet/studenten/inuitschrijving/inschrijven/herinschrijven">Herinschrijvingsprocedure</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT MOET IK DOEN ALS HET NIET LUKT OM VIA STUDIELINK EEN HERINSCHRIJVING TE DOEN</pattern>
+		<template>
+Neem contact op met <a href="https://www.rug.nl/education/information-services/">Information Services</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT MOET IK DOEN ALS IK ME NIET WIL HERINSCHRIJVEN</pattern>
+		<template>
+Geef in Studielink aan dat je stopt met je opleiding.
+
+Meer informatie vind je in één van de <a href="https://www.rug.nl/education/hoezithet/veelgestelde-vragen?tcid=bureau_2_1597_4585">handleidingen van Studielink</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MOET IK MIJ HERINSCHRIJVEN ALS IK NOG NIET WEET OF IK VOOR 1 SEPTEMBER AFSTUDEER</pattern>
+		<template>
+Neem voor advies contact op met <a href="https://www.rug.nl/education/information-services/">Information Services</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MOET IK MIJ NOG HERINSCHRIJVEN ALS IK MIJN DIPLOMA IN SEPTEMBER KRIJG</pattern>
+		<template>
+Nee, je hoeft je niet opnieuw in te schrijven als je zeker weet dat
+je afstudeerdatum voor september ligt. 
+
+Neem bij twijfel contact op met <a href="https://www.rug.nl/education/information-services/">Information Services</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>KAN IK MIJ VOOR EEN MAAND HERINSCHRIJVEN ALS IK NOG MAAR ÉÉN ONDERDEEL VAN MIJN OPLEIDING MOET AFRONDEN</pattern>
+		<template>
+In principe schrijf je je voor een jaar in.  Maar na het
+afronden van je opleiding, kun je altijd een verzoek tot
+uitschrijven indienen.
+
+Afhankelijk van je opleiding kun je je op verschillende
+momenten in het jaar inschrijven.
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Instroommomenten
+bacheloropleidingen</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">Instroommomenten
+masteropleidingen</a>
+</li>
+</ul>
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/nederlandse-studenten/uitschrijven/">Uitschrijven</a>
+en <a href="https://www.rug.nl/education/nederlandse-studenten/uitschrijven/afstuderen">Afstuderen</a>
+op onze website.
+		</template>
+	</category>
+
+</aiml>

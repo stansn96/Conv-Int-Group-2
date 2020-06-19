@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+<!-- Spellingcorrecties-->
+    <category>
+        <pattern>_ UNIVERSITIARE ^</pattern>
+        <template>
+            <srai><star/>^ UNIVERSITAIRE ^<start index="2"/></srai>
+        </template>
+    </category>
+
+<!-- EINDE spellingcorrecties-->
+
+    <category>
+        <pattern>^ INSCHRIJVINGSVORMEN ^</pattern>
+        <template>
+            Over welke inschrijvingsvorm wil je meer informatie?
+            <ul>
+                <li>Voltijdstudie</li>
+                <li>Deeltijdstudie</li>
+                <li>Duaal student</li>
+                <li>Schakelprogramma's</li>
+                <li>Contractonderwijs</li>
+                <li>Uitwisselingsprogramma's</li>
+            </ul>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ MANIEREN ^ INSCHRIJVEN ^</pattern>
+        <template><srai>^ INSCHRIJVINGSVORMEN ^</srai></template>
+    </category>
+
+<!---->
+	<category>
+		<pattern>OPBOUW VAN EEN UNIVERSITAIRE OPLEIDING</pattern>
+		<template>
+        Een universitaire opleiding is opgebouwd uit twee fases:
+        <ul>
+            <li>een driejarige bacheloropleiding, die wordt afgesloten met een
+            bachelordiploma.</li>
+            <li>een masteropleiding van één, twee of drie jaar.</li>
+        </ul>
+        Meer informatie over de <a href="https://www.rug.nl/education/find-out-more/studying-at-university/">opbouw van een universitaire opleiding</a> vind je
+        op de website.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>HOE ZIET DE OPBOUW VAN EEN UNIVERSITAIRE OPLEIDING ER UIT</pattern>
+	    <template><srai>OPBOUW VAN EEN UNIVERSITAIRE OPLEIDING</srai></template>
+	</category>
+	
+	<category>
+	    <pattern>^ OPBOUW ^ OPLEIDING ^</pattern>
+	    <template><srai>OPBOUW VAN EEN UNIVERSITAIRE OPLEIDING</srai></template>
+    </category>
+<!---->
+
+	<category>
+		<pattern>VOLTIJDSTUDIE</pattern>
+		<template>
+        Als voltijdstudent heb je een studielast (colleges en thuiswerk)
+        van 40 uur in de week. Je bent dus de hele week bezig met je
+        opleiding. Daarnaast mag je gebruik maken van alle
+        universitaire voorzieningen, zoals de bibliotheken, ICT,
+        sportfaciliteiten en het culturele aanbod. Verder heb je recht
+        op studiebegeleiding van een studieadviseur van je
+        opleiding en/of het Studenten Service Centrum
+        (studentendecanen, studentenpsychologen en trainers) en je mag
+        stemmen voor de faculteitsraad en de universiteitsraad. 
+        
+        Let op: je kunt alleen studiefinanciering
+        aanvragen als je ingeschreven staat als voltijdstudent.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>WAT IS EEN VOLTIJDSTUDIE</pattern>
+	    <template><srai>VOLTIJDSTUDIE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WAT ^ VOLTIJDSTUDENT ^</pattern>
+        <template><srai>VOLTIJDSTUDIE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ STUDIELAST ^ VOLTIJDSTUDIE ^</pattern>
+        <template><srai>VOLTIJDSTUDIE</srai></template>
+    </category>
+    
+<!---->
+
+	<category>
+		<pattern>DEELTIJDSTUDIE</pattern>
+		<template>
+        Als je een baan hebt of om andere redenen niet fulltime kunt
+        studeren, dan kun je je inschrijven als deeltijdstudent. Een
+        deeltijdopleiding is een volwaardige opleiding en volledig
+        vergelijkbaar met de voltijdopleiding. De belangrijkste verschillen
+        zijn: het aantal contact- en thuiswerkuren, en de totale
+        studieduur. Je kunt bij een deeltijdopleiding uitgaan van een
+        gemiddelde <a href="https://www.rug.nl/studiekiezers/opleidingen/deeltijd/studieduur">studielast</a> (colleges en thuiswerk) van
+        ongeveer 20 à 25 uur per week. Ter vergelijking: een
+        voltijdopleiding heeft een studielast van 40 uur in de week.
+        Doordat de studielast lager is, duurt een deeltijdopleiding langer
+        dan een voltijdopleiding. Een deeltijdstudent mag gebruik maken van
+        alle universitaire voorzieningen, maar heeft geen
+        recht op studiefinanciering.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>WAT IS EEN DEELTIJDSTUDIE</pattern>
+	    <template><srai>DEELTIJDSTUDIE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WAT ^ DEELTIJDSTUDENT ^</pattern>
+        <template><srai>DEELTIJDSTUDIE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ VERSCHIL ^ DEELTIJDSTUDIE ^ VOLTIJDSTUDIE ^</pattern>
+        <template><srai>DEELTIJDSTUDIE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ VERSCHIL ^ VOLTIJDSTUDIE ^ DEELLTIJDSTUDIE ^</pattern>
+        <template><srai>DEELTIJDSTUDIE</srai></template>
+    </category>
+    <category>
+        <pattern>^ VERSCHILLEN ^ DEELTIJDSTUDIE ^ VOLTIJDSTUDIE ^</pattern>
+        <template><srai>DEELTIJDSTUDIE</srai></template>
+    </category>
+	<category>
+        <pattern>^ VERSCHILLEN ^ VOLTIJDSTUDIE ^ DEELTIJDSTUDIE ^</pattern>
+        <template><srai>DEELTIJDSTUDIE</srai></template>
+    </category>
+	
+	
+<!---->
+
+	<category>
+		<pattern>DUAAL STUDENT</pattern>
+		<template>
+        Een duaal student combineert zijn studie met een baan op zijn eigen
+        vakgebied. Een duaalopleiding is in principe een fulltime
+        opleiding, waarbij je tegelijkertijd werkt en leert. Van je
+        werkgever ontvang je een salaris. Meestal duurt de opleiding langer
+        dan dat je op basis van het aantal ECTS zou verwachten. 
+        De RUG biedt sommige masteropleidingen aan als duaalstudie:
+        <ul>
+        <li>een aantal juridische masteropleidingen (<a href="https://www.rug.nl/masters/togamaster-dual/">Togamaster</a>)</li>
+        <li>de master <a href="https://www.rug.nl/masters/computer-mediated-communication/">computercommunicatie</a> bij communicatie en
+        informatiewetenschappen.</li>
+        <li>het laatste jaar van de <a href="https://www.rug.nl/gmw/lerarenopleiding/onderwijs/educatievemaster/">tweejarige lerarenopleidingen</a>: aardrijkskunde,
+        Duitse taal en cultuur, Engelse taal en cultuur, filosofie, Franse
+        taal en cultuur, Friese taal en cultuur, geschiedenis, Griekse en
+        Latijnse taal en cultuur, maatschappijleer en Spaanse taal en
+        cultuur.</li>
+        </ul>
+        Je wordt niet automatisch toegelaten tot een duaal opleiding. Er
+        is meestal een aparte toelatingsprocedure. Je betaalt een lager
+        collegegeldtarief en je behoud je recht op studiefinanciering. Je
+        krijgt voor een eenjarig duaal masterprogramma 60 ECTS, terwijl de
+        opleiding meestal langer dan 12 maanden duurt. Houd in verband met
+        je salaris rekening met de bijverdienregeling van de <a href="https://duo.nl/particulier/studiefinanciering/bijverdienen.jsp">DUO</a>. Bij de meeste opleidingen is inschrijving
+        als voltijd en deeltijdstudent ook mogelijk.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>WAT ^ DUAAL ^ STUDENT ^</pattern>
+	    <template><srai>DUAAL STUDENT</srai></template>
+    </category>
+    
+    <category>
+	    <pattern>WAT ^ DUAAL ^ STUDEREN ^</pattern>
+	    <template><srai>DUAAL STUDENT</srai></template>
+    </category>
+    
+    <category>
+	    <pattern>WAT ^ DUAALOPLEIDING ^</pattern>
+	    <template><srai>DUAAL STUDENT</srai></template>
+    </category>
+    
+    <category>
+	    <pattern>^ DUAAL ^ STUDENT ^</pattern>
+	    <template><srai>DUAAL STUDENT</srai></template>
+    </category>
+
+<!---->
+
+	<category>
+		<pattern>SCHAKELPROGRAMMA's</pattern>
+		<template>
+		    Kijk voor meer informatie over schakelprogramma's (pre-masters) op:
+<a href="https://www.rug.nl/education/master/nederlandse-studenten/studiekeuze-en-voorlichting/pre-master/">https://www.rug.nl/education/master/nederlandse-studenten/studiekeuze-en-voorlichting/pre-master/</a>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>WAT ^ PRE-MASTER ^</pattern>
+	    <template><srai>SCHAKELPROGRAMMA'S</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WAT ^ SCHAKELPROGRAMMA ^</pattern>
+        <template><srai>SCHAKELPROGRAMMA'S</srai></template>
+    </category>
+    <category>
+        <pattern>WAT ^ SCHAKELPROGRAMMA'S ^</pattern>
+        <template><srai>SCHAKELPROGRAMMA'S</srai></template>
+    </category>
+<!---->
+
+	<category>
+		<pattern>CONTRACTONDERWIJS EN OPEN COLLEGES</pattern>
+		<template>
+		    Kijk voor meer informatie op:
+		    
+            <a href="https://www.rug.nl/rechten/onderwijs/overige-studiemogelijkheden/">Open colleges</a>
+		</template>
+	</category>
+
+    <category>
+        <pattern>^ OPEN COLLEGES ^</pattern>
+        <template><srai>CONTRACTONDERWIJS EN OPEN COLLEGES</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ CONTRACTONDERWIJS ^</pattern>
+        <template><srai>CONTRACTONDERWIJS EN OPEN COLLEGES</srai></template>
+    </category>
+<!---->
+    <category>
+        <pattern>^ UITWISSELING ^</pattern>
+        <template>Kijk voor meer informatie over uitwisselingsprogramma's op: 
+        <link>
+            <text>deze pagina.</text>
+            <url>https://www.rug.nl/education/exchange</url>
+        </link>
+        </template>
+    </category>
+
+
+
+</aiml>

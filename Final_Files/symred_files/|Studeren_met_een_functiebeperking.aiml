@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT IS * FUNCTIEBEPERKING</pattern>
+		<template>
+Alle gezondheidsproblemen die leiden tot studiebelemmeringen. Denk
+hierbij aan:
+
+<ul>
+<li>AD(H)D</li>
+<li>Auditieve beperking</li>
+<li>Autisme (ASS)</li>
+<li>Dyslexie of dyscalculie</li>
+<li>Lichamelijke beperking (inclusief: chronische ziektes, zoals de
+ziekte van Crohn, diabetes, astma of CVS)</li>
+<li>Psychische problemen</li>
+<li>Visuele beperking</li>
+</ul>
+Ook gezondheidsproblemen die van tijdelijke aard zijn kunnen
+leiden tot een functiebeperking en dus aanleiding geven voor
+aangepast onderwijs of extra financiële
+ondersteuning. 
+
+Meer informatie of vragen?
+
+<ul>
+<li>Kijk op de pagina <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/begeleiding-en-advies/functiebeperking/">Functiebeperkte studenten</a>.</li>
+<li>Neem contact op met het Studenten Service Centrum via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5ubCI+c3NjLWluZm9AcnVnLm5sPC9hPg==">ssc-info rug.nl.</li>
+</ul>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* FINANCIËLE REGELINGEN BESTAAN ER * STUDENTEN * FUNCTIEBEPERKING</pattern>
+		<template>
+Kleine vertragingen kunnen financieel gecompenseerd worden door het
+Profileringsfonds van de RUG. Daarvoor gelden een aantal
+voorwaarden.
+
+Bij een substantiële studievertraging door
+een functiebeperking kun je eenmalig een jaar verlenging van
+je studiefinanciering aanvragen bij DUO. Ook daaraan zijn
+voorwaarden verbonden. Daarnaast is het in uitzonderlijke situaties
+mogelijk om de diplomatermijn te verlengen.  
+
+Wat moet je doen?
+
+Als je studievertraging oploopt en je denkt in aanmerking te
+komen voor financiële compensatie, meldt die vertraging dan
+altijd bij je <a href="/education/contact/study-advisors/">studieadviseur</a> en maak een afspraak met
+een studentendecaan van het <a href="/education/bachelor/nederlandse-studenten/begeleiding-en-advies/begeleiding-en-advies">Studenten Service Centrum</a>. De studentendecanen
+vormen een belangrijke schakel in de aanvraagprocedure bij
+DUO.
+
+Overleg met de studentendecaan hoe je je verzoek op het
+DUO-formulier aangeeft. Als je alles hebt ingevuld en je arts
+of psycholoog zijn deel heeft getekend, stuur je het formulier naar
+het <a href="/education/student-service-centre/">Studenten Service Centrum</a>. Als de
+studentendecaan je aanvraag ondersteund en de Rijksuniversiteit
+Groningen het formulier officieel heeft getekend moet je het weer
+afhalen bij het SSC. Jij stuurt het vervolgens
+naar DUO. Maak een kopie van je aanvraag voordat je het op de
+bus doet.
+
+Let op! 
+DUO  accepteert alleen formulieren die zijn goedgekeurd door
+de studentendecanen. Het heeft dus geen zin om het formulier te
+laten tekenen door je studieadviseur of hoogleraar.
+
+Vragen?
+Neem contact op met het Studenten Service Centre via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5ubCI+c3NjLWluZm9AcnVnLm5sPC9hPg==">ssc-info rug.nl.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* HEB * BEGELEIDING * WAARVOOR * ME NIET KAN VERZEKEREN. IS ER HULP *</pattern>
+		<template>
+Als je kosten moet maken die je niet redelijkerwijs zelf kunt
+opbrengen doe je eerst een beroep op de hulpverlenende diensten van
+de Rijksuniversiteit Groningen, zoals de studentpsychologen of de
+studentendecanen. Als dat niet mogelijk is en je gebruik moet maken
+van een –duurdere – dienst van buiten de instelling,
+biedt het <a href="http://myuniversity.rug.nl/infonet/studenten/geldzaken/geld-links/noodfonds">Noodfonds</a> van de Rijksuniversiteit
+Groningen mogelijk een oplossing.  Voor passende
+hulpmiddelen, bijvoorbeeld voor een goede bureaustoel thuis of
+tijdelijk taxivervoer van en naar college, kun je bijvoorbeeld
+terecht bij de UWV.
+
+Vragen?
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT DOET * ADVIES COMMISSIE FUNCTIEBEPERKTE STUDENTEN * HOE KAN * ME ER * AANMELDEN</pattern>
+		<template>
+Deze commissie zet zich in voor het belang van alle studenten met
+een functiebeperking aan de Rijksuniversiteit Groningen. Zij
+fungeert als een platform en klankbordgroep voor beleidsmakers
+enerzijds en studenten en docenten anderzijds. De commissie bestaat
+uit 8 ervaringsdeskundige studenten en eenzelfde hoeveelheid
+personeelsleden. De commissie komt vijf keer per jaar bij elkaar en
+daarnaast vinden er naar bevind van zaken werkgroepsbijeenkomsten
+plaats. Je ontvangt een serieuze vergoeding voor je deelname aan de
+bijeenkomsten en bouwt mooi aan je cv. 
+
+Meer weten?
+
+Neem contact op met het Studenten Service Centrum via
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* HEB * FUNCTIEBEPERKING * BEN * AUTO. KAN * PARKEERPLAATS KRIJGEN</pattern>
+		<template>
+Als je vanwege je functiebeperking afhankelijk bent van een auto
+voor je vervoer naar de instelling kom je in aanmerking voor een
+parkeerplaats in de buurt van je collegezaal. Hiervoor is het
+noodzakelijk dat je een medische verklaring van je huisarts of
+specialist overhandigt aan de <a href="https://www.rug.nl/about-us/organization/bureau-of-the-university/amd">Arbodienst</a> van de Rijksuniversiteit Groningen.
+Je kunt de praktische zaken bespreken met je studieadviseur.
+
+Vragen?
+Neem contact op met het Studenten Service Centrum via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5ubCI+c3NjLWluZm9AcnVnLm5sPC9hPg==">ssc-info rug.nl.
+		</template>
+	</category>
+
+</aiml>

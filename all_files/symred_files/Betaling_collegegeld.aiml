@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>* MANIEREN KAN * COLLEGEGELD BETALEN</pattern>
+		<template>
+Je kunt het collegegeld op verschillende manieren
+betalen.
+
+Een overzicht van de verschillende betalingsmogelijkheden vind
+je op de onderstaande pagina's op onze website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/betalen/">Bachelor betalingsmogelijkheden</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/financien/collegegeld/betalen/">Master betalingsmogelijkheden</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* WIL * COLLEGEGELD * ÉÉN KEER BETALEN. HOE DOE *</pattern>
+		<template>
+Je kunt het collegegeld op verschillende manieren in één
+keer betalen.
+
+Een overzicht van de verschillende
+betalingsmogelijkheden vind je op de onderstaande
+pagina's op onze website:
+
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/betalen/">Bachelor
+betalingsmogelijkheden</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/financien/collegegeld/betalen/">Master
+betalingsmogelijkheden</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>KAN * OOK * BETALEN</pattern>
+		<template>
+Ja, je kunt volledige collegegeld ook contact betalen. 
+
+Hoe je dit moet doen staat op de onderstaande
+pagina's op onze website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/betalen/">Bachelor
+betalingsmogelijkheden</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/financien/collegegeld/betalen/">Master
+betalingsmogelijkheden</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* WERKGEVER BETAALT * COLLEGEGELD, MAAR KAN DIT NIET DOEN * MACHTIGING. WAT NU</pattern>
+		<template>
+Je kunt een factuur aanvragen waarmee je werkgever het collegegeld
+kan betalen.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/tuition/payment/employer">Factuur</a> op onze website.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* OUDERS BETALEN * COLLEGEGELD. HOE REGEL *</pattern>
+		<template>
+Bij het invullen van de betalingsgegevens in Studielink geef je aan
+dat iemand anders je collegegeld betaalt.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/education/tuition/payment/">Betalingsmogelijkheden</a>
+op onze website.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* BETAAL * COLLEGEGELD * ÉÉN * WANNEER WORDT DIT AFGESCHREVEN</pattern>
+		<template>
+In de laatste week van de maand waarin je bent begonnen.
+
+Bijvoorbeeld:
+<ul>
+<li>Je bent begonnen op 1 september, dan wordt in de laatste week
+van september het bedrag afgeschreven.</li>
+<li>Je bent begonnen op 1 februari, dan wordt in de laatste week
+van februari het bedrag afgeschreven.</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* WANNEER MOET * COLLEGEGELD BETALEN</pattern>
+		<template>
+Betaal het collegegeld of lever de machtiging in voor de
+startdatum van je opleiding. Bijvoorbeeld:
+<ul>
+<li>Startdatum 1 september, dan moet betaling of de machtiging op
+31 augustus binnen zijn.</li>
+<li>Startdatum 1 februari, dan moet betaling of de
+machtiging op 31 januari binnen zijn.</li>
+</ul>
+
+Te laat?
+
+Na 1 september kun je alleen ingeschreven worden met toestemming
+van de opleiding. Neem voor meer informatie contact op met de <a href="https://www.rug.nl/education/study-advisors/">studieadviseur</a>.
+		</template>
+	</category>
+
+	<category>
+		<pattern>KAN * BETALINGSGEGEVENS WIJZIGEN * STUDIELINK</pattern>
+		<template>
+Nee, als je je betalingsgegevens in Studielink hebt ingevoerd en
+bevestigd, kun je deze gegevens niet meer wijzigen. 
+
+Heb je een fout gemaakt of wil je toch op een andere manier
+betalen? Neem dan contact op met <a href="https://www.rug.nl/education/information-services/">Information Services - Centrale Studenten
+Administratie</a> via de Stel je vraag-link.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* TERMIJNEN BETALEN</pattern>
+		<template>
+<ul>
+<li>
+<a href="?tcid=verint_3_7395_10622">Hoe zorg ik er voor dat ik in termijnen kan betalen?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7395_10623">Wanneer worden de termijnen afgeschreven en hoeveel geld wordt er dan afgeschreven?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7395_10624">Ik betaal het collegegeld in termijnen. Ik heb onvoldoende saldo voor de overschrijving. Wat nu?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7395_10625">Ik schrijf me in de loop van het studiejaar in. Kan ik dan ook mijn collegegeld in termijnen betalen?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7395_10626">Mijn termijn bedrag is nog niet afgeschreven, terwijl ik voldoende saldo had.</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>* BETALEN * TIKKIE</pattern>
+		<template>
+Betaal je het collegegeld via een machtiging?  Dan is het nu
+ook mogelijk om het collegegeld via Tikkie te betalen.
+
+Meer informatie vind je op de onderstaande pagina's op onze
+website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/betalen/collegegeld-betalen-via-tikkie">Bachelor: collegegeld betalen via Tikkie</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/financien/collegegeld/betalen/collegegeld-betalen-via-tikkie">Master: collegegeld betalen via Tikkie</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WAT ZIJN * VOORWAARDEN BETALING COLLEGEGELD * MACHTIGING</pattern>
+		<template>
+Een overzicht van de voorwaarden die verbonden zijn aan het betalen
+van je collegegeld per machtiging vind je op de onderstaande
+pagina's:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/betalen/digitale-machtiging/voorwaarden-betaling-per-machtiging">Bachelor: voorwaarden betaling per
+machtiging</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/financien/collegegeld/betalen/digitale-machtiging/voorwaarden-betaling-per-machtiging">Master: voorwaarden betaling per
+machtiging</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+</aiml>

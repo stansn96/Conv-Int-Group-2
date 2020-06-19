@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>*</pattern>
+		<template>
+Er zijn verschillende beurzen voor internationale studenten die aan
+de RUG willen sturen.
+
+Een overzicht van deze beurzen is te vinden in de <a href="https://www.rug.nl/education/international-students/financial-matters/grant-finder">Grantfinder</a> op onze website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>ERIK BLEUMINK *</pattern>
+		<template>
+Het Eric Bleumink Fonds (EBF) verstrekt beursen aan talentvolle
+studenten uit ontwikkelingslanden.
+
+Meer informatie vind je op de pagina
+		</template>
+	</category>
+
+</aiml>

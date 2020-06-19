@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT KAN * DOEN * HEB * FAALANGST * TENTAMENVREES</pattern>
+		<template>
+Als je last hebt van faalangst of tentamenvrees kun je bij het <a href="/ssc">Studenten Service
+Centrum</a> een training volgen of  individueel
+advies krijgen van één van de stduentenpsychologen.
+
+Vragen?
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* HEB MOEITE * SCHRIJVEN * SCRIPTIE. IS ER HULP</pattern>
+		<template>
+Je kunt bij het Studenten Service Centrum terecht voor de <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/workshop/zelfdiscipline/scriptie-ondersteuningsgroep">Scriptie-ondersteuningsgroep</a> en de cursus
+<a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/workshop/studievaardigheden/academische-schrijfvaardigheid">Academische Schrijfvaardigheid</a>.
+
+</em>Vragen?
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>STUDEREN IS * DACHT. WAT NU</pattern>
+		<template>
+Misschien kun je een cursus volgen bij het Studenten Service
+Centrum. De cursus <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/workshop/studievaardigheden/effectief-studeren">Effectief Studeren</a> helpt je om gemakkelijker
+door de stof te komen </em>en de <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/workshop/zelfdiscipline/studie-ondersteuningsgroep">Studie-ondersteuningsgroep</a> kan als een stok
+achter de deur dienen. Als je twijfelt over je studiekeuze biedt de
+workshop <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/workshop/studiekeuze/twijfel-over-je-studiekeuze">Twijfel over je
+studiekeuze</a> uitkomst.
+
+Vragen?
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE KAN * TEKST * BESTUDEREN * ONTHOUDEN</pattern>
+		<template>
+In de cursus <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/workshop/studievaardigheden/effectief-studeren">Effectief studeren</a> van het Studenten Service
+Centrum leer je een gefaseerde studiemethode aan, die je helpt om
+de studiestof optimaal te verwerken.
+
+Vragen?
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* KAN ME NIET * CONCENTREREN. WAT KAN * DOEN</pattern>
+		<template>
+Je slecht kunnen concentreren, kan verschillende oorzaken hebben.
+Dat kan te maken hebben met een verkeerde studiemethode of met
+persoonlijke omstandigheden. Bij het <a href="/ssc">Studenten Service
+Centrum</a> kun je terecht voor trainingen, een individueel advies
+of begeleiding van een studentenpsycholoog. Als je ook te
+maken hebt met studievertraging is het verstandig om dit bij je
+studieadviseur aan te kaarten.
+
+Vragen?
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE KAN * MIJ * VOORBEREIDEN * TENTAMENS</pattern>
+		<template>
+Als je je beter op tentamens wilt voorbereiden kun je een <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/workshop/">cursus of workshop</a> van het Studenten Service
+Centrum volgen.
+
+Vragen?
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>* STUDIE LOOPT NIET * WEET NIET * LIGT. HOE KOM * HIER *</pattern>
+		<template>
+In eerste instantie bespreek je dit met je studieadviseur. Als je
+daarna nog geen duidelijkheid hebt gekregen, kun je terecht
+bij het <a href="http://myuniversity.rug.nl/infonet/studenten/studenten-service-centrum/">Studenten Service Centrum</a>. Daar kun je
+een afspraak maken voor een individueel studeeradvies. Zo’n
+individueel studeeradvies bestaat uit een gesprek waarin je meer
+inzicht in en greep op je studeerprobleem krijgt. Je kunt naar
+aanleiding van dit advies besluiten om een training te volgen of om
+op andere wijze iets te doen aan je studieverloop.
+
+Vragen?
+		</template>
+	</category>
+
+</aiml>

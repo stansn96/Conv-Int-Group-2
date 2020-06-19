@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>IK HEB NOG GEEN STUDIELINKACCOUNT</pattern>
+		<template>
+<ul>
+<li>
+<a href="?tcid=verint_3_7394_10591">Ik heb een Nederlands woonadres</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10592">Ik heb geen Nederlands woonadres</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK HEB AL EEN STUDIELINKACCOUNT</pattern>
+		<template>
+<ul>
+<li>
+<a href="?tcid=verint_3_7394_10593">Ik log in met DigiD</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+</aiml>

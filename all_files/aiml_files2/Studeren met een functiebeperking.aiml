@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>IK HEB EEN FUNCTIEBEPERKING EN BEN AFHANKELIJK VAN EEN AUTO. KAN IK EEN PARKEERPLAATS KRIJGEN</pattern> 
+ <template>Als je vanwege je functiebeperking afhankelijk bent van een auto
+voor je vervoer naar de instelling kom je in aanmerking voor een
+parkeerplaats in de buurt van je collegezaal. Hiervoor is het
+noodzakelijk dat je een medische verklaring van je huisarts of
+specialist overhandigt aan de <a href="https://www.rug.nl/about-us/organization/bureau-of-the-university/amd">Arbodienst</a> van de Rijksuniversiteit Groningen.
+Je kunt de praktische zaken bespreken met je studieadviseur.
+
+Vragen?
+Neem contact op met het Studenten Service Centrum via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5ubCI+c3NjLWluZm9AcnVnLm5sPC9hPg==">ssc-info rug.nl.</template> 
+</category>
+</aiml>

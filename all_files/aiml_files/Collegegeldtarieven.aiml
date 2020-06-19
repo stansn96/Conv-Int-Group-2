@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WETTELIJK COLLEGEGELDTARIEF</pattern>
+		<template>
+Je betaalt het wettelijk collegegeld als je voldoet aan het
+nationaliteitsvereiste en je hebt niet eerder eenzelfde graad
+behaald.
+
+Meer informatie vind je op de onderstaande pagina's op onze
+website:
+
+<ul class="rug-list--bullets rug-mv-xs">
+<li class="rug-list--bullets__item">
+<a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/tarieven/wettelijk-collegegeldtarief">Bachelor:
+Wettelijk collegegeldtarief</a>
+</li>
+<li class="rug-list--bullets__item">
+<a href="/education/master/nederlandse-studenten/financien/collegegeld/tarieven/wettelijk-collegegeldtarief">Master:
+Wettelijk collegegeldtarief</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>INSTELLINGSCOLLEGEGELDTARIEF</pattern>
+		<template>
+Als je op het moment van inschrijven of gedurende het studiejaar
+niet (meer) aan alle voorwaarden voor het wettelijk collegegeld
+voldoet, moet je het instellingscollegegeld betalen. Er zijn twee
+categorieën: instellingscollegegeld I en het hogere
+instellingscollegegeld II. De categorie waartoe je behoort, is
+afhankelijk van je persoonlijke situatie. 
+
+<strong>Instellingscollegegeld I</strong>
+
+Het instellingscollegegeld I is in hoogte gelijk aan het <a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/tarieven/wettelijk-collegegeldtarief">wettelijk collegegeld</a>. Je betaalt het
+instellingscollegegeld I als één van de onderstaande
+situaties van toepassing is. 
+
+<strong>UAF
+</strong>Je bent door het UAF als vluchteling-student erkend.
+
+<strong>Erasmus Mundus-opleiding</strong>
+
+Je bent door de faculteit erkend als deelnemer aan een Erasmus
+Mundus-opleiding aan de Rijksuniversiteit Groningen en je voldoet
+niet aan de voorwaarden voor het wettelijk collegegeld. 
+
+<strong>Instellingscollegegeld II
+</strong>Je betaalt het instellingscollegegeld II als je niet
+voldoet aan de voorwaarden voor het wettelijk collegegeld en het
+instellingscollegegeld I. De hoogte van het instellingscollegegeld
+II is afhankelijk van de gekozen bacheloropleiding of
+masteropleiding. 
+
+<strong>Meer informatie</strong>
+
+<ul class="rug-list--bullets rug-mv-xs">
+<li class="rug-list--bullets__item">
+<a href="/education/faq/?tcid=verint_3_7395_8988">Toelichting hoogte instellingscollegegeld</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>TOELICHTING OP HOOGTE INSTELLINGSCOLLEGEGELD</pattern>
+		<template>
+Op grond van gewijzigde wetgeving per 1 september 2010 komt een
+student die een tweede zelfde graad wil behalen (d.w.z.
+inschrijving voor een bacheloropleiding terwijl al eerder een
+bachelorgraad is behaald of inschrijving voor een masteropleiding
+terwijl al eerder een mastergraad is behaald) niet meer in
+aanmerking voor betaling van het wettelijk collegegeld.
+
+De Rijksoverheid bekostigt per student één bachelorgraad
+en één mastergraad, zodat het onderwijs voor deze student
+kan worden aangeboden tegen een laag bedrag aan collegegeld (het
+'wettelijk collegegeld'). De werkelijke kosten van het onderwijs
+zijn voor de Rijksuniversiteit Groningen vele male hoger dan het
+bedrag dat de student hiervoor in de vorm van collegegeld betaalt,
+het verschil wordt in deze gevallen gecompenseerd door de overheid.
+De overheid meent dat de kosten van een dergelijke tweede opleiding
+gedragen moeten worden door de student zelf via het heffen van een
+kostendekkend collegegeld.
+
+De RUG heeft bij de vaststelling van de instellingstarieven
+daarom aansluiting gezocht bij de bedragen die de RUG misloopt
+vanwege het ontbreken van bekostiging van Rijkswege. Het College
+van Bestuur legt de instellingstarieven elk jaar ter advisering
+voor aan de Universiteitsraad.
+		</template>
+	</category>
+
+	<category>
+		<pattern>TARIEVEN BACHELOROPLEIDINGEN</pattern>
+		<template>
+Een overzicht van de collegegeldtarieven voor de
+bacheloropleidingen vind je op de pagina <a href="/education/bachelor/nederlandse-studenten/financien/collegegeld/">Bacheloropleidingen - collegegeldtarieven</a> op
+onze website.
+		</template>
+	</category>
+
+	<category>
+		<pattern>TARIEVEN MASTEROPLEIDINGEN</pattern>
+		<template>
+Een overzicht van de collegegeldtarieven voor de masteropleidingen
+vind je op de pagina <a href="/education/master/nederlandse-studenten/financien/collegegeld/tarieven/">Masteropleidingen - collegegeldtarieven</a> op
+onze website.
+		</template>
+	</category>
+
+	<category>
+		<pattern>VERGOEDING PRE-MASTERPROGRAMMA</pattern>
+		<template>
+Een overzicht van de vergoedingen die je moet betalen voor een
+pre-masterprogramma vind je op de pagina <a href="/education/master/nederlandse-studenten/financien/collegegeld/tarieven/pre-masterprogramma_s">Pre-masterprogramma's - vergoedingen</a> op onze
+website.
+		</template>
+	</category>
+
+</aiml>

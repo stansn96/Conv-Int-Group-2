@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>VERKLARING VAN INSCHRIJVING</pattern> 
+ <template>Informatie over een verklaring van inschrijving vind je op de
+onderstaande pagina's op onze website.
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/verklaring-inschrijving">Bachelor: Verklaring van inschrijving</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/verklaring-inschrijving">Master: Verklaring van
+inschrijving</a>  </li>
+</ul>
+
+Let op!
+
+Een verklaring van inschrijving kan pas afgegeven worden als je
+officieel staat ingeschreven.</template> 
+</category>
+</aiml>

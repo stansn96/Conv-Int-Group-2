@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HOE SCHRIJF * ME *</pattern>
+		<template>
+De inschrijfprocedure die je moet volgen, is afhankelijk van de
+door jou gekozen opleiding, je vooropleiding en het feit of je al
+eens ingeschreven hebt gestaan aan de RUG.
+
+Informatie over de
+inschrijfprocedures voor Nederlandse studenten vind je op de
+onderstaande pagina's op onze website:
+
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor
+aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master
+aanmelding en inschrijving</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>MOET * ME * JAAR OPNIEUW INSCHRIJVEN</pattern>
+		<template>
+Ja, je schrijft je voor ieder studiejaar opnieuw in. Een
+studiejaar loopt van 1 september t/m 31 augustus.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* WANNEER KAN * ME INSCHRIJVEN</pattern>
+		<template>
+Je wordt per 1 september ingeschreven als je voor 31
+augustus via <a href="https://www.studielink.nl/" target="_blank">Studielink</a>:
+<ul>
+<li>een herinschrijvingsverzoek hebt ingediend, én</li>
+<li>de betaling van het collegegeld hebt geregeld.</li>
+</ul>
+
+Te laat?
+De inschrijving wordt opgeschoven naar
+het eerstvolgende inschrijfmoment van de opleiding.
+<ul>
+<li>
+bacheloropleiding: 1 september. Na 1 september
+kun je alleen ingeschreven worden met toestemming van de opleiding.
+Neem voor meer informatie contact op met de <a href="/education/contact/study-advisors/">studieadviseur</a>.</li>
+<li>
+masteropleiding: <a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">eerstvolgende instroommoment van de betreffende
+masteropleiding</a> (studievertraging: maximaal een half
+jaar).</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>KAN * ME * STUDIEJAAR INSCHRIJVEN</pattern>
+		<template>
+Dat is afhankelijke van het instroommoment van de door
+jou gekozen opleiding. 
+
+Meer informatie vind je op de onderstaande pagina's op onze
+website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">Instroommomenten masteropleidingen</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>STUDIELINK GEEFT * MIJ * DAGEN MOET INSCHRIJVEN, * ANDERS * PLAATSINGSBEWIJS VERVALT.</pattern>
+		<template>
+De mededeling over het plaatsingsbewijs is alleen bedoeld voor
+studenten van de Rijksuniversiteit Groningen, die zich willen
+inschrijving voor een lotingstudie. Je kunt deze mededeling negeren
+als je het volgende geregeld hebt: 
+<ul>
+<li>Je inschrijving via <a href="https://www.studielink.nl/" target="_blank">Studielink</a>.</li>
+<li>De betaling van je collegegeld.</li>
+<li>Een <a href="https://www.rug.nl/education/documenten/admission/instruction-uploaden-photo-university-card.pdf" target="_blank">pasfoto voor de RUGpas uploaden</a> via de app op
+de Student Portal.</li>
+</ul>
+
+Tip!
+
+Op je persoonlijke pagina in <a href="https://www.studielink.nl/" target="_blank">Studielink</a> kun je het hele
+(her)inschrijvingsproces volgen.
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE * GEHOUDEN * INSCHRIJVINGSVERZOEK</pattern>
+		<template>
+Je kunt de status van je inschrijvingsverzoek volgen op je
+persoonlijke <a href="https://www.studielink.nl" target="_blank">Studielinkpagina</a> onder de optie Mijn
+inschrijvingen</em>. Daarnaast wordt je op de hoogte gehouden van
+elke wijziging via e-mail en via
+		</template>
+	</category>
+
+	<category>
+		<pattern>WANNEER MOET * ME INSCHRIJVEN * VAKKEN WIL VOLGEN, DIE PAS * HALF JAAR WORDEN GEGEVEN</pattern>
+		<template>
+Het moment van inschrijven is afhankelijk van het
+instroommoment van de betreffende bachelor- of
+masteropleiding:
+<ul>
+<li>
+Bacheloropleiding: 1 september. Na 1 september
+kun je alleen ingeschreven worden met toestemming van de opleiding.
+Neem voor meer informatie contact op met de <a href="/education/contact/study-advisors/">studieadviseur</a>.</li>
+<li>
+Masteropleiding: <a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/instroommomenten-masteropleidingen">instroommomenten van de betreffende
+masteropleiding</a>. 
+ </li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE WEET * DAT * (HER)INSCHRIJVING * IS</pattern>
+		<template>
+Op je persoonlijke pagina in <a href="https://www.studielink.nl" target="_blank">Studielink</a> kun je het hele
+inschrijvingsproces volgen. Wanneer je officieel bent ingeschreven
+verschijnt op deze pagina de datum van inschrijving.
+
+Nieuwe RUG-studenten
+ontvangen daarnaast een RUGpas op hun
+correspondentieadres.
+		</template>
+	</category>
+
+	<category>
+		<pattern>* STOND * STUDIEJAAR NIET INGESCHREVEN. HOE KAN * ME WEER INSCHRIJVEN</pattern>
+		<template>
+Dien via Studielink een inschrijvingsverzoek in voor een
+bachelor- of masteropleiding aan de Rijksuniversiteit Groningen.
+
+
+Informatie over de inschrijfprocedures voor Nederlandse studenten
+vind je op de onderstaande pagina's op onze website:
+<ul>
+<li>
+<a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/">Bachelor
+aanmelding en inschrijving</a>
+</li>
+<li>
+<a href="/education/master/nederlandse-studenten/aanmelding-en-inschrijving/">Master
+aanmelding en inschrijving</a>
+</li>
+</ul>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOUD * STUDENTNUMMER * ME WEER OPNIEUW * SCHRIJVEN</pattern>
+		<template>
+Je houdt in principe je eigen studentnummer. Ook al heb je
+jarenlang niet ingeschreven gestaan.
+
+Uitzondering
+
+Je krijgt een nieuw studentnummer als je sinds 1982 niet meer
+ingeschreven hebt gestaan in het Hoger Onderwijs. Neem contact op
+met de <a href="/csa">Centrale Studenten
+Administratie
+		</template>
+	</category>
+
+</aiml>

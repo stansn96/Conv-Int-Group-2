@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>MAG IK EEN BESCHERMDE TITEL VOEREN ALS IK GEEN OPLEIDING IN HET HOGER ONDERWIJS HEB AFGEROND</pattern> 
+ <template>Nee, dit mag niet. Beschermde titels zijn: dr., ir., mr., drs.,
+ing., en bc. Alleen met een hbo- of universitair diploma mag je
+afhankelijk van je opleiding, deze titels voeren.</template> 
+</category>
+</aiml>

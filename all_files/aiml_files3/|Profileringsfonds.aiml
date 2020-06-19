@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT IS HET PROFILERINGSFONDS</pattern>
+		<template>
+Het Profileringsfonds verstrekt financiële ondersteuning aan
+studenten die studievertraging oplopen door bijzondere
+(familie-)omstandigheden, een bestuurs- of medezeggenschapsfunctie
+of het beoefenen van topsport.
+
+Meer informatie vind je op de pagina <a href="http://student.portal.rug.nl/infonet/studenten/profileringsfonds/">Profileringsfonds</a> op de Student Portal
+(inloggen met P- of S-nummer).
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT ZIJN DE VOORWAARDEN</pattern>
+		<template>
+De voorwaarden zijn afhankelijk van de soort beurs die je
+aanvraagt.
+
+Meer informatie vind je op de pagina <a href="http://student.portal.rug.nl/infonet/studenten/profileringsfonds/">Profileringsfonds</a>
+op de Student Portal (inloggen met P- of S-nummer).
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE KAN IK DE UFC BEREIKEN</pattern>
+		<template>
+Je kunt het UFC bereiken via e-mail:
+		</template>
+	</category>
+
+</aiml>

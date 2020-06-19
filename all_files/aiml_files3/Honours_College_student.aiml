@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>IK HEB MIJN HONOURS COLLEGE PROGRAMMA AFGEROND, MAAR MIJN BACHELOR NOG NIET. MAG IK MEEDOEN MET DE HONOURS COLLEGE BULUITREIKING</pattern>
+		<template>
+Nee, je kunt pas een honoursbul ontvangen als je je bachelor hebt
+afgerond.
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK VOND HET HONOURS COLLEGE ERG LEUK EN DOE HET DAAR OOK GOED, MAAR MIJN GEWONE STUDIE GAAT WAT MINDER. NU HOOR IK DAT IK MOET STOPPEN. WAAROM</pattern>
+		<template>
+Een honoursprogramma is extra onderwijs, de prioriteit ligt bij je
+reguliere opleiding. Zou je dat niet doen, dan heb je straks een
+studieachterstand en daar is niemand bij gebaat. 
+
+Als het goed is dan heb je hierover al met je facultaire
+honourscoördinator en studieadviseur gesproken. Het
+besluit om je niet langer toe te laten wordt - als het goed is -
+zorgvuldig genomen en daarbij worden alle bijzondere, persoonlijke
+omstandigheden meegewogen. 
+
+Als je het niet met de beslissing eens bent, kun je er bezwaar
+tegen maken. Hoe je dat doet, kun je vinden in de Onderwijs- en
+Examenregeling op Nestor.
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK HEB DIT SEMESTER NIET VEEL AAN HET HONOURS COLLEGE GEDAAN, MAAR ANDERE DINGEN (BESTUUR). MOET IK NU STOPPEN</pattern>
+		<template>
+Het is mogelijk om tijdelijk wat minder aan het honoursprogramma te
+doen, bijvoorbeeld omdat je naar het buitenland gaat om te studeren
+of omdat je bestuurswerkzaamheden gaat doen. Dat moet je wel van te
+voren aanvragen/overlegen. 
+
+Dus ga tijdig naar de facultaire honourscoördinator. Hij of
+zij weet hoe je dat moet regelen.
+		</template>
+	</category>
+
+</aiml>

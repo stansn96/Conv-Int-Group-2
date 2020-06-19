@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT ZIJN GLOBAAL DE KOSTEN VAN EEN UITWISSELING</pattern>
+		<template>
+De kosten van een uitwisseling zijn afhankelijk van het land waar
+je naar toe gaat. De reiskosten naar een bepaald land kunnen hoog
+zijn, maar daar en tegen kunnen de verblijfskosten weer lager zijn.
+Bij het opstellen van een begroting moet je onder andere rekening
+houden met de volgende posten: reiskosten, verblijfskosten,
+verzekeringen en studieartikelen. Op de website van de <a href="http://www.nuffic.nl/nederlandse-studenten/studiebeurs/begroting" target="_blank">Nuffic</a> vind je meer informatie over deze
+begrotingsposten en bedragen per land.
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE KAN IK EEN VERBLIJF IN HET BUITENLAND FINANCIEREN</pattern>
+		<template>
+<a href="http://myuniversity.rug.nl/infonet/studenten/studeren-buitenland/financiering">http://myuniversity.rug.nl/infonet/studenten/studeren-buitenland/financiering</a>
+		</template>
+	</category>
+
+	<category>
+		<pattern>MOET IK COLLEGEGELD BETALEN ALS IK TIJDELIJK IN HET BUITENLAND GA STUDEREN</pattern>
+		<template>
+Je kunt alleen via een uitwisselingsprogramma studeren aan een
+buitenlandse universiteit als je ingeschreven staat aan de
+Rijksuniversiteit Groningen en het collegegeld hebt betaald. Je
+hoeft geen collegegeld te betalen aan de buitenlandse universiteit.
+Als je als reguliere student naar een buitenlandse instelling gaat,
+moet je waarschijnlijk wel collegegeld betalen.
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE KAN IK EEN BEURS VOOR EEN UITWISSELINGSPROGRAMMA AANVRAGEN</pattern>
+		<template>
+Een beurs voor een uitwisselingsprogramma vraag je aan bij de
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK HEB EEN BEURS VOOR EEN UITWISSELINGSPROGRAMMA AANGEVRAAGD. WANNEER HOOR IK OF IK DE BEURS KRIJG</pattern>
+		<template>
+Als je graag via een uitwisselingsprogramma wilt studeren aan een
+buitenlandse universiteit moet je deelnemen aan een selectieronde.
+De aanmeldingsprocedure en de deadlines verschillen per faculteit.
+Als je bent toegelaten tot het uitwisselingsprogramma krijg je de
+bijbehorende beurs. Deze beurs wordt pas definitief toegekend als
+je hebt voldaan aan een aantal voorwaarden. Bijvoorbeeld: het
+behalen van een bepaald aantal studiepunten. Op de <a href="http://myuniversity.rug.nl/infonet/studenten/studeren-buitenland/international-offices">website</a> van de International Office van je
+eigen faculteit vind je meer informatie over de
+aanmeldingsprocedure, de deadlines en de voorwaarden.
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK HEB VOOR EEN PARTICULIER FONDS EEN AANBEVELINGSBRIEF NODIG VAN EEN STUDENTENDECAAN. HOE KOM IK DAAR AAN</pattern>
+		<template>
+Maak <a href="https://gaiisap1.rcbiv.rug.nl:9644/afspraken/login/" target="_blank">online een afspraak met een studentendecaan</a> van
+het Studenten Service Centrum. De studentendecaan bespreekt met jou
+o.a. de betekenis van je buitenlandse reis binnen het kader van je
+opleiding en je begroting. 
+
+Meenemen naar afspraak
+Op de website vind je een <a href="http://myuniversity.rug.nl/infonet/studenten/geldzaken/buitenland">overzicht van de gegevens</a> die je mee moet
+nemen naar je afspraak met de studentendecaan.
+		</template>
+	</category>
+
+</aiml>

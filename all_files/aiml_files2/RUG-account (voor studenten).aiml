@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <aiml version="2.0"> 
+<category> 
+ <pattern>WAT IS EEN RUG-ACCOUNT</pattern> 
+ <template>Met het RUG-account heb je toegang tot universitaire voorzieningen
+zoals: 
+<ul>
+<li>
+<a href="http://studentportal.rug.nl/" target="_blank">Student
+Portal</a>
+
+ Hier vind je de universitaire en studie-gerelateerde informatie en
+kun je andere voorzieningen starten, zoals: 
+<ul>
+<li>Cursuscatalogus</li>
+<li>Cijfers en inschrijvingen</li>
+<li>Student e-mail (<a href="http://student.portal.rug.nl/infonet/studenten/ict/collaboration/google/google">Google Apps for education</a> inclusief agenda,
+chat, documenten en webpagina's)</li>
+<li>Elektronische bestanden van de Universiteitsbibliotheek</li>
+</ul>
+</li>
+
+</ul>
+Je RUG-account bestaat uit je studentnummer en een
+wachtwoord.</template> 
+</category>
+<category> 
+ <pattern>WANNEER HEB IK RECHT OP EEN RUG-ACCOUNT</pattern> 
+ <template>Iedereen die zich via Studielink voor een opleiding aan de RUG
+heeft aangemeld krijgt een RUG-account. 
+
+Ga je uiteindelijk niet studeren aan de RUG, dan wordt je
+RUG-account verwijderd.</template> 
+</category>
+<category> 
+ <pattern>HOE KAN IK MIJN RUG-ACCOUNT ACTIVEREN</pattern> 
+ <template>Je activeert je RUG-account via de <a href="https://diy.rug.nl/pwm/" target="_blank">Password Self
+Service Portal</a>.
+
+<ul>
+<li>Vul je studentnummer in (met de 'S' ervoor).</li>
+<li>Klik op 'gebruikersaccount activeren'.</li>
+<li>Je ontvangt een code en verdere instructies op je privé
+e-mailadres. Dit is het e-mailadres dat je in Studielink hebt
+opgegeven.</li>
+</ul>
+Zijn er problemen of heb je vragen? Neem contact op met
+de <a href="/society-business/centre-for-information-technology/contact-cit-servicedesk">CIT servicedesk</a></template> 
+</category>
+<category> 
+ <pattern>HOE LANG BLIJFT MIJN RUG-ACCOUNT ACTIEF</pattern> 
+ <template>Zolang je ingeschreven staat voor een opleiding aan de RUG blijft
+je RUG-account actief.</template> 
+</category>
+<category> 
+ <pattern>AANMAKEN RUG-ACCOUNT</pattern> 
+ <template><ul>
+<li>
+<a href="?tcid=verint_3_7394_10596">Wanneer krijg ik mijn RUG-account?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10597">Wanneer weet ik of mijn RUG-account beschikbaar is?</a>
+</li>
+</ul></template> 
+</category>
+<category> 
+ <pattern>BLOKKEREN RUG-ACCOUNT</pattern> 
+ <template><ul>
+<li>
+<a href="?tcid=verint_3_7394_10598">Waarom is mijn RUG-account geblokkeerd?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10599">Hoe kan ik mijn RUG-account laten deblokkeren?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10600">Ik heb (een termijn van) het collegegeld betaald. Wanneer wordt mijn RUG-account gedeblokkeerd?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10601">Kan ik nog mail ontvangen of versturen als mijn RUG-account is geblokkeerd?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10602">Wat gebeurt er met mijn gegevens als mijn RUG-account is geblokkeerd?</a>
+</li>
+</ul></template> 
+</category>
+<category> 
+ <pattern>OPHEFFEN RUG-ACCOUNT</pattern> 
+ <template><ul>
+<li>
+<a href="?tcid=verint_3_7394_10603">Wanneer wordt mijn RUG-account opgeheven?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10604">Hoe weet ik wanneer mijn RUG-account wordt opgeheven?</a>
+</li>
+<li>
+<a href="?tcid=verint_3_7394_10605">Wat gebeurt er met mijn RUG-account als ik binnen een jaar met een nieuwe opleiding begin?</a>
+</li>
+</ul></template> 
+</category>
+<category> 
+ <pattern>KAN IK NA UITSCHRIJVEN LANGER TOEGANG KRIJGEN TOT MIJN RUG-ACCOUNT</pattern> 
+ <template>Na uitschrijven heb je nog 8 weken toegang tot je RUG-account. Je
+bestanden en e-mailberichten worden tot een jaar na uitschrijven
+bewaard. Schrijf je je binnen een jaar weer in, dan krijg je weer
+toegang tot je RUG-account.
+
+Mocht je tijdens dit jaar gebruik moeten maken van bepaalde
+RUG-voorzieningen, dan kun je een verzoek tot verlenging indienen.
+Dit doe je via <a href="/education/contact/information-services/formulier-verlenging-toegang-rug-account">Aanvraagformulier verlenging toegang RUG-account
+(studenten)</a>.</template> 
+</category>
+<category> 
+ <pattern>MIJN STUDIE EINDIGT, HOE STEL IK MIJN GEGEVENS VEILIG</pattern> 
+ <template>Na
+het beëindigen van je studie stopt de toegang tot de
+RUG-faciliteiten. Verplaats of bewaar tijdig je e-mail, gegevens in
+andere Google Apps (bv Drive) en je bestanden op X:\.
+ 
+
+
+
+Bestanden op X:\  
+
+Log
+in op <a href="http://uwp.rug.nl/" target="_blank">uwp.rug.nl</a> en
+verplaats of kopieer de bestanden van X:\ naar een lokale schijf op
+je pc als volgt:  
+
+ 
+ * Download de versie van  Citrix Workspace app die bij
+je pc past.  
+
+ 
+ * Installeer de Citrix Workspace app volgens de aanwijzingen
+ 
+
+ 
+ * Geef <a href="http://uwp.rug.nl/" target="_blank">UWP.RUG.NL</a> op
+als serveradres  
+
+ 
+
+De
+eerste keer dat je inlogt op <a href="http://uwp.rug.nl/" target="_blank">uwp.rug.nl</a>,
+nadat je de Citrix Workspace app hebt geïnstalleerd, vraagt
+deze om toegang tot lokale data (C:\schijf, D:\ etc.). Daarna hoef
+je niets meer te doen, de Citrix Workspace app draait op de
+achtergrond.  
+
+Wanneer
+de app niet om toegang tot lokale data vraagt, probeer dan het
+volgende:  
+
+ 
+ * Klik op het icoon van Citrix Workspace app, en open het
+programma  
+
+ 
+ * Geef als serveradres op: <a href="http://uwp.rug.nl/" target="_blank">uwp.rug.nl</a>  
+
+ 
+ * Klik op Next  
+
+ 
+ * Vul je S-nummer en wachtwoord in  
+
+ 
+ * Klik op Logon  
+
+ 
+ * Vul bij Domain\user in: workspace\S-nummer en nogmaals je
+wachtwoord  
+
+ 
+ * Klik op het plusteken aan de linkerzijde van het scherm
+ 
+
+ 
+ * Kies een applicatie(s), deze verschijnt op de Citrix
+desktop  
+
+ 
+ * Start de applicatie(s) door erop te dubbelklikken
+ 
+
+ 
+
+Je
+hebt nu toegang tot je lokale data op je pc, je data op de uwp en
+de applicaties via <a href="http://uwp.rug.nl/" target="_blank">uwp.rug.nl</a>.</template> 
+</category>
+</aiml>

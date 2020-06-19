@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT IS EEN NUMERUS FIXUSOPLEIDING</pattern>
+		<template>
+Een numerus fixusopleiding is een bacheloropleiding waar een
+beperkt aantal plaatsen beschikbaar zijn. Door middel van selectie
+en het toekenen van rangnummers wordt bepaald wie een plaats
+aangeboden krijgt.
+
+Belangrijk
+Meld je uiterlijk 15 januari via Studielink aan voor
+een numerus fixusopleiding als je mee wilt doen met de
+seelctieprocedure.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ WAT ^ NUMERUS FIXUS ^ </pattern>
+		<template>
+<srai>WAT IS EEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ WAT ^ FIXUS ^ </pattern>
+		<template>
+<srai>WAT IS EEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</pattern>
+		<template>
+Op de pagina <a href="https://www.rug.nl/education/faq//education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/selectie-en-plaatsing/">Selectie en Plaatsing</a> vind je een overzicht
+van de numerus fixusopleidingen aan de Rijksuniversiteit Groningen.
+Verder vind je op deze pagina meer informatie over de
+selectieprocedure.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ WAARVOOR GELDT ^ SELECTIE ^ </pattern>
+		<template>
+<srai>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ OPLEIDINGEN IS ER SELECTIE ^ </pattern>
+		<template>
+<srai>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ OPLEIDINGEN IS ER ^ SELECTIE dash PROCEDURE ^ </pattern>
+		<template>
+<srai>VOOR WELKE OPLEIDINGEN AAN DE RIJKSUNIVERSITEIT GRONINGEN IS ER EEN SELECTIE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE ZIT HET MET DE MATCHING</pattern>
+		<template>
+Je valt niet onder de matching als je je hebt
+aangemeld voor een numerus fixusopleiding en je hebt deelgenomen
+aan de selectieprocedure.
+
+Als op 15 januari blijkt dat de aanmeldingen voor een numerus
+fixusopleiding lager of gelijk zijn aan het aantal beschikbare
+plaatsen vindt er geen selectie plaats. Studenten met een
+Nederlandse vooropleiding  doen mee aan de <a href="https://www.rug.nl/education/faq//education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/matching">matching</a>.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ MATCHING VOOR NUMEROS ^ </pattern>
+		<template>
+<srai>HOE ZIT HET MET DE MATCHING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ HOE WERKT DE MATCHING ^ </pattern>
+		<template>
+<srai>HOE ZIT HET MET DE MATCHING</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>AANMELDEN NUMERUS FIXUSOPLEIDING</pattern>
+		<template>
+<ul>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10574">Hoe meld ik me aan voor een numerus fixusopleiding?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10575">Voor hoeveel numerus fixusopleiding kan ik mij aanmelden?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10576">Ik sta al bij de RUG ingeschreven en wil meedoen aan de selectie voor een fixusopleiding. Moet ik me ook aanmelden bij Studielink?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10577">Ik heb al een HBO-V diploma en wil geneeskunde studeren. Moet ik meedoen aan de selectie?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10581">Moeten mijn persoonsgegevens geverifieerd zijn voordat ik mee kan doen aan de selectie?</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ MELD IK MIJ AAN VOOR ^ NUMERUS FIXUSOPLEIDING ^ </pattern>
+		<template>
+<srai>AANMELDEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ IK WIL ME AANMELDEN VOOR NUMERUS FIXUS ^ </pattern>
+		<template>
+<srai>AANMELDEN NUMERUS FIXUSOPLEIDING</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>SELECTIEPOGINGEN</pattern>
+		<template>
+<ul>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10582">Hoe vaak mag ik mee doen aan de selectie?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10583">Hoe weet ik of ik al een selectiepoging hebt verbruikt?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10584">Wat moet ik doen als het aantal geregistreerde selectiepogingen niet klopt?</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ SELECTIEPOGING ^ </pattern>
+		<template>
+<srai>SELECTIEPOGINGEN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ SELECTIE POGING ^ </pattern>
+		<template>
+<srai>SELECTIEPOGINGEN</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> ^ SELECTIEPROEF ^ </pattern>
+		<template>
+<srai>SELECTIEPOGINGEN</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>VOOR WELKE DATUM MOET IK MIJ AANMELDEN IN STUDIELINK</pattern>
+		<template>
+Meld je voor 15 januari in Studielink aan voor een
+numerus fixusopleiding.
+
+Inleveren extra informatie
+Lever ook voor 15 januari de extra
+informatie in als de opleiding hierom vraagt. Kijk voor meer
+informatie op de opleidingspagina:
+<ul>
+<li>
+<a href="https://www.rug.nl/umcg/education/medicine/decentrale-selectie-geneeskunde">Geneeskunde</a>
+</li>
+<li>
+<a href="/feb/education/study-programmes/numerus-fixus-bsc-ib/">International
+Business</a>
+</li>
+<li>
+<a href="https://www.rug.nl/let/organization/bestuur-afdelingen-en-medewerkers/afdelingen/afdeling-ibio/admission">International
+Relations and International Organization</a> (IRIO)</li>
+<li>
+<a href="https://www.rug.nl/education/faq/bachelors/artificial-intelligence/">Kunstmatige
+Intelligentie</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/gmw/psychology/education/bachelor/about-selection">Psychologie</a>
+</li>
+<li>
+<a href="https://www.rug.nl/umcg/education/dentistry/decentrale-selectie-tandheelkunde-2017---2018">Tandheelkunde</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ DATUM AANMELDEN ^ STUDIELINK ^ </pattern>
+		<template>
+<srai>VOOR WELKE DATUM MOET IK MIJ AANMELDEN IN STUDIELINK</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ WANNEER AANMELDEN STUDIELINK ^ </pattern>
+		<template>
+<srai>VOOR WELKE DATUM MOET IK MIJ AANMELDEN IN STUDIELINK</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>UITSLAG EN BEWIJS VAN TOELATING</pattern>
+		<template>
+<ul>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10586">Wanneer weet ik of ik ben geselecteerd?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10587">Wat moet ik doen als ik ben geselecteerd?</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/?tcid=verint_3_7394_10588">Wat gebeurt er als ik wel ben geselecteerd, maar mijn diploma niet haal?</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern> ^ BEWIJS TOELATING ^ </pattern>
+		<template>
+<srai>UITSLAG EN BEWIJS VAN TOELATING</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ BEN TOEGELATEN ^ </pattern>
+		<template>
+<srai>UITSLAG EN BEWIJS VAN TOELATING</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WAAR VIND IK MEER INFORMATIE OVER DE SELECTIE</pattern>
+		<template>
+Op de pagina <a href="/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/selectie-en-plaatsing/">Selectie en Plaatsing</a> vind je de algemene
+informatie over de selectie. 
+
+Specifieke informatie over de selectieprocedure en -criteria vind
+je op de opleidingspagina's:
+<ul>
+<li>
+<a href="https://www.rug.nl/umcg/education/medicine/decentrale-selectie-geneeskunde">Geneeskunde</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/feb/education/study-programmes/numerus-fixus-bsc-ib/">International
+Business</a>
+</li>
+<li>
+<a href="https://www.rug.nl/let/organization/bestuur-afdelingen-en-medewerkers/afdelingen/afdeling-ibio/admission">International
+Relations and International Organization</a> (IRIO)</li>
+<li>
+<a href="https://www.rug.nl/education/faq/bachelors/artificial-intelligence/">Kunstmatige
+Intelligentie</a>
+</li>
+<li>
+<a href="https://www.rug.nl/education/faq/gmw/psychology/education/bachelor/about-selection">Psychologie</a>
+</li>
+<li>
+<a href="https://www.rug.nl/umcg/education/dentistry/decentrale-selectie-tandheelkunde-2017---2018">Tandheelkunde</a>
+</li>
+</ul>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ MEER INFORMATIE ^ SELECTIE ^ </pattern>
+		<template>
+<srai>WAAR VIND IK MEER INFORMATIE OVER DE SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ INFORMATIE ^ SELECTIE ^ </pattern>
+		<template>
+<srai>WAAR VIND IK MEER INFORMATIE OVER DE SELECTIE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ AANKLAGEN ^ </pattern>
+		<template>
+<srai>HOE KAN IK BEZWAAR AANTEKENEN</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE KAN IK BEZWAAR AANTEKENEN</pattern>
+		<template>
+Je kunt via het <a href="/clrs">Centraal Loket Rechtsbescherming Studenten</a>
+(CLRS) een bezwaar indienen tegen besluiten met betrekking tot de
+selectie.
+
+De bezwaartermijn bedraagt zes weken.
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern> ^ AANKLAGEN ^ </pattern>
+		<template>
+<srai>HOE KAN IK BEZWAAR AANTEKENEN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ BEZWAAR AANTEKENEN ^ </pattern>
+		<template>
+<srai>HOE KAN IK BEZWAAR AANTEKENEN</srai>
+		</template>
+	</category>
+
+</aiml>

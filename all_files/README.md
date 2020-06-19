@@ -1,11 +1,8 @@
 # Conv-Int-Group-2
-## date: 19-06-2020
-### Authors: Stan Snijders, Kim Borgonje, Joep Trip and Franka Korpel
+# date: 19-06-2020
 
 AIML_files_Lieke:
-
 This folder contains all AIML files that are implemented in Lieke. 
-
 
 
 Python scripts:
@@ -25,8 +22,3 @@ translator.py
 	Packages required: googletrans, re
 	Author: Franka Korpel
 
-
-
-symred_files:
-This folder contains all automatically symbolic reduced files. It is the ouput from symred_scraper.py.
-We did not use these in the final design.

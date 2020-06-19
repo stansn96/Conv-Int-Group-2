@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+
+    <category>
+        <pattern>_ KEIWEEK ^</pattern>
+        <template>
+            <srai><star/>^ KEI dash WEEK ^<start index="2"/></srai>
+        </template>
+    </category>
+    
+	<category>
+		<pattern>KEI dash WEEK</pattern>
+		<template>
+        De <a href="http://www.keiweek.nl/" target="_blank">KEI-week</a> is
+        de algemene introductieweek voor alle studenten in het hoger
+        onderwijs in de stad Groningen. Dit jaar vindt de week plaats
+        van 13 t/m 17 augustus 2018.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>WAT IS ^ KEI dash WEEK</pattern>
+	    <template><srai>KEI dash WEEK</srai></template>
+    </category>
+    <category>
+        <pattern>WAT IS ^ INTRODUCTIEWEEK ^ GRONINGEN ^</pattern>
+        <template><srai>KEI dash WEEK</srai></template>
+    </category>
+    <category>
+        <pattern>^ INTRODUCTIEWEEK ^ </pattern>
+        <template><srai>KEI dash WEEK</srai></template>
+    </category>
+	
+	<!---->
+
+
+	<category>
+		<pattern>HOE MELD IK ME AAN VOOR DE KEI dash WEEK</pattern>
+		<template>
+        Als je een inschrijvingsverzoek voor een opleiding aan de
+        Rijksuniversiteit Groningen hebt ingediend, ontvang je begin
+        juni automatisch informatie over het introductieprogramma en
+        informatie over hoe je je kunt aanmelden voor de <a href="http://www.keiweek.nl/">KEI-WEEK</a>
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>HOE MELD ^ KEI dash WEEK</pattern>
+	    <template><srai>HOE MELD IK ME AAN VOOR DE KEI dash WEEK</srai></template>
+    </category>
+    <category>
+        <pattern>^ AANMELDEN ^ KEI dash WEEK ^</pattern>
+        <template><srai>HOE MELD IK ME AAN VOOR DE KEI dash WEEK</srai></template>
+    </category>
+    <category>
+        <pattern>^ AANMELDEN ^ INTRODUCTIEWEEK ^</pattern>
+        <template><srai>HOE MELD IK ME AAN VOOR DE KEI dash WEEK</srai></template>
+    </category>
+    <category>
+        <pattern>HOE MELD ^ INTRODUCTIEWEEK ^</pattern>
+        <template><srai>HOE MELD IK ME AAN VOOR DE KEI dash WEEK</srai></template>
+    </category>
+    <category>
+        <pattern>HOE ^ MEEDOEN ^ KEI dash WEEK ^</pattern>
+        <template><srai>HOE MELD IK ME AAN VOOR DE KEI dash WEEK</srai></template>
+    </category>
+    <category>
+        <pattern>HOE ^ MEEDOEN ^ INTRODUCTIEWEEK ^</pattern>
+        <template><srai>HOE MELD IK ME AAN VOOR DE KEI dash WEEK</srai></template>
+    </category>
+
+    <!---->
+    
+    <category>
+        <pattern>^ STUDENTENVERENIGING ^</pattern>
+        <template>
+            <srai>HOE KIES IK VOOR EEN GEZELLIGHEIDSVERENIGING</srai>.
+            <srai>HOE MELD IK ME AAN VOOR DE INTRODUCTIE VAN EEN GEZELLIGHEIDSVERENIGING</srai>.
+            
+            Of wil je meer weten over een studievereniging?
+        </template>
+    </category>
+    <category>
+        <pattern>^ STUDENTENVERENIGINGEN ^</pattern>
+        <template><srai>^ STUDENTENVERENIGING ^</srai></template>
+    </category>
+    
+    <!---->
+
+	<category>
+		<pattern>HOE KIES IK VOOR EEN GEZELLIGHEIDSVERENIGING</pattern>
+		<template>
+        In de Kei-week kun je kennis maken met de <a href="https://www.rug.nl/education/find-out-more/extracurricular-activities-associations/student-societies">
+        studentenverenigingen</a> in Groningen en je
+        krijgt informatie over hoe je lid van een vereniging kunt worden.
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOE MELD IK ME AAN VOOR DE INTRODUCTIE VAN EEN GEZELLIGHEIDSVERENIGING</pattern>
+		<template>
+        Tijdens de KEI-week hoor je meer over de introductie van de
+        gezelligheidsverenigingen of kijk eens op de website van de <a href="https://www.rug.nl/education/find-out-more/extracurricular-activities-associations/student-societies">gezelligheidsvereniging</a> van je keuze.
+		</template>
+	</category>
+	
+	<!---->
+
+
+	<category>
+		<pattern>HOE MELD IK ME AAN VOOR DE INTRODUCTIE VAN EEN FACULTAIRE STUDIEVERENIGING</pattern>
+		<template>
+        Zodra je bent ingeschreven voor een opleiding krijg je bericht over
+        de introductie van de <a href="https://www.rug.nl/let/onze-faculteit/organisatie/studentenorganisaties-en-verenigingen/lijst-studieverenigingen">facultaire studievereniging</a>.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ INTRODUCTIE ^ STUDIEVERENIGING ^</pattern>
+	    <template><srai>HOE MELD IK ME AAN VOOR DE INTRODUCTIE VAN EEN FACULTAIRE STUDIEVERENIGING</srai></template>
+    </category>
+
+	<!---->
+	<category>
+		<pattern>IS ER EEN INTRODUCTIEPERIODE VOOR INTERNATIONALE STUDENTEN</pattern>
+		<template>
+        Ja, er is een <a href="https://www.rug.nl/education/international-students/getting-started/">introductieperiode</a> voor internationale
+        studenten.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ INTRODUCTIEPERIODE ^ INTERNATIONALE STUDENTEN ^</pattern>
+	    <template><srai>IS ER EEN INTRODUCTIEPERIODE VOOR INTERNATIONALE STUDENTEN</srai></template>
+    </category>
+    <category>
+        <pattern>^ INTRODUCTIE ^ INTERNATIONALE STUDENTEN ^</pattern>
+        <template><srai>IS ER EEN INTRODUCTIEPERIODE VOOR INTERNATIONALE STUDENTEN</srai></template>
+    </category>
+    <category>
+        <pattern>^ INTERNATIONALE ^ INTRODCUTIE ^</pattern>
+        <template><srai>IS ER EEN INTRODUCTIEPERIODE VOOR INTERNATIONALE STUDENTEN</srai></template>
+    </category>
+
+</aiml>

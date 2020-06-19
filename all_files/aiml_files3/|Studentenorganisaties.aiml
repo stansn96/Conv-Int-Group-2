@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>FACULTAIRE OF OPLEIDINGSVERENIGINGEN</pattern>
+		<template>
+Een overzicht van de studieverenigingen en - organisatie vind je op
+de pagina <a href="https://www.rug.nl/education/find-out-more/extracurricular-activities-associations/">Faculteits- en studieverenigingen</a> op onze
+website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>GEZELLIGHEIDSVERENIGINGEN</pattern>
+		<template>
+Een overzicht van de gezelligheidsvereningingen vind je op
+de pagina <a href="https://www.rug.nl/education/find-out-more/extracurricular-activities-associations/student-societies">Studentenverenigingen</a> op onze website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>POLITIEKE ORGANISATIES</pattern>
+		<template>
+Een overzicht van de politieke organisaties vind je op de pagina <a href="https://www.rug.nl/education/find-out-more/extracurricular-activities-associations/political">Politieke verenigingen en activiteiten</a> op onze
+website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>STUDENTENSPORT</pattern>
+		<template>
+Informatie over studentensport vind je op de pagina <a href="https://www.rug.nl/education/find-out-more/student-life/sports">Sport</a> op onze website. Daar vind je ook een
+overzicht van alle studentensportverenigingen.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>CULTURELE VERENIGINGEN</pattern>
+		<template>
+Een overzicht van de culturele verenigingen vind je op de pagina
+<a href="https://www.rug.nl/education/find-out-more/extracurricular-activities-associations/cultural">Culturele verenigingen</a> op onze website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>INTERNATIONALE STUDENTENVERENIGINGEN</pattern>
+		<template>
+Een overzicht van internationale studentenverenigingen vind je op
+de pagina <a href="https://www.rug.nl/education/find-out-more/extracurricular-activities-associations/international-student-associations">Overzicht van internationale verenigingen</a> op
+onze website.
+		</template>
+	</category>
+
+</aiml>

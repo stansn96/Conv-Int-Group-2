@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>MIJN ADRESWIJZIGING DOORGEVEN</pattern>
+		<template>
+            Je geeft een adreswijziging door via <a href="https://www.studielink.nl/">Studielink</a>.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ ADRESWIJZIGING ^</pattern>
+	    <template>
+	        <srai>MIJN ADRESWIJZIGING DOORGEVEN</srai>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>^ ADRES WIJZIGEN ^</pattern>
+        <template><srai>MIJN ADRESWIJZIGING DOORGEVEN</srai></template>
+    </category>
+    
+	<category>
+		<pattern>VERKLARING VAN INSCHRIJVING</pattern>
+		<template>
+        Informatie over een verklaring van inschrijving vind je op de onderstaande pagina's op onze website.
+        <ul>
+            <li>
+                <a href="https://www.rug.nl/education/bachelor/nederlandse-studenten/aanmelding-en-inschrijving/verklaring-inschrijving">Bachelor: Verklaring van inschrijving</a>
+            </li>
+            <li>
+                <a href="https://www.rug.nl/education/master/nederlandse-studenten/aanmelding-en-inschrijving/verklaring-inschrijving">Master: Verklaring van inschrijving</a>
+                </li>
+        </ul>
+        Let op!
+
+        Een verklaring van inschrijving kan pas afgegeven worden als je officieel staat ingeschreven.
+		</template>
+	</category>
+	
+	<category>
+	    <pattern>^ VERKLARING ^ INSCHRIJVING ^</pattern>
+	    <template><srai>VERKLARING VAN INSCHRIJVING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ INSCHRIJVING ^ VERKLAREN ^</pattern>
+        <template><srai>VERKLARING VAN INSCHRIJVING</srai></template>
+    </category>
+</aiml>

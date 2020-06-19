@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WORDT MIJN STUDIEFINANCIERING AUTOMATISCH STOPGEZET ALS IK BEN UITGESCHREVEN</pattern>
+		<template>
+Nee, je studiefinanciering wordt niet automatisch
+stopgezet. Je moet dit zelf regelen bij <a href="http://www.duo.nl/" target="_blank">DUO</a>. 
+
+Doe dit op tijd, want je hebt geen recht meer op
+studiefinanciering, een Studenten OV-chipkaart of een lening vanaf
+de maand dat je officieel bent uitgeschreven.
+		</template>
+	</category>
+
+	<category>
+		<pattern>IK STOP VOOR 1 FEBRUARI MET MIJN STUDIE. MOET IK MIJN STUDIEFINANCIERING DAN TERUGBETALEN</pattern>
+		<template>
+Als je in je <strong>eerste studiefinancieringsjaar</strong> de
+studiefinanciering stopzet voor 1 februari en daar in hetzelfde
+studiejaar geen gebruik meer van maakt, dan wordt de prestatiebeurs
+die je tot dat moment hebt gehad omgezet in een gift. Zou je nooit
+meer studeren, dan hoef je deze maanden niet terug te betalen aan
+DUO.
+
+Houd er, op het moment dat je je weer inschrijft voor een studie,
+wel rekening mee dat je voor deze studie minder
+studiefinancieringsmaanden hebt. De studiefinancieringsmaanden van
+je eerste studiejaar zijn immers al als gift omgezet en kun je niet
+opnieuw inzetten.
+
+Heb je te maken met bijzondere omstandigheden en denk je erover om
+te stoppen met je studie, dan kun je voor vragen en advies altijd
+terecht bij één van de <a href="https://www.rug.nl/studenten/voorzieningen/studentenservicecentrum/decanen/index">studentendecanen</a> van het Studenten Service
+Centrum.
+		</template>
+	</category>
+
+</aiml>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>ONDERWIJS- EN EXAMENREGELINGEN (OER)</pattern>
+		<template>
+In de Onderwijs- en Examenregeling (OER) zijn de rechten en
+plichten van een student over allerlei zaken vastgelegd, zoals
+opbouw van de opleiding, toelatingseisen tot een bepaald jaar van
+de opleiding, de volgorde van studieonderdelen, de practica, de
+vorm van tentamens en studiebegeleiding.
+
+Een overzicht van de Onderwijs- en Examenregelingen vind je op de
+pagina <a href="https://www.rug.nl/about-us/organization/rules-and-regulations/onderwijs/onderwijs-en-examenregelingen/">Onderwijs-
+en examenregelingen per faculteit
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>PROFILERINGSFONDSREGELING</pattern>
+		<template>
+In deze regeling zijn de regels opgenomen voor het aanvragen van
+financiële ondersteuning bij studievertraging door overmacht,
+deelname aan medezeggenschaps- en bestuursfunctie, en bij het
+beoefen van topsport. 
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/about-us/organization/rules-and-regulations/onderwijs/graduation-fund-regulations">Regeling Profileringsfonds</a> op onze
+website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>REGELING INSCHRIJVING EN COLLEGEGELD (RIC)</pattern>
+		<template>
+In de Regeling Inschrijving en Collegegeld zijn de (wettelijke)
+bepalingen voor de inschrijving en het collegegeld aan de
+Rijksuniversiteit Groningen opgenomen. 
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/about-us/organization/rules-and-regulations/algemeen/regeling-inschrijving-collegegeld">Regeling Inschrijving en Collegegeld</a> op onze
+website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>STUDENTENSTATUUT</pattern>
+		<template>
+In het studentenstatuut zijn de rechten en plichten van zowel
+studenten als de Rijksuniversiteit Groningen vastgelegd.
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/about-us/organization/rules-and-regulations/onderwijs/studentenstatuut/">Studentenstatuut</a> op onze website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HANDBOEK BINDEND STUDIEADVIES (BSA)</pattern>
+		<template>
+In het handboek is de regelgeving die betrekking heeft op de
+uitvoering van het BSA opgenomen. 
+
+Meer informatie vind je op de pagina <a href="https://www.rug.nl/about-us/organization/rules-and-regulations/onderwijs/handboek-bsa">Handboek Bindend Studieadvies (BSA)</a> op onze
+website.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MEER INFORMATIE REGELINGEN ...</pattern>
+		<template>
+Een overzicht van alle regelingen van de Rijksuniversiteit
+Groningen vind je op de pagina
+		</template>
+	</category>
+
+</aiml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>WAT IS EEN BSA</pattern>
+		<template>
+Als eerstejaarsstudent moet je in het eerste jaar
+tenminste driekwart van de studiepunten, 45
+van de 60, halen, anders moet je je studie
+stopzetten.
+
+Meer informatie vind je op de pagina <a href="/education/bachelor/nederlandse-studenten/studiekeuze-en-voorlichting/bsa">Het bindend studieadvies (BSA)</a> op onze website
+of de pagina <a href="http://student.portal.rug.nl/infonet/studenten/bindend-studie-advies/">Bindend studieadvies (BSA)</a> op de Student
+Portal (inloggen met P- of S-nummer)
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAT MOET IK DOEN ALS IK DOOR PERSOONLIJKE OMSTANDIGHEDEN MIJN BSA NIET KAN HALEN</pattern>
+		<template>
+Neem zo snel mogelijk contact op met de <a href="https://www.rug.nl/education/study-advisors/">studieadviseur</a> van je opleiding. Wanneer je
+meer wilt weten, staat de procedure beschreven in bijlage 2 en 3
+van het <a href="http://student.portal.rug.nl/infonet/studenten/regelingen-klacht-inspraak/wet-en-regelgeving/onderwijs/handboek-bsa">Handboek BSA</a>.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAAR KAN IK INFORMATIE VINDEN OVER HET BINDEND STUDIEADVIES BIJ MIJN OPLEIDING</pattern>
+		<template>
+In september ontvang je een Studiestartbrief van je opleiding
+waarin informatie over het Bindend Studieadvies staat en
+contactgegevens van degene bij wie je met vragen terecht
+kunt.
+
+Vragen?
+		</template>
+	</category>
+
+</aiml>

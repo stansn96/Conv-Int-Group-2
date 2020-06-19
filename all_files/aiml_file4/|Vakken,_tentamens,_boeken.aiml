@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HOE SCHRIJF IK ME IN VOOR VAKKEN EN TENTAMENS</pattern>
+		<template>
+Je schrijft je via het programma <a href="http://progresswww.nl/rug/" target="_blank">Progress</a> in voor de vakken en tentamens.
+Als je je niet (op tijd) inschrijft, kan het gebeuren dat je een
+vak niet mag volgen en/of dat je wordt uitgesloten van deelname aan
+een tentamen. 
+
+Neem voor meer informatie over inschrijving van vakken en
+tentamens contact op met je eigen faculteit.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WAAR VIND IK MIJN TENTAMENUITSLAGEN EN STUDIERESULTATEN</pattern>
+		<template>
+Je tentamenuitslagen en studieresultaten vind je in <a href="http://progresswww.nl/rug/" target="_blank">Progress</a>. Neem voor meer
+informatie contact op met je eigen faculteit.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE KOM IK AAN EEN CIJFERLIJST</pattern>
+		<template>
+Je kunt via <a href="http://progresswww.nl/rug/" target="_blank">Progress</a> zelf een uitdraai maken van al je
+studieresultaten. Daarnaast is het mogelijk om een gewaarmerkte
+kopie van je cijferlijst aan te vragen bij de <a href="https://www.rug.nl/studenten/inuitschrijving/contact/onderwijsadministratie">onderwijsadministratie</a> van je eigen faculteit.
+Neem voor meer informatie contact op met je eigen
+faculteit
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>WELKE BOEKEN HEB IK NODIG EN HOEVEEL KOSTEN DIE</pattern>
+		<template>
+Je ontvangt van je faculteit een lijst met boeken en andere
+studiematerialen, die je zelf moet aanschaffen. De <a href="https://www.rug.nl/studenten/studiebegeleiding/geld/studiekosten">kosten</a> voor deze boeken en studiematerialen
+verschillen per opleiding, maar mogen gemiddeld per studiejaar niet
+meer dan zo'n € 650,- zijn. Neem voor meer
+informatie contact op met je eigen faculteit.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>HOE KOM IK AAN BOEKEN</pattern>
+		<template>
+Je kunt je boeken zelf kopen bij de boekhandel of je kunt, bij de
+meeste opleidingen, gebruik maken van de mogelijkheid om via de
+studievereniging van de betreffende opleiding de boeken goedkoper
+aan te schaffen. Neem voor meer informatie contact op met
+je eigen faculteit.
+		</template>
+	</category>
+
+</aiml>

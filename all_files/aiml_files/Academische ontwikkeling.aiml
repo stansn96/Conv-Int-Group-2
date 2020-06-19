@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>KAN IK EEN CURSUS SNELLEZEN VOLGEN</pattern>
+		<template>
+Ja, dat kan. De cursus wordt aangeboden door het Studenten
+Service Centrum.
+
+Meer informatie vind je op de pagina <a href="https://student.portal.rug.nl/infonet/studenten/studenten-service-centrum/workshop/studievaardigheden/speedreading">Snellezen</a>
+op de Student Portal (inloggen met P- of S-nummer).
+		</template>
+	</category>
+
+</aiml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>FINANCIËLE REGELING VOOR STUDENTEN MET EEN FUNCTIEBEPERKING</pattern>
+		<template>
+Kleine vertragingen kunnen financieel gecompenseerd worden door het
+Profileringsfonds van de RUG. Daarvoor gelden een aantal
+voorwaarden.
+
+Bij een substantiële studievertraging door
+een functiebeperking kun je eenmalig een jaar verlenging van
+je studiefinanciering aanvragen bij DUO. Ook daaraan zijn
+voorwaarden verbonden. Daarnaast is het in uitzonderlijke situaties
+mogelijk om de diplomatermijn te verlengen.  
+
+Wat moet je doen?
+
+Als je studievertraging oploopt en je denkt in aanmerking te
+komen voor financiële compensatie, meldt die vertraging dan
+altijd bij je <a href="/education/contact/study-advisors/">studieadviseur</a> en maak een afspraak met
+een studentendecaan van het <a href="/education/bachelor/nederlandse-studenten/begeleiding-en-advies/begeleiding-en-advies">Studenten Service Centrum</a>. De studentendecanen
+vormen een belangrijke schakel in de aanvraagprocedure bij
+DUO.
+
+Overleg met de studentendecaan hoe je je verzoek op het
+DUO-formulier aangeeft. Als je alles hebt ingevuld en je arts
+of psycholoog zijn deel heeft getekend, stuur je het formulier naar
+het <a href="/education/student-service-centre/">Studenten Service Centrum</a>. Als de
+studentendecaan je aanvraag ondersteund en de Rijksuniversiteit
+Groningen het formulier officieel heeft getekend moet je het weer
+afhalen bij het SSC. Jij stuurt het vervolgens
+naar DUO. Maak een kopie van je aanvraag voordat je het op de
+bus doet.
+
+Let op! 
+DUO  accepteert alleen formulieren die zijn goedgekeurd door
+de studentendecanen. Het heeft dus geen zin om het formulier te
+laten tekenen door je studieadviseur of hoogleraar.
+
+Vragen?
+Neem contact op met het Studenten Service Centre via <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOnNzYy1pbmZvQHJ1Zy5ubCI+c3NjLWluZm9AcnVnLm5sPC9hPg==">ssc-info rug.nl.
+		</template>
+	</category>
+
+</aiml>

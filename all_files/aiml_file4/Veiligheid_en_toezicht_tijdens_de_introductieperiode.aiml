@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml version="2.0"> 
+	<category>
+		<pattern>HOE ZIET DE RUG EROP TOE DAT DE INTRODUCTIEPERIODE VEILIG EN VERANTWOORD VERLOOPT</pattern>
+		<template>
+De RUG hecht er grote waarde aan dat aankomende studenten een
+leerzame, plezierige introductieperiode beleven die bovenal veilig
+en verantwoord verloopt. In het verleden hebben zich tijdens de
+introductieperiode helaas excessen voorgedaan waarbij
+de veiligheid of gezondheid van de aankomende studenten
+in het geding was. 
+
+Dit heeft ertoe geleid dat in 1998 de Advies Commissie
+Introductietijden (ACI) is opgericht. De ACI is een
+samenwerkingsverband van de Rijksuniversiteit Groningen en de
+Hanzehogeschool Groningen en adviseert organisaties bij de opzet
+van hun introductieprogramma (zoals KEI-week,
+studentengezelligheidsverenigingen, studieverenigingen)
+
+Jaarlijks beoordeelt en adviseert de ACI  het
+introductieprogramma van de betrokken partijen. Daarbij wordt met
+name aandacht besteed aan de veiligheidsaspecten. Hierbij valt te
+denken aan:
+<ul>
+<li>het aantal uren aaneengesloten nachtrust dat geboden moet
+worden,</li>
+<li>het aantal begeleiders dat tijdens excursies of evenementen
+aanwezig moet zijn,</li>
+<li>regels met betrekking tot het tegengaan van overmatig
+drankgebruik.</li>
+</ul>
+
+In Groningen is men tevreden met de adviserende taak
+van de ACI, er is sprake van onderling vertrouwen. In de afgelopen
+jaren is er sprake van toenemende kwaliteit van de
+veiligheidsdraaiboeken, toegenomen bewustzijn van
+risico’s en grotere verantwoordelijkheden van
+verenigingen met betrekking tot de introductieactiviteiten voor de
+nieuwe studenten.
+		</template>
+	</category>
+
+	<category>
+		<pattern>WAAR KAN IK TERECHT MET KLACHTEN OVER DE INTRODUCTIEPERIODE VAN MIJ OF MIJN KIND</pattern>
+		<template>
+Voor zowel studenten, ouders/verzorgers als
+studentenverenigingen is het belangrijk te weten dat er ten
+alle tijden contact kan worden opgenomen met de ACI
+wanneer er directe of indirecte aanwijzingen zijn dat er zich
+tijdens de introductieperiode zaken hebben voorgedaan die de
+gezondheid of veiligheid van een student (ernstig) hebben
+aangetast.
+
+Indien er zich dergelijke situaties hebben voorgedaan, dan kunnen
+deze gevallen kenbaar worden gemaakt bij de secretaris
+van de ACI, de heer <span class="js--decode" data-encoded="PGEgaHJlZj0ibWFpbHRvOmoud29sdGh1aXNAcnVnLm5sIj5KLgpXb2x0aHVpczwvYT4=">J.
+Wolthuis.
+
+Bij spoedgevallen kunt u ook telefonisch contact opnemen via
+telefoonnummer 050-3634653 (kantooruren) of op 050-5270987(buiten
+kantooruren).
+		</template>
+	</category>
+
+	<category>
+		<pattern>WAT WORDT ER MET MIJN KLACHTEN GEDAAN</pattern>
+		<template>
+Wanneer de ACI een klacht ontvangt, zal door de commissie contact
+worden opgenomen met de persoon die de klacht heeft ingediend.
+Daarnaast wordt er contact opgenomen met vertegenwoordigers van de
+desbetreffende vereniging of organisatie en zal de klacht worden
+besproken.
+
+Alle klachten worden serieus genomen en alle klachten zullen
+derhalve worden besproken.
+
+Per klacht en al naar gelang de ernst van de klacht zal vervolgens
+een afweging worden gemaakt over te nemen sancties.
+
+De ACI rapporteert jaarlijks aan de Colleges van Bestuur van de
+Rijksuniversiteit Groningen en de Hanzehogeschool.
+		</template>
+	</category>
+
+	<category>
+		<pattern>WIE ZITTEN ER IN DE ADVIES COMMISSIE INTRODUCTIETIJDEN (ACI)</pattern>
+		<template>
+De ACI is momenteel samengesteld uit de volgende leden die op
+persoonlijk titel zitting hebben in de commissie:
+
+<ul>
+<li>Dhr. prof.dr. J.C.C. Borleffs (voorzitter) Prodecaan Onderwijs
+&amp; Opleiding, UMCG</li>
+<li>Mw. drs. M.A.G. Bonink, manager HanzeMediatheek, HG</li>
+<li>Mw. drs. J.D. Groenveld-Zeilstra, studentendecaan van het
+Studenten Service Centrum, RUG</li>
+<li>Mw. A. Schulten, student RUG</li>
+<li>Dhr. W. Brem, student HG</li>
+<li>Mw. H.B. Koops, studieadviseur Pedagogiek &amp; Onderwijskunde,
+RUG</li>
+<li>Dhr. dr. J. Wolthuis (secretaris), beleidsmedewerker Onderwijs
+&amp; Studenten RUG</li>
+</ul>
+		</template>
+	</category>
+
+</aiml>
