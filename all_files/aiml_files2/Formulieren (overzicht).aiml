@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> 
- <aiml version="2.0"> 
-<category> 
- <pattern>BEZWAAR- EN BEROEPFORMULIER (CLRS)</pattern> 
- <template>Het bezwaar- en beroepformulier heb je nodig als je
-een bezwaar of een beroep wilt indienen bij het <a href="/education/laws-regulations-complaints/complaintobjectionappeal">Centraal Loket Rechtsbescherming
-Studenten</a> (CLRS).</template> 
-</category>
-</aiml>

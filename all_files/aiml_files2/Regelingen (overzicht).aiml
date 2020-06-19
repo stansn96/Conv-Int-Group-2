@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> 
- <aiml version="2.0"> 
-<category> 
- <pattern>MEER INFORMATIE REGELINGEN ...</pattern> 
- <template>Een overzicht van alle regelingen van de Rijksuniversiteit
-Groningen vind je op de pagina</template> 
-</category>
-</aiml>
