@@ -1,5 +1,6 @@
 # Conv-Int-Group-2
-# date: 19-06-2020
+## date: 19-06-2020
+### Authors: Stan Snijders, Kim Borgonje, Joep Trip and Franka Korpel
 
 AIML_files_Lieke:
 
